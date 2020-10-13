@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .primary-action {
+    font-family: 'Roboto Mono', cursive;
+}
+
+/* Headings */
+h1 span {
+    display: block;
+    font-size: 0.5em;
+    margin: 0.7em 0;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+h1 {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #efefef !important;
+}
+/* Navbar modifiers */
+
+.no-margin {
+    margin: 0;
+}
+
+/* Background video */
+video#bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url() no-repeat;
+    background-size: cover;
+}
+
+/* Links and buttons */
+a, a:active, a:visited {
+    color: #1d70b8;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #222;
+    background: #FF9F55;
+    padding: 1em 1.5em;
+    display: block;
+    margin: 1.5em 0 0;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Main banner */
+
+.jumbotron {
+    background: transparent;
+}
+.jumbotron p {
+    font-size: 1.3em;
+}
+.bg-box {
+    background: rgba(17,17,17,0.5);
+    padding: 2em 4em;
+    color: #efefef !important;
+    font-size: 0.9em;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Section 1 */
+
+#section-one {
+    background: rgba(17,17,17,0.5);
+    color: #fff;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 8em 0;
+}
+
+#section-one blockquote {
+    font-size: 2em;
+}
