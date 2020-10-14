@@ -7,6 +7,11 @@ h1, h2, h3, h4, h5, h6, .primary-action {
 }
 
 /* Headings */
+h1 {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 h1 span {
     display: block;
     font-size: 0.5em;
@@ -15,11 +20,7 @@ h1 span {
     font-weight: 400;
     font-style: italic;
 }
-h1 {
-    font-family: bely-display, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
 h1, h2, h3, h4, h5, h6 {
     color: #efefef !important;
 }
@@ -54,13 +55,14 @@ a, a:active, a:visited {
 }
 
 .btn-primary {
-    color: #222;
-    background: #FF9F55;
-    padding: 1em 1.5em;
-    display: block;
-    margin: 1.5em 0 0;
+    color: #fff;
     border: 0;
+    background: #b3035e;
+    padding: 1em 1.5em;
+    display: inline-block;
+    margin: 1.5em 0 0;
     border-radius: 0;
+    width: auto;
 }
 
 /* Main banner */
@@ -68,23 +70,29 @@ a, a:active, a:visited {
 .jumbotron {
     background: transparent;
 }
+.jumbotron h1 {
+    font-size: 4.5em;
+}
 .jumbotron p {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 .bg-box {
-    background: rgba(17,17,17,0.5);
+    background: rgba(0,0,0,0.7);
     padding: 2em 4em;
+    border: 2px solid #fff;
     color: #efefef !important;
     font-size: 0.9em;
     width: 75%;
-    margin: 0 auto;
+    margin: 9em auto;
+
+
 }
 
 /* Section 1 */
 
 #section-one {
-    background: rgba(17,17,17,0.5);
-    color: #fff;
+    background: #b3035e;
+    color: #222;
     font-family: minion-pro, serif;
     font-weight: 400;
     font-style: italic;
@@ -92,5 +100,53 @@ a, a:active, a:visited {
 }
 
 #section-one blockquote {
-    font-size: 2em;
+    color: #fff;
+    font-size: 2.5em;
+    border: 0;
+}
+
+#section-one blockquote footer {
+    color: #000;
+}
+
+#section-two {
+    padding: 8em 0;
+    background: rgba(17,17,17,0.9);
+}
+
+
+.img-wrapper {
+    background-color:    #000;
+    display:             flex;
+    flex:                1 1 100%;
+    height:              100%;
+    overflow:            hidden;
+    padding:             1%;
+    position:            relative;
+}
+
+.img-wrapper video {
+    filter:              grayscale(100%) brightness(50%);
+    flex:                1 0 100%;
+    height:              100%;
+    max-width:           100%;
+    mix-blend-mode:      unset;
+    object-fit:          cover;
+    opacity:             1;
+    position:            relative;
+    width:               100%;
+}
+
+.img-wrapper::after {
+    background-color:    #d8a8c6;
+    bottom:              0;
+    content:             '';
+    height:              100%;
+    left:                0;
+    mix-blend-mode:      color;
+    position:            fixed;
+    right:               0;
+    top:                 0;
+    width:               100%;
+    z-index:             -1;
 }
