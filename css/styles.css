@@ -2,15 +2,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6, .primary-action {
-    font-family: 'Roboto Mono', cursive;
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #efefef;
 }
 
-/* Headings */
 h1 {
     font-family: bely-display, sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #111;
+    font-size: 4em;
 }
 h1 span {
     display: block;
@@ -21,11 +28,10 @@ h1 span {
     font-style: italic;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #efefef !important;
+h2 {
+    margin-bottom: 1.5em;
 }
 /* Navbar modifiers */
-
 .no-margin {
     margin: 0;
 }
@@ -50,14 +56,11 @@ video#bg-video {
 
 /* Links and buttons */
 a, a:active, a:visited {
-    color: #1d70b8;
+    color: rgba(255,255,255,1);
     text-decoration: none;
 }
-
 .btn-primary {
-    color: #fff;
     border: 0;
-    background: #b3035e;
     padding: 1em 1.5em;
     display: inline-block;
     margin: 1.5em 0 0;
@@ -66,56 +69,137 @@ a, a:active, a:visited {
 }
 
 /* Main banner */
-
 .jumbotron {
     background: transparent;
 }
 .jumbotron h1 {
-    font-size: 4.5em;
+    color: #efefef;
+    font-size: 4em;
 }
 .jumbotron p {
     font-size: 1.2em;
 }
 .bg-box {
     background: rgba(0,0,0,0.7);
-    padding: 2em 4em;
-    border: 2px solid #fff;
+    padding: 3em 4em ;
     color: #efefef !important;
-    font-size: 0.9em;
-    width: 75%;
-    margin: 9em auto;
-
-
+    font-size: 0.85em;
+    width: 90%;
+    margin: 6em auto 9em;
 }
 
-/* Section 1 */
-
+/* Section 1 - base settings */
 #section-one {
-    background: #b3035e;
-    color: #222;
-    font-family: minion-pro, serif;
-    font-weight: 400;
-    font-style: italic;
-    padding: 8em 0;
+    padding: 8em 0 10em;
+    margin: 6em 0;
+    opacity: 0.9;
 }
-
+#section-one p {
+    margin: 3em 0;
+    font-size: 1.3em;
+}
 #section-one blockquote {
-    color: #fff;
     font-size: 2.5em;
     border: 0;
 }
-
-#section-one blockquote footer {
-    color: #000;
+#section-one > .row {
+    display: flex;
+}
+#section-one .row > div {
+    flex: 1;
 }
 
+
+    /* Section 2 - base settings */
 #section-two {
     padding: 8em 0;
     background: rgba(17,17,17,0.9);
+    color: #eee;
+    font-size: 1.3em;
+    text-align: left;
+}
+/* Section 3 - base settings */
+#section-three {
+    background: rgba(0,0,0,0.9);
+    color: #eee;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+#section-three .row div {
+    min-height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-three h3 {
+    background-color: rgba(0,0,0,0.8);
+    padding: 0.7em 1em;
+    z-index: 2;
+    font-size: 1.7em;
+    border-bottom: 4px solid #a0285e;
+}
+#section-three h3 a {
+    color: #fff;
+}
+#section-three h3 a {
+    color: #fff;
+}
+
+#section-three #reputation {
+    background: url("../images/home-reputation-bg.jpg") no-repeat;
+}
+#section-three #sacrifice {
+    background: url("../images/home-sacrifice-bg.jpg") no-repeat;
+}
+#section-three #her-story {
+    background: url("../images/home-her-story-bg.jpg") no-repeat;
+}
+#section-three #family {
+    background: url("../images/home-family-bg.jpg") no-repeat 0 100%;
+}
+#section-three #separation {
+    background: url("../images/home-separation-bg.jpg") no-repeat 25%;
+}
+#section-three #advice {
+    background: url("../images/home-advice-bg.jpg") no-repeat;
+}
+#section-three #heartache {
+    background: url("../images/home-heartache-bg.jpg") no-repeat;
+}
+#section-three #legacy {
+    background: url("../images/home-legacy-bg.jpg") no-repeat;
+}
+#section-three #reputation, #section-three #sacrifice, #section-three #her-story, #section-three #family, #section-three #separation, #section-three #advice, #section-three #heartache, #section-three #legacy {
+    background-size: cover;
+    filter: brightness(0.4) sepia(1) hue-rotate(270deg) saturate(0.3) blur(0);
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+#section-three .row div {
+    overflow: hidden;
+}
+#section-three .row div:hover {
+    filter:  contrast(85%);
+}
+#section-three .row div > div {
+    transform: scale(1);
+    -webkit-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+    z-index: 1;
+
+}
+#section-three .row div:hover > div {
+    transform: scale(1.1);
+    filter:  blur(0px) !important;
+    cursor: pointer;
 }
 
 
-.img-wrapper {
+/* -- Video filter settings and overlay -- */
+.video-wrapper {
     background-color:    #000;
     display:             flex;
     flex:                1 1 100%;
@@ -124,9 +208,7 @@ a, a:active, a:visited {
     padding:             1%;
     position:            relative;
 }
-
-.img-wrapper video {
-    filter:              grayscale(100%) brightness(50%);
+.video-wrapper video {
     flex:                1 0 100%;
     height:              100%;
     max-width:           100%;
@@ -136,17 +218,78 @@ a, a:active, a:visited {
     position:            relative;
     width:               100%;
 }
-
-.img-wrapper::after {
-    background-color:    #d8a8c6;
+.video-wrapper::after {
     bottom:              0;
     content:             '';
     height:              100%;
     left:                0;
-    mix-blend-mode:      color;
     position:            fixed;
     right:               0;
     top:                 0;
     width:               100%;
     z-index:             -1;
+}
+
+/* -- Homepage colour themes -- */
+#home .btn-primary {
+    color: #eee;
+    background: #a0285e;
+}
+#home .video-wrapper video {
+    filter:              grayscale(100%) brightness(20%) contrast(100%);
+}
+#home .video-wrapper::after {
+    background-color:    #a0285e;
+    mix-blend-mode:      color;
+}
+#home #section-one {
+    background: linear-gradient(to bottom, rgba(186,75,125,1), rgba(160,40,94,1));
+    color: #222;
+    margin: 0;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+#home #section-one blockquote {
+    color: #eee;
+}
+#home #section-one blockquote footer {
+    color: #000;
+}
+
+/* -- Reputation colour themes -- */
+#reputation .btn-primary {
+    color: #222;
+    background: #ec7e43;
+}
+#reputation .video-wrapper video {
+    filter:              grayscale(100%) brightness(30%) contrast(95%);
+}
+#reputation .video-wrapper::after {
+    background-color:    #f47606;
+    mix-blend-mode:      color;
+}
+#reputation #section-one {
+    background: linear-gradient(to bottom, rgba(247,123,0,0.8), rgba(227,96,0,0.8) );
+    color: #111;
+}
+.nav-panel {
+    background: rgba(10,10,10,1);
+    color: rbga(255,255,255,1);
+}
+#section-one .nav-panel h2 {
+    margin-bottom: 0.5em;
+}
+#section-one .nav-panel p {
+    margin-top: 0.5em;
+    color: #999;
+}
+#section-one .nav-panel .btn {
+    vertical-align: bottom;
+
+}
+.nav-panel img {
+    width: 100%;
+    border: 10px solid #efefef;
+    margin-bottom: 3em;
 }
