@@ -71,6 +71,7 @@ a, a:active, a:visited {
 /* Main banner */
 .jumbotron {
     background: transparent;
+    padding-top: 0;
 }
 .jumbotron h1 {
     color: #efefef;
@@ -91,7 +92,7 @@ a, a:active, a:visited {
 /* Section 1 - base settings */
 #section-one {
     padding: 8em 0 10em;
-    margin: 6em 0;
+    margin: 1em 0;
     opacity: 0.9;
 }
 #section-one p {
@@ -124,6 +125,8 @@ a, a:active, a:visited {
     color: #eee;
     font-size: 1.3em;
     text-align: left;
+    border-top: 30px solid #000;
+    border-bottom: 30px solid #000;
 }
 
 #section-three .row div {
@@ -138,7 +141,6 @@ a, a:active, a:visited {
     padding: 0.7em 1em;
     z-index: 2;
     font-size: 1.7em;
-    border-bottom: 4px solid #a0285e;
 }
 #section-three h3 a {
     color: #fff;
@@ -260,7 +262,7 @@ a, a:active, a:visited {
 /* -- Reputation colour themes -- */
 #reputation .btn-primary {
     color: #222;
-    background: #ec7e43;
+    background: #fff;
 }
 #reputation .video-wrapper video {
     filter:              grayscale(100%) brightness(30%) contrast(95%);
@@ -276,19 +278,23 @@ a, a:active, a:visited {
 .nav-panel {
     background: rgba(10,10,10,1);
     color: rbga(255,255,255,1);
+    display: flex;
+    flex-direction: column;
 }
-#section-one .nav-panel h2 {
+#section-one .nav-panel-content h2 {
     margin-bottom: 0.5em;
 }
-#section-one .nav-panel p {
+#section-one .nav-panel-content p {
     margin-top: 0.5em;
     color: #999;
 }
-#section-one .nav-panel .btn {
-    vertical-align: bottom;
-
+#section-one .nav-panel-footer {
+    flex: none;
 }
-.nav-panel img {
+.nav-panel-content {
+    flex: 1;
+}
+.nav-panel-content img {
     width: 100%;
     border: 10px solid #efefef;
     margin-bottom: 3em;
