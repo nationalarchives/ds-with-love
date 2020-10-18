@@ -35,6 +35,12 @@ h2 {
 .no-margin {
     margin: 0;
 }
+.theme h3 {
+    font-size: 2.4em;
+}
+.theme h3, .theme h4 {
+    color: #111;
+}
 
 /* Background video */
 video#bg-video {
@@ -99,10 +105,29 @@ a, a:active, a:visited {
     margin: 3em 0;
     font-size: 1.3em;
 }
-#section-one blockquote {
-    font-size: 2.5em;
+#home blockquote, blockquote {
     border: 0;
 }
+#home blockquote {
+    font-size: 2.5em;
+}
+.theme blockquote {
+    background: #111;
+    z-index: 2;
+    display: inline-block;
+    width: fit-content;
+    margin: -2em -2em 0.5em;
+    right: 0;
+}
+.theme #section-one blockquote p {
+    margin-top: 0;
+    font-size: 2em;
+    padding: 0.4em;
+}
+#home blockquote p {
+    margin: 1em 0 !important;
+}
+
 #section-one > .row {
     display: flex;
 }
@@ -248,15 +273,16 @@ a, a:active, a:visited {
     background: linear-gradient(to bottom, rgba(186,75,125,1), rgba(160,40,94,1));
     color: #222;
     margin: 0;
+}
+blockquote {
+    color: #eee;
     font-family: minion-pro, serif;
     font-weight: 400;
     font-style: italic;
+    font-size: 2.2em !important;
 }
-#home #section-one blockquote {
-    color: #eee;
-}
-#home #section-one blockquote footer {
-    color: #000;
+blockquote footer {
+    color: #000 !important;
 }
 
 /* -- Reputation colour themes -- */
@@ -298,4 +324,72 @@ a, a:active, a:visited {
     width: 100%;
     border: 10px solid #efefef;
     margin-bottom: 3em;
+}
+.letter-banner {
+    width: 85%;
+    border: 5px solid #efefef;
+    margin: 3em auto;
+    z-index: 1;
+    display: block;
+}
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    margin: 2em 0;
+}
+
+.image-panel {
+    background: rgba(156,60,2,0.3);
+    color: #fff;
+
+}
+.image-panel h4 {
+    color: #fff;
+    background: #782301;
+    display: inline-block;
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.5em !important;
+    margin-left: -2.7em;
+}
+.image-panel img {
+    width: 100%;
+    border: 3px solid #fff;
+}
+#section-one .image-panel p {
+    color: #111;
+    font-size: 1em;
+    margin: 1em 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+.transcript-panel {
+    background: #111;
+    color: #fff;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2em;
+}
+#section-one .transcript-panel p {
+    margin: 1.4em;
+}
+#section-one .audio-panel {
+    padding: 3.2em 0 2.3em !important;
+    border-top: 4px solid rgba(156,60,2,0.4);
+    border-bottom: 4px solid rgba(156,60,2,0.4);
+    margin-bottom: 4em !important;
+}
+.document-summary {
+    border-bottom: 4px solid rgba(156,60,2,0.4);
+    padding: 2em 0.5em;
+    margin: 2em 0 4em;
+}
+.document-summary ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-size: 1.7em;
 }

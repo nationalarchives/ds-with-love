@@ -1,43 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>With Love | The National Archives</title>
-    <meta name="description"
-          content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
-    <link rel="canonical" href="http://www.nationalarchives.gov.uk/"/>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta content="initial-scale = 1.0" name="viewport">
-    <link rel='dns-prefetch' href='//cdn.nationalarchives.gov.uk'/>
-    <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-    <link rel="stylesheet" href="https://use.typekit.net/cbl4nty.css">
-    <link rel='stylesheet' id='tna-google-fonts-css'
-          href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400i%2C700%2C700i%7CRoboto+Mono%3A400%2C700&#038;display=swap&#038;ver=5.4.2'
-          type='text/css' media='all'/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
-    <!-- Fav icon -->
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon"
-          href="www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/favicon.png">
-    <link rel="icon" type="image/vnd.microsoft.icon"
-          href="www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/favicon.png">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+<?php include 'includes/head.php'; ?>
 <main id="home">
-    <div class="video-wrapper">
-        <video playsinline autoplay muted loop poster="" id="bg-video">
-            <source src="media/bg-video-uncompressed.mp4" type="video/mp4">
-        </video>
-    </div>
-    <nav class="navbar no-margin">
-        <a class="navbar-brand" href="#">
-            <img src="images/TNA-logo-white.png" width="125" height="125" alt="">
-        </a>
-    </nav>
+    <?php include 'includes/header.php'; ?>
 
     <div class="jumbotron">
         <div class="container text-center">
@@ -50,7 +13,7 @@
                     Letters that have survived offer us brief glimpses into the hidden worlds of their writers over the
                     last 500 years.</p>
                 <a class="btn btn-primary btn-lg" role="button" href="#timeline-anchor">Start
-                        exploring</a>
+                    exploring</a>
             </div>
         </div>
     </div>
@@ -89,7 +52,7 @@
             <div class="row no-gutters">
                 <div class="col-sm-6 col-lg-3">
                     <div id="reputation"></div>
-                    <h3 class="align-middle"><a href="reputation.html">Reputation</a></h3>
+                    <h3 class="align-middle"><a href="reputation/index.php">Reputation</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="sacrifice"></div>
@@ -122,18 +85,5 @@
             </div>
         </div>
     </div>
+    <?php include 'includes/footer.php'; ?>
 
-
-<footer class="container-fluid">
-    <p>Footer Text</p>
-</footer>
-</main>
-<svg class="defs-only">
-    <filter id="blue-tint" color-interpolation-filters="sRGB" x="0" y="0" height="100%" width="100%">
-        <feColorMatrix type="matrix" values="0.36 0 0 0 0.02 0.44 0 0 0 0.06 0.40 0 0 0 0.16 0 0 0 1 0"/>
-    </filter>
-</svg>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-</body>
-</html>
