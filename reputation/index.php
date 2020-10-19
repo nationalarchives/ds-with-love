@@ -1,8 +1,14 @@
 <?php include '../includes/head.php'; ?>
 <main id="reputation" class="theme">
     <?php include '../includes/header.php'; ?>
-
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Overview</a></li>
+            <li class="breadcrumb-item active" aria-current="page">...</li>
+        </ol>
+    </nav>
     <div id="section-one">
+
         <div class="container text-center">
             <h1>Reputation</h1>
             <p>Love is a risky business. We hazard our hearts and

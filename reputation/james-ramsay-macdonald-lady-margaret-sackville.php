@@ -1,7 +1,13 @@
 <?php include '../includes/head.php'; ?>
 <main id="reputation" class="theme">
     <?php include '../includes/header.php'; ?>
-
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Overview</a></li>
+            <li class="breadcrumb-item"><a href="/reputation/">Reputation</a></li>
+            <li class="breadcrumb-item active" aria-current="page">...</li>
+        </ol>
+    </nav>
     <div id="section-one">
         <div class="container">
             <h1 class="text-center">Letter from James Ramsay MacDonald to Lady Margaret Sackville</h1>
