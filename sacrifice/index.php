@@ -1,5 +1,5 @@
 <?php include '../includes/opening-tags.php'; ?>
-<title>Reputation - The National Archives</title>
+<title>Sacrifice - The National Archives</title>
 <meta name="description"
       content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
@@ -14,21 +14,18 @@
             </ol>
         </nav>
         <div class="container text-center">
-            <h1>Reputation</h1>
-            <p>Love is a risky business. We hazard our hearts and
-                happiness when falling in love. Marriage or a public
-                relationship can mean hazarding independence,
-                personal wealth and public reputation. Neither of the
-                couples in this case ever married. The barriers that
-                divided them – religion, politics and power – and the
-                risk to their reputations proved too great.</p>
+            <h1>Sacrifice</h1>
+            <p>Love often comes at a cost. The very real price some
+                people have paid for love, committing state crimes
+                and enduring imprisonment, risking utter destitution
+                or renouncing the throne of a kingdom, is made
+                vividly real in these three very different documents.</p>
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
                         <img src="../images/reputation/index-reputation-one.jpg" alt="">
-                        <h2><a href="james-ramsay-macdonald-lady-margaret-sackville.php" title="">Letter from James
-                                Ramsay MacDonald to Lady Margaret Sackville</a></h2>
-                        <p>30 December 1915</p>
+                        <h2><a href="" title="">Title</a></h2>
+                        <p>Date</p>
                     </div>
                     <div class="nav-panel-footer">
                         <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
@@ -37,8 +34,8 @@
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
                         <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <h2><a href="" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
-                        <p>29 August 1588</p>
+                        <h2><a href="" title="">Title</a></h2>
+                        <p>Date</p>
                     </div>
                     <div class="nav-panel-footer">
                         <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>

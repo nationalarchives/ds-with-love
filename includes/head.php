@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>With Love | The National Archives</title>
-    <meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
+
     <link rel="canonical" href="http://www.nationalarchives.gov.uk/"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

@@ -1,19 +1,21 @@
-<div class="video-wrapper">
-    <video playsinline autoplay muted loop poster="" id="bg-video">
+<div id="bg-video-wrapper">
+    <video playsinline autoplay muted loop poster="">
         <source src="/media/bg-video-uncompressed.mp4" type="video/mp4">
     </video>
-    <div id="vid-cover"></div>
+    <div id="bg-video-filter"></div>
 </div>
 
 <nav class="navbar no-margin">
     <!-- Brand -->
     <a class="navbar-brand" href="https://www.nationalarchives.gov.uk">
-        <img src="/images/TNA-logo-white.png" width="125" height="125" alt="">
+        <img src="/images/utilities/TNA-logo-white.png" alt="The National Archives logo">
     </a>
 
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        Select a section
+        <span class="navbar-toggler-icon"></span>
+        <span class="large-screen-only">Select a section</span>
+
     </button>
 
     <!-- Navbar links -->

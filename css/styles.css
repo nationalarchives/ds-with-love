@@ -1,76 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6, .primary-action {
-    font-family: bely-display, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #efefef;
-}
-
-h1 {
-    font-family: bely-display, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #111;
-    font-size: 4em;
-}
-
-h1 span {
-    display: block;
-    font-size: 0.5em;
-    margin: 0.7em 0;
-    font-family: minion-pro, serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-h2 {
-    margin-bottom: 1.5em;
-}
-
-/* Navbar modifiers */
-.no-margin {
-    margin: 0;
-}
-
-.theme h3 {
-    font-size: 2.4em;
-}
-
-.theme h3, .theme h4 {
-    color: #111;
-}
-
-/* Background video */
-video#bg-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url() no-repeat;
-    background-size: cover;
-}
-
-/* Links and buttons */
+/* -- Links and buttons - Base settings -- */
 a, a:active, a:visited {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
-
 .btn-primary {
     border: 0;
     padding: 1em 1.5em;
@@ -78,367 +17,86 @@ a, a:active, a:visited {
     margin: 1.5em 0 0;
     border-radius: 0;
     width: auto;
+    font-size: 1.1em;
+}
+a:focus, button:focus {
+    outline: 5px solid #fff !important;
+    background: #2b669a !important;
 }
 
-/* Main banner */
-.jumbotron {
-    background: transparent;
-    padding-top: 0;
+/* -- Headings - Base settings -- */
+h1, h2, h3, h4, h5, h6, .primary-action {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
-.jumbotron h1 {
+h1, h2, h3, h4, h5, h6 {
     color: #efefef;
-    font-size: 4em;
 }
-
-.jumbotron p {
-    font-size: 1.2em;
+h1 {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #111;
+    font-size: 2.3em;
 }
-
-.bg-box {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 3em 4em;
-    color: #efefef !important;
-    font-size: 0.85em;
-    width: 90%;
-    margin: 6em auto 9em;
-}
-
-/* Section 1 - base settings */
-#section-one {
-    padding: 8em 0 10em;
-    opacity: 0.9;
-}
-
-#section-one p {
-    margin: 3em 0;
-    font-size: 1.3em;
-}
-
-#home blockquote, blockquote {
-    border: 0;
-}
-
-#home blockquote {
-    font-size: 2.5em;
-}
-
-.theme blockquote {
-    background: #111;
-    z-index: 2;
-    display: inline-block;
-    width: fit-content;
-    margin: -2em -2em 0.5em;
-    right: 0;
-}
-
-.theme #section-one blockquote p {
-    margin-top: 0;
-    font-size: 2em;
-    padding: 0.4em;
-}
-
-#home blockquote p {
-    margin: 1em 0 !important;
-}
-
-#section-one > .row {
-    display: flex;
-}
-
-#section-one .row > div {
-    flex: 1;
-}
-
-
-/* Section 2 - base settings */
-#section-two {
-    padding: 8em 0;
-    background: rgba(17, 17, 17, 0.9);
-    color: #eee;
-    font-size: 1.3em;
-    text-align: left;
-}
-
-/* Section 3 - base settings */
-#section-three {
-    background: rgba(0, 0, 0, 0.9);
-    color: #eee;
-    font-size: 1.3em;
-    text-align: left;
-    border-top: 30px solid #000;
-    border-bottom: 30px solid #000;
-}
-
-#section-three .row div {
-    min-height: 500px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#section-three h3 {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 0.7em 1em;
-    z-index: 2;
-    font-size: 1.7em;
-}
-
-#section-three h3 a {
-    color: #fff;
-}
-
-#section-three h3 a {
-    color: #fff;
-}
-
-#section-three #reputation {
-    background: url("../images/home-reputation-bg.jpg") no-repeat;
-}
-
-#section-three #sacrifice {
-    background: url("../images/home-sacrifice-bg.jpg") no-repeat;
-}
-
-#section-three #her-story {
-    background: url("../images/home-her-story-bg.jpg") no-repeat;
-}
-
-#section-three #family {
-    background: url("../images/home-family-bg.jpg") no-repeat 0 100%;
-}
-
-#section-three #separation {
-    background: url("../images/home-separation-bg.jpg") no-repeat 25%;
-}
-
-#section-three #advice {
-    background: url("../images/home-advice-bg.jpg") no-repeat;
-}
-
-#section-three #heartache {
-    background: url("../images/home-heartache-bg.jpg") no-repeat;
-}
-
-#section-three #legacy {
-    background: url("../images/home-legacy-bg.jpg") no-repeat;
-}
-
-#section-three #reputation, #section-three #sacrifice, #section-three #her-story, #section-three #family, #section-three #separation, #section-three #advice, #section-three #heartache, #section-three #legacy {
-    background-size: cover;
-    filter: brightness(0.4) sepia(1) hue-rotate(270deg) saturate(0.3) blur(0);
+h1 span {
     display: block;
-    position: absolute;
-    width: 100%;
+    font-size: 0.7em;
+    margin: 0.7em 0;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+h2 {
+    margin-bottom: 1.5em;
 }
 
-#section-three .row div {
-    overflow: hidden;
+/* -- Headings - Theme templates modifiers -- */
+.theme h2 {
+    font-size: 2em;
+}
+.theme h3 {
+    font-size: 1.6em;
+}
+.theme h2, .theme h3 {
+    color: #111;
 }
 
-#section-three .row div:hover {
-    filter: contrast(85%);
-}
-
-#section-three .row div > div {
-    transform: scale(1);
-    -webkit-transition: transform 0.5s ease;
-    transition: transform 0.5s ease;
-    z-index: 1;
-
-}
-
-#section-three .row div:hover > div {
-    transform: scale(1.1);
-    filter: blur(0px) !important;
-    cursor: pointer;
-}
-
-
-/* -- Video filter settings and overlay -- */
-.video-wrapper video {
-    width: 100%;
-}
-
-#vid-cover {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    mix-blend-mode: multiply;
-    z-index: -1;
-}
-
-/* -- Homepage colour themes -- */
-#home .btn-primary {
-    color: #eee;
-    background: #a0285e;
-}
-
-#home .video-wrapper video {
-    filter: grayscale(100%) contrast(155%) brightness(103%) saturate(500%);
-}
-
-#home #vid-cover {
-    background-color: rgba(186, 75, 125, 1);
-}
-
-#home #section-one {
-    background: linear-gradient(to bottom, rgba(186, 75, 125, 1), rgba(160, 40, 94, 1));
-    color: #222;
-    margin: 0;
-}
-
+/* -- Blockquote - Base settings -- */
 blockquote {
     color: #eee;
     font-family: minion-pro, serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 2.2em !important;
-}
-
-blockquote footer {
-    color: #000 !important;
-}
-
-/* -- Reputation colour themes -- */
-#reputation .btn-primary {
-    color: #222;
-    background: #fff;
-}
-
-#reputation .video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(103%);
-}
-
-#reputation #vid-cover {
-    background-color: #f47606;
-}
-
-#reputation #section-one {
-    background: linear-gradient(to bottom, rgba(247, 123, 0, 0.9), rgba(227, 96, 0, 0.9));
-    color: #111;
-}
-
-.nav-panel {
-    background: rgba(10, 10, 10, 1);
-    color: rbga(255, 255, 255, 1);
-    display: flex;
-    flex-direction: column;
-}
-
-#section-one .nav-panel-content h2 {
-    margin-bottom: 0.5em;
-}
-
-#section-one .nav-panel-content p {
-    margin-top: 0.5em;
-    color: #999;
-}
-
-#section-one .nav-panel-footer {
-    flex: none;
-}
-
-.nav-panel-content {
-    flex: 1;
-}
-
-.nav-panel-content img {
-    width: 100%;
-    border: 10px solid #efefef;
-    margin-bottom: 3em;
-}
-
-.letter-banner {
-    width: 85%;
-    border: 5px solid #efefef;
-    margin: 3em auto;
-    z-index: 1;
-    display: block;
-}
-
-audio {
-    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
-    margin: 2em 0;
-}
-
-.image-panel {
-    background: rgba(156, 60, 2, 0.3);
-    color: #fff;
-
-}
-
-.image-panel h4 {
-    color: #fff;
-    background: #782301;
-    display: inline-block;
-    font-family: bely-display, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding: 0.5em !important;
-    margin-left: -2.7em;
-}
-
-.image-panel img {
-    width: 100%;
-    border: 3px solid #fff;
-}
-
-#section-one .image-panel p {
-    color: #111;
-    font-size: 1em;
-    margin: 1em 0 !important;
-    padding: 0 !important;
+    font-size: 1.5em !important;
     text-align: center;
 }
-
-.transcript-panel {
-    background: #111;
-    color: #fff;
-    font-family: minion-pro, serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 1.2em;
+blockquote footer {
+    color: #000 !important;
+    margin-top: 0;
 }
 
-#section-one .transcript-panel p {
-    margin: 1.4em;
+/* -- Navbar modifiers -- */
+.no-margin {
+    margin: 0;
 }
-
-#section-one .audio-panel {
-    padding: 3.2em 0 2.3em !important;
-    border-top: 4px solid rgba(156, 60, 2, 0.4);
-    border-bottom: 4px solid rgba(156, 60, 2, 0.4);
-    margin-bottom: 4em !important;
+.navbar-brand img {
+    width: 90px;
+    height: 90px;
 }
-
-.document-summary {
-    border-bottom: 4px solid rgba(156, 60, 2, 0.4);
-    padding: 2em 0.5em;
-    margin: 2em 0 4em;
-}
-
-.document-summary ul {
-    list-style-type: none;
-    padding: 0;
-    font-family: minion-pro, serif;
-    font-weight: 400;
-    font-size: 1.7em;
-}
-
 .navbar-toggler {
     background: rgba(0, 0, 0, 0.9);
-    border: 2px solid rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     color: #fff;
     border-radius: 0;
-    padding: 1em;
-    margin-right: 2em;
+    padding: 0.5em;
 }
-
-a:focus, button:focus {
-    outline: 5px solid #fff !important;
-    background: #2b669a !important;
+.navbar-toggler-icon {
+    background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'></path></svg>");
+}
+.large-screen-only {
+    display: none;
 }
 .nav-link {
     background: rgba(255,255,255,0.1);
@@ -462,22 +120,322 @@ a:focus, button:focus {
     bottom: 0;
     z-index: 2;
     background: rgba(0,0,0,1);
-    padding: 1em 0 1em 1em;
+    width: 100%;
+    padding: 1em;
 }
+.navbar-collapse a {
+    width: 100%;
+    text-align: center;
+}
+
+/* -- Video - base settings -- */
+#bg-video-wrapper video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url() no-repeat;
+    background-size: cover;
+}
+#bg-video-filter {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+
+/* -- Audio - base settings -- */
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    margin: 2em 0;
+}
+
+/* -- Jumbotron - base settings (only appears on the overview template) -- */
+.jumbotron {
+    background: transparent;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.jumbotron h1 {
+    color: #efefef;
+    font-size: 3.6em;
+}
+.jumbotron p {
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+.jumbotron .btn-primary {
+    font-size: 1.4em;
+}
+.bg-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3em 2em;
+    color: #efefef !important;
+    font-size: 0.7em;
+    text-align: left;
+    width: 100%;
+    margin: 6em 0 9em;
+}
+
+/* -- Section 1 - base settings -- */
+#section-one {
+    padding: 0 0 10em;
+    opacity: 0.9;
+    text-align: left !important;
+}
+#section-one p {
+    margin: 3em 0;
+    font-size: 1.1em;
+}
+#section-one > .row {
+    display: flex;
+}
+#section-one .row > div {
+    flex: 1;
+}
+
+/* -- Section 1 - overview template modifiers -- */
+#home #section-one {
+    padding-top: 6em;
+    margin: 0;
+}
+#home blockquote, blockquote {
+    border: 0;
+}
+
+#home blockquote {
+    font-size: 2.5em;
+}
+#home blockquote p {
+    margin: 1em 0 !important;
+}
+
+/* -- Section 1 - theme template modifiers -- */
+.theme blockquote {
+    background: #111;
+    z-index: 2;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+.theme #section-one blockquote p {
+    margin-top: 0;
+    font-size: 2em;
+    padding: 0.4em;
+}
+
+/* -- Section 2 - base settings (only appears on overview template) -- */
+#section-two {
+    padding: 8em 0;
+    background: rgba(17, 17, 17, 0.9);
+    color: #eee;
+    font-size: 1em;
+    text-align: left;
+}
+
+/* -- Section 3 - base settings (only appears on overview template) -- */
+#section-three {
+    background: rgba(0, 0, 0, 0.9);
+    color: #eee;
+    font-size: 1.3em;
+    text-align: left;
+    border-bottom: 10px solid #ccc;
+}
+#section-three .row div {
+    min-height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-three h3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.7em 1em;
+    z-index: 2;
+    font-size: 1.7em;
+}
+#section-three h3 a {
+    color: #fff;
+}
+#section-three h3 a {
+    color: #fff;
+}
+#section-three #reputation {
+    background: url("../images/overview/overview-reputation-bg.jpg") no-repeat;
+}
+#section-three #sacrifice {
+    background: url("../images/overview/overview-sacrifice-bg.jpg") no-repeat;
+}
+
+#section-three #her-story {
+    background: url("../images/overview/overview-her-story-bg.jpg") no-repeat;
+}
+#section-three #family {
+    background: url("../images/overview/overview-family-bg.jpg") no-repeat 0 100%;
+}
+#section-three #separation {
+    background: url("../images/overview/overview-separation-bg.jpg") no-repeat 25%;
+}
+#section-three #advice {
+    background: url("../images/overview/overview-advice-bg.jpg") no-repeat;
+}
+#section-three #heartache {
+    background: url("../images/overview/overview-heartache-bg.jpg") no-repeat;
+}
+#section-three #legacy {
+    background: url("../images/overview/overview-legacy-bg.jpg") no-repeat;
+}
+#section-three #reputation, #section-three #sacrifice, #section-three #her-story, #section-three #family, #section-three #separation, #section-three #advice, #section-three #heartache, #section-three #legacy {
+    background-size: cover;
+    filter: brightness(0.4) sepia(1) hue-rotate(270deg) saturate(0.3) blur(0);
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+#section-three .row div {
+    overflow: hidden;
+}
+#section-three .row div:hover {
+    filter: contrast(85%);
+}
+#section-three .row div > div {
+    transform: scale(1);
+    -webkit-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+    z-index: 1;
+}
+#section-three .row div:hover > div {
+    transform: scale(1.1);
+    filter: blur(0px) !important;
+    cursor: pointer;
+}
+
+/* -- Navigation panel boxes (appear on theme index and description templates) -- */
+.nav-panel {
+    background: rgba(10, 10, 10, 1);
+    color: rbga(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 5% 3%;
+}
+#section-one .nav-panel-content h2 {
+    margin-bottom: 0.5em;
+}
+
+#section-one .nav-panel-content p {
+    margin: 0.5em 0em 1em;
+    color: #999;
+}
+#section-one .nav-panel-footer {
+    flex: none;
+}
+.nav-panel-content {
+    flex: 1;
+}
+.nav-panel-content img {
+    width: 100%;
+    border: 10px solid #efefef;
+    margin-bottom: 3em;
+}
+.letter-banner {
+    width: 100%;
+    border: 5px solid #efefef;
+    margin: 3em auto 0;
+    z-index: 1;
+    display: block;
+}
+
+/* -- Image panel containers (only appear on description templates) -- */
+.image-panel {
+    background: rgba(156, 60, 2, 0.3);
+    color: #fff;
+    padding: 3%;
+}
+.image-panel h4 {
+    color: #fff;
+    background: #782301;
+    display: inline-block;
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.5em !important;
+    margin-left: -2.7em;
+}
+.image-panel img {
+    width: 100%;
+    border: 3px solid #fff;
+}
+#section-one .image-panel p {
+    color: #111;
+    font-size: 1em;
+    margin: 1em 0 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* -- Transcription panel containers (only appear on description templates) -- */
+.transcript-panel {
+    background: #111;
+    color: #fff;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.2em;
+}
+#section-one .transcript-panel p {
+    margin: 1.4em 0.5em;
+}
+
+/* -- Audio panel containers (only appear on description templates) -- */
+#section-one .audio-panel {
+    padding: 3.2em 0 2.3em !important;
+    border-top: 4px solid rgba(156, 60, 2, 0.4);
+    border-bottom: 4px solid rgba(156, 60, 2, 0.4);
+    margin-bottom: 4em !important;
+}
+
+/* -- Document summary containers (only appear on description templates) -- */
+.document-summary {
+    border-top: 4px solid rgba(156, 60, 2, 0.4);
+    border-bottom: 4px solid rgba(156, 60, 2, 0.4);
+    padding: 3.2em 0.5em 2.3em;
+    margin: 0 0 4em;
+}
+.document-summary ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: minion-pro, serif;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+/* -- Breadcrumb -- */
 .breadcrumb {
     border-radius: 0;
-    margin: 1em 0 0;
+    margin: 0 0 3.5em;
     padding: 1em 1.8em;
-background: rgba(156, 60, 2, 0.8);
+    background: transparent;
 
 }
 .breadcrumb-item+.breadcrumb-item::before {
-    color: rgba(255, 255, 255, 0.3) !important;
+    color: rgba(0, 0, 0, 0.7) !important;
     content: "/";
     margin-right: 0.2em;
 }
 .breadcrumb .active {
-    color: #fff;
+    color: #222;
     padding: 0.3em;
     display: inline-block;
 }
@@ -488,5 +446,187 @@ background: rgba(156, 60, 2, 0.8);
     margin: 0em;
     padding: 0.3em 0em;
     display: inline-block;
-    border-bottom: 3px solid rgba(255,255,255,0.3);
+    color: #222;
+    border-bottom: 3px solid rgba(0,0,0,1);
+}
+
+/* -- Footer -- */
+footer {
+    margin-top: 7em;
+}
+footer p {
+    display: inline-block;
+    margin: 0.2em 0 0;
+    color: #fff;
+    font-size: 0.9em;
+}
+footer img {
+    margin: 0.5em 3em 0 0;
+    vertical-align: top;
+}
+footer p a {
+    text-decoration: underline;
+}
+footer p a:hover {
+    text-decoration: none;
+}
+
+/* -- Miscellaneous  -- */
+hr {
+    margin: 4em 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footnote {
+    color: #999;
+}
+
+/* -- COLOUR PALETTE MODIFIERS -- */
+
+/* -- Overview -- */
+#home .btn-primary {
+    color: #eee;
+    background: #a0285e;
+}
+#home #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(155%) brightness(103%) saturate(500%);
+}
+
+#home #bg-video-filter {
+    background-color: rgba(186, 75, 125, 1);
+}
+#home #section-one {
+    background: linear-gradient(to bottom, rgba(186, 75, 125, 1), rgba(160, 40, 94, 1));
+    color: #222;
+}
+
+/* -- Reputation -- */
+#reputation .btn-primary {
+    color: #222;
+    background: #fff;
+}
+#reputation #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(125%) brightness(103%);
+}
+#reputation #bg-video-filter {
+    background-color: #f47606;
+}
+#reputation #section-one {
+    background: linear-gradient(to bottom, rgba(247, 123, 0, 0.9), rgba(227, 96, 0, 0.9));
+    color: #111;
+    border-top: 8px solid rgba(227, 96, 0, 0.6);
+    border-bottom: 8px solid rgba(227, 96, 0, 0.6);
+}
+#reputation hr {
+    border: 2px solid rgba(156, 60, 2, 0.4);
+}
+
+
+/* -- MEDIA QUERIES -- */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .btn-primary {
+        font-size: 0.9em;
+    }
+    h1 {
+        font-size: 3.5em;
+    }
+    h1 span {
+        font-size: 0.5em;
+    }
+    .theme h2 {
+        font-size: 2.3em;
+    }
+    .theme h3 {
+        font-size: 1.9em;
+    }
+    .jumbotron h1 {
+        font-size: 4em;
+    }
+    .bg-box {
+        padding: 3em 4em;
+        font-size: 0.85em;
+        text-align: center;
+        width: 90%;
+        margin: 6em auto 9em;
+    }
+    .jumbotron .btn-primary {
+        font-size: 1.4em;
+    }
+    .large-screen-only {
+        display: inline-block;
+        padding: 0 0 0 0.5em;
+        vertical-align: middle;
+    }
+    .navbar-toggler {
+        margin-right: 2em;
+        padding: 0.9em;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .navbar-brand img {
+        width: 125px;
+        height: 125px;
+    }
+    .navbar-collapse {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        padding: 1em 0 1em 1em;
+        width: 30%;
+        text-align: right;
+    }
+    blockquote {
+        color: #eee;
+        font-family: minion-pro, serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 2.2em !important;
+    }
+    .theme blockquote {
+        background: #111;
+        z-index: 2;
+        display: inline-block;
+        width: fit-content;
+        margin: -2em -2em 0.5em;
+        right: 0;
+        text-align: left;
+    }
+    #section-one p {
+        font-size: 1.3em;
+    }
+    #section-one {
+        text-align: center;
+    }
+    #section-two {
+        font-size: 1.1em;
+    }
+    .nav-panel {
+        padding: 3%;
+    }
+    .letter-banner {
+        width: 95%;
+        margin: 3em auto;
+    }
+    .document-summary ul {
+        font-size: 1.7em;
+    }
+    #section-one .transcript-panel p {
+        margin: 1.4em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
