@@ -1,9 +1,8 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Sacrifice - The National Archives</title>
-<meta name="description"
-      content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
+<meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
-<main id="reputation" class="theme">
+<main id="sacrifice" class="theme">
     <?php include '../includes/header.php'; ?>
 
     <div id="section-one">

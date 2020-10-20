@@ -484,18 +484,18 @@ hr {
 
 /* -- Overview -- */
 #home .btn-primary {
-    color: #eee;
-    background: #a0285e;
+    color: #fff;
+    background: rgba(179,29,85,1);
 }
 #home #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(155%) brightness(103%) saturate(500%);
+    filter: grayscale(100%) contrast(155%) brightness(80%);
 }
 
 #home #bg-video-filter {
-    background-color: rgba(186, 75, 125, 1);
+    background-color: rgba(179,29,85,0.7);
 }
 #home #section-one {
-    background: linear-gradient(to bottom, rgba(186, 75, 125, 1), rgba(160, 40, 94, 1));
+    background: linear-gradient(to bottom, rgba(179,29,85,0.9), rgba(179,29,85,0.9));
     color: #222;
 }
 
@@ -505,7 +505,7 @@ hr {
     background: #fff;
 }
 #reputation #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(103%);
+    filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #reputation #bg-video-filter {
     background-color: #f47606;
@@ -513,10 +513,149 @@ hr {
 #reputation #section-one {
     background: linear-gradient(to bottom, rgba(247, 123, 0, 0.9), rgba(227, 96, 0, 0.9));
     color: #111;
-    border-top: 8px solid rgba(227, 96, 0, 0.6);
     border-bottom: 8px solid rgba(227, 96, 0, 0.6);
 }
 #reputation hr {
+    border: 2px solid rgba(156, 60, 2, 0.4);
+}
+
+/* -- Sacrifice -- */
+#sacrifice .btn-primary {
+    color: #222;
+    background: #fff;
+}
+#sacrifice #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(125%) brightness(90%);
+}
+#sacrifice #bg-video-filter {
+    background-color: rgba(78,140,10,0.7);
+}
+#sacrifice #section-one {
+    background: linear-gradient(to bottom, rgba(88,164,6,0.9), rgba(78,140,10,0.9));
+    color: #111;
+    border-bottom: 8px solid rgba(88,164,6,0.6);
+}
+#sacrifice hr {
+    border: 2px solid rgba(156, 60, 2, 0.4);
+}
+
+/* -- Her Story -- */
+#her-story .btn-primary {
+    color: #222;
+    background: #fff;
+}
+#her-story #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(125%) brightness(90%);
+}
+#her-story #bg-video-filter {
+    background-color: rgba(231,139,120,0.9);
+}
+#her-story #section-one {
+    background: linear-gradient(to bottom, rgba(231,139,120,0.9), rgba(231,139,120,0.9));
+    color: #111;
+    border-bottom: 8px solid rgba(192,52,22,0.6);
+}
+#her-story hr {
+    border: 2px solid rgba(156, 60, 2, 0.4);
+}
+
+/* -- Family -- */
+#family .btn-primary {
+     color: #222;
+     background: #fff;
+ }
+#family #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(125%) brightness(90%);
+}
+#family #bg-video-filter {
+    background-color: rgba(192,52,22,0.7);
+}
+#family #section-one {
+    background: linear-gradient(to bottom, rgba(205,74,44,0.9), rgba(192,52,22,0.9));
+    color: #111;
+    border-bottom: 8px solid rgba(192,52,22,0.6);
+}
+#family hr {
+    border: 2px solid rgba(156, 60, 2, 0.4);
+}
+
+/* -- Separation -- */
+#separation .btn-primary {
+    color: #222;
+    background: #fff;
+}
+#separation  #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(125%) brightness(90%);
+}
+#separation  #bg-video-filter {
+    background-color: rgba(86,185,162,0.5);
+}
+#separation  #section-one {
+    background: linear-gradient(to bottom, rgba(86,185,162,0.9), rgba(86,185,162,0.9));
+    color: #111;
+    border-bottom: 8px solid rgba(86,185,162,0.6);
+}
+#separation  hr {
+    border: 2px solid rgba(156, 60, 2, 0.4);
+}
+
+/* -- Advice -- */
+#advice .btn-primary {
+    color: #222;
+    background: #fff;
+}
+#advice #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(125%) brightness(90%);
+}
+#advice #bg-video-filter {
+    background-color: rgba(227,45,145,0.5);
+}
+#advice #section-one {
+    background: linear-gradient(to bottom, rgba(227,74,158,0.9), rgba(227,45,145,0.9));
+    color: #111;
+    border-bottom: 8px solid rgba(227,74,158,0.6);
+}
+#advice hr {
+    border: 2px solid rgba(156, 60, 2, 0.4);
+}
+
+/* -- Heartache -- */
+#heartache .btn-primary {
+    color: #222;
+    background: #fff;
+}
+#heartache #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(125%) brightness(90%);
+}
+#heartache #bg-video-filter {
+    background-color: rgba(75,103,177,0.5);
+}
+#heartache #section-one {
+    background: linear-gradient(to bottom, rgba(77,100,168,0.9), rgba(52,84,168,0.9));
+    color: #111;
+    border-bottom: 8px solid rgba(77,100,168,0.6);
+}
+#heartache hr {
+    border: 2px solid rgba(75,103,177, 0.4);
+}
+
+/* -- Legacy -- */
+#legacy .btn-primary {
+    color: #222;
+    background: #fff;
+}
+#legacy #bg-video-wrapper video {
+    filter: grayscale(100%) contrast(125%) brightness(90%);
+}
+#legacy #bg-video-filter {
+    background-color: rgba(58,172,85,0.8);
+}
+#legacy #section-one {
+    background: linear-gradient(to bottom, rgba(58,172,85,0.9), rgba(58,172,85,0.9));
+    color: #111;
+    border-bottom: 8px solid rgba(205,74,44,0.9);
+}
+#legacy hr {
     border: 2px solid rgba(156, 60, 2, 0.4);
 }
 
