@@ -177,13 +177,16 @@ audio {
     font-size: 1.4em;
 }
 .bg-box {
-    background: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to bottom, rgba(51,46,29,0.6), rgba(0, 0, 0, 0));
     padding: 3em 2em;
     color: #efefef !important;
     font-size: 0.7em;
     text-align: left;
     width: 100%;
     margin: 6em 0 9em;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 
 /* -- Section 1 - base settings -- */
@@ -321,11 +324,17 @@ audio {
 
 /* -- Navigation panel boxes (appear on theme index and description templates) -- */
 .nav-panel {
-    background: rgba(10, 10, 10, 1);
-    color: rbga(255, 255, 255, 1);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    color: rbga(0, 0, 0, 1);
     display: flex;
     flex-direction: column;
     padding: 5% 3%;
+    -webkit-box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
+    box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
+}
+.nav-panel a {
+    color: #111;
 }
 #section-one .nav-panel-content h2 {
     margin-bottom: 0.5em;
@@ -333,7 +342,7 @@ audio {
 
 #section-one .nav-panel-content p {
     margin: 0.5em 0em 1em;
-    color: #999;
+    color: #333;
 }
 #section-one .nav-panel-footer {
     flex: none;
@@ -343,7 +352,7 @@ audio {
 }
 .nav-panel-content img {
     width: 100%;
-    border: 10px solid #efefef;
+    border: 3px solid #efefef;
     margin-bottom: 3em;
 }
 .letter-banner {
@@ -387,12 +396,16 @@ audio {
 
 /* -- Transcription panel containers (only appear on description templates) -- */
 .transcript-panel {
-    background: #111;
-    color: #fff;
+    background: linear-gradient(rgba(225, 215, 164, 0.6), rgba(225, 215, 164, 0.3));
+    color: rbga(0, 0, 0, 1);
     font-family: minion-pro, serif;
     font-weight: 400;
     font-style: italic;
     font-size: 1.2em;
+
+    -webkit-box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
+    box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
 }
 #section-one .transcript-panel p {
     margin: 1.4em 0.5em;
@@ -485,35 +498,35 @@ hr {
 /* -- Overview -- */
 #home .btn-primary {
     color: #fff;
-    background: rgba(179,29,85,1);
+    background: rgba(154,23,80,0.9);
 }
 #home #bg-video-wrapper video {
     filter: grayscale(100%) contrast(155%) brightness(80%);
 }
 
 #home #bg-video-filter {
-    background-color: rgba(179,29,85,0.7);
+    background: linear-gradient(to bottom, rgba(206,161,27,1), rgba(93,0,30,0.9));
 }
 #home #section-one {
-    background: linear-gradient(to bottom, rgba(179,29,85,0.9), rgba(179,29,85,0.9));
+    background: linear-gradient(to bottom, rgba(154,23,80,0.9), rgba(238,76,124,0.9));
     color: #222;
 }
 
 /* -- Reputation -- */
 #reputation .btn-primary {
-    color: #222;
-    background: #fff;
+    color: #fff;
+    background: #111;
 }
 #reputation #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #reputation #bg-video-filter {
-    background-color: #f47606;
+    background: linear-gradient(to bottom, rgba(206,18,18,0.8), rgba(227, 96, 0, 0.9));
 }
 #reputation #section-one {
-    background: linear-gradient(to bottom, rgba(247, 123, 0, 0.9), rgba(227, 96, 0, 0.9));
+    background: linear-gradient(to bottom, rgba(247, 123, 0, 0.9), rgba(247, 123, 0, 0.9));
     color: #111;
-    border-bottom: 8px solid rgba(227, 96, 0, 0.6);
+    /* border-bottom: 8px solid rgba(227, 96, 0, 0.6); */
 }
 #reputation hr {
     border: 2px solid rgba(156, 60, 2, 0.4);
@@ -521,19 +534,19 @@ hr {
 
 /* -- Sacrifice -- */
 #sacrifice .btn-primary {
-    color: #222;
-    background: #fff;
+    color: #fff;
+    background: #111;
 }
 #sacrifice #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #sacrifice #bg-video-filter {
-    background-color: rgba(78,140,10,0.7);
+    background: linear-gradient(to bottom, rgba(28,125,9,0.9), rgba(172,157,2,0.9));
 }
 #sacrifice #section-one {
-    background: linear-gradient(to bottom, rgba(88,164,6,0.9), rgba(78,140,10,0.9));
+    background: linear-gradient(to bottom, rgba(142,191,44,0.9), rgba(172,157,2,0.9));
     color: #111;
-    border-bottom: 8px solid rgba(88,164,6,0.6);
+    /* border-bottom: 8px solid rgba(172,157,2,0.6); */
 }
 #sacrifice hr {
     border: 2px solid rgba(156, 60, 2, 0.4);
@@ -541,39 +554,39 @@ hr {
 
 /* -- Her Story -- */
 #her-story .btn-primary {
-    color: #222;
-    background: #fff;
+    color: #fff;
+    background: #111;
 }
 #her-story #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #her-story #bg-video-filter {
-    background-color: rgba(231,139,120,0.9);
+    background: linear-gradient(to bottom, rgba(255,3,164,0.6), rgba(29,127,203,0.9));
 }
 #her-story #section-one {
-    background: linear-gradient(to bottom, rgba(231,139,120,0.9), rgba(231,139,120,0.9));
+    background: linear-gradient(to bottom, rgba(231,139,120,0.9), rgba(80,182,233,0.9));
     color: #111;
-    border-bottom: 8px solid rgba(192,52,22,0.6);
+    /* border-bottom: 8px solid rgba(80,182,233,0.9); */
 }
 #her-story hr {
-    border: 2px solid rgba(156, 60, 2, 0.4);
+border: 2px solid rgba(156, 60, 2, 0.4);
 }
 
 /* -- Family -- */
 #family .btn-primary {
-     color: #222;
-     background: #fff;
+    color: #fff;
+    background: #111;
  }
 #family #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #family #bg-video-filter {
-    background-color: rgba(192,52,22,0.7);
+    background: linear-gradient(to bottom, rgba(29,127,203,1), rgba(174,31,11,1)) ;
 }
 #family #section-one {
-    background: linear-gradient(to bottom, rgba(205,74,44,0.9), rgba(192,52,22,0.9));
+    background: linear-gradient(to bottom, rgba(181,221,222,0.9), rgba(192,52,22,0.9));
     color: #111;
-    border-bottom: 8px solid rgba(192,52,22,0.6);
+    /* border-bottom: 8px solid rgba(192,52,22,0.6); */
 }
 #family hr {
     border: 2px solid rgba(156, 60, 2, 0.4);
@@ -581,59 +594,59 @@ hr {
 
 /* -- Separation -- */
 #separation .btn-primary {
-    color: #222;
-    background: #fff;
+    color: #fff;
+    background: #111;
 }
 #separation  #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #separation  #bg-video-filter {
-    background-color: rgba(86,185,162,0.5);
+    background: linear-gradient(to bottom, rgba(20,148,98,0.9), rgba(131,104,148,0.7));
 }
 #separation  #section-one {
-    background: linear-gradient(to bottom, rgba(86,185,162,0.9), rgba(86,185,162,0.9));
+    background: linear-gradient(to bottom, rgba(86,185,162,0.9), rgba(131,104,148,0.9));
     color: #111;
-    border-bottom: 8px solid rgba(86,185,162,0.6);
+    /* border-bottom: 8px solid rgba(86,185,162,0.6); */
 }
 #separation  hr {
-    border: 2px solid rgba(156, 60, 2, 0.4);
+border: 2px solid rgba(156, 60, 2, 0.4);
 }
 
 /* -- Advice -- */
 #advice .btn-primary {
-    color: #222;
-    background: #fff;
+    color: #fff;
+    background: #111;
 }
 #advice #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #advice #bg-video-filter {
-    background-color: rgba(227,45,145,0.5);
+    background: linear-gradient(to bottom, rgba(244,145,13,0.9), rgba(230,0,127,0.9));
 }
 #advice #section-one {
-    background: linear-gradient(to bottom, rgba(227,74,158,0.9), rgba(227,45,145,0.9));
+    background: linear-gradient(to bottom, rgba(244,145,13,0.9), rgba(235,100,151,0.9));
     color: #111;
-    border-bottom: 8px solid rgba(227,74,158,0.6);
+    /* border-bottom: 8px solid rgba(227,74,158,0.6); */
 }
 #advice hr {
-    border: 2px solid rgba(156, 60, 2, 0.4);
+border: 2px solid rgba(156, 60, 2, 0.4);
 }
 
 /* -- Heartache -- */
 #heartache .btn-primary {
-    color: #222;
-    background: #fff;
+    color: #fff;
+    background: #111;
 }
 #heartache #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #heartache #bg-video-filter {
-    background-color: rgba(75,103,177,0.5);
+    background: linear-gradient(to bottom, rgba(224,218,0,0.8), rgba(96,133,185,0.9));
 }
 #heartache #section-one {
-    background: linear-gradient(to bottom, rgba(77,100,168,0.9), rgba(52,84,168,0.9));
+    background: linear-gradient(to bottom, rgba(224,218,0,0.9), rgba(96,133,185,0.9));
     color: #111;
-    border-bottom: 8px solid rgba(77,100,168,0.6);
+    /* border-bottom: 8px solid rgba(77,100,168,0.6); */
 }
 #heartache hr {
     border: 2px solid rgba(75,103,177, 0.4);
@@ -641,19 +654,19 @@ hr {
 
 /* -- Legacy -- */
 #legacy .btn-primary {
-    color: #222;
-    background: #fff;
+    color: #fff;
+    background: #111;
 }
 #legacy #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #legacy #bg-video-filter {
-    background-color: rgba(58,172,85,0.8);
+    background: linear-gradient(to bottom, rgba(123,192,228,0.9), rgba(22,168,59,0.9));
 }
 #legacy #section-one {
-    background: linear-gradient(to bottom, rgba(58,172,85,0.9), rgba(58,172,85,0.9));
+    background: linear-gradient(to bottom, rgba(123,192,228,0.9), rgba(22,168,59,0.9));
     color: #111;
-    border-bottom: 8px solid rgba(205,74,44,0.9);
+    /* border-bottom: 8px solid rgba(58,172,85,0.6); */
 }
 #legacy hr {
     border: 2px solid rgba(156, 60, 2, 0.4);
@@ -693,7 +706,7 @@ hr {
         font-size: 4em;
     }
     .bg-box {
-        padding: 3em 4em;
+        padding: 5em 4em;
         font-size: 0.85em;
         text-align: center;
         width: 90%;
