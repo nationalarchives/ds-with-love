@@ -14,17 +14,18 @@
         </nav>
         <div class="container text-center">
             <h1>Heartache</h1>
-            <p>Love often comes at a cost. The very real price some
-                people have paid for love, committing state crimes
-                and enduring imprisonment, risking utter destitution
-                or renouncing the throne of a kingdom, is made
-                vividly real in these three very different documents.</p>
+            <p>Letters convey emotion, whether fulfilled or unfulfilled
+                love, romance or heartbreak. Despite the distance of
+                centuries, here the voices of an unknown medieval
+                copyist and a young man, Cyril, in 1930s London,
+                both speak of the familiar piercing disappointment
+                when love is not returned.</p>
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-one.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
+                        <img src="../images/heartache/index-heartache-one.jpg" alt="">
+                        <h2><a href="" title="">Letter from Cyril to ‘My darling Morris’</a></h2>
+                        <p>1930s</p>
                     </div>
                     <div class="nav-panel-footer">
                         <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
@@ -32,9 +33,9 @@
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
+                        <img src="../images/heartache/index-heartache-two.jpg" alt="">
+                        <h2><a href="" title="">Medieval or Tudor love song</a></h2>
+                        <p>About 1457-1530</p>
                     </div>
                     <div class="nav-panel-footer">
                         <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>

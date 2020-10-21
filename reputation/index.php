@@ -30,17 +30,17 @@
                         <p>30 December 1915</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="james-ramsay-macdonald-lady-margaret-sackville.php">Read more</a>
                     </div>
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
                         <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <h2><a href="" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
+                        <h2><a href="robert-dudley-elizabeth-I.php" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
                         <p>29 August 1588</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="robert-dudley-elizabeth-I.php">Read more</a>
                     </div>
                 </div>
             </div>

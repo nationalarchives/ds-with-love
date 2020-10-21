@@ -23,7 +23,7 @@
     <div id="section-one">
         <div class="container text-center">
             <blockquote class="blockquote text-center">
-                <p class="mb-0">“Do not trouble yourself to answer my letters but forget not to love me”</p>
+                <p class="mb-0">"Do not trouble yourself to answer my letters but forget not to love me"</p>
                 <footer class="blockquote-footer">Endymion Porter to his wife Olive, 1621</footer>
             </blockquote>
         </div>

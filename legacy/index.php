@@ -1,6 +1,7 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Legacy - The National Archives</title>
-<meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
+<meta name="description"
+      content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="legacy" class="theme">
     <?php include '../includes/header.php'; ?>
@@ -14,17 +15,20 @@
         </nav>
         <div class="container text-center">
             <h1>Legacy</h1>
-            <p>Love often comes at a cost. The very real price some
-                people have paid for love, committing state crimes
-                and enduring imprisonment, risking utter destitution
-                or renouncing the throne of a kingdom, is made
-                vividly real in these three very different documents.</p>
+            <p>Wills are legal documents that may appear formulaic
+                and emotionless, but are often revealing of intimate
+                feelings and desires. What tells us more about
+                love than to whom someone choose to leave their
+                possessions and wealth?</p>
+            <p>Love that could not be expressed in other ways, such
+                as illicit or socially unacceptable relationships, can
+                often be seen in wills.</p>
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-one.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
+                        <img src="../images/legacy/index-legacy-one.jpg" alt="">
+                        <h2><a href="" title="">The will of Anne Lister</a></h2>
+                        <p>1841</p>
                     </div>
                     <div class="nav-panel-footer">
                         <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
@@ -32,9 +36,9 @@
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
+                        <img src="../images/legacy/index-legacy-two.jpg" alt="">
+                        <h2><a href="" title="">The will and the pocket diary of Horatio Nelson</a></h2>
+                        <p>1803 / 1805</p>
                     </div>
                     <div class="nav-panel-footer">
                         <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>

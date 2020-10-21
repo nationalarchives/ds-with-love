@@ -14,30 +14,24 @@
         </nav>
         <div class="container text-center">
             <h1>Advice</h1>
-            <p>Love often comes at a cost. The very real price some
-                people have paid for love, committing state crimes
-                and enduring imprisonment, risking utter destitution
-                or renouncing the throne of a kingdom, is made
-                vividly real in these three very different documents.</p>
+            <p>Lovers have always sought advice, from the solace
+                of friends, the formal advice column or the
+                public stage of a television chat show. Advice
+                columns, helpfully allowing their readers to write
+                in anonymously, are thought to have first emerged
+                in the 1690s, soon after the arrival of newspapers.
+                Early advice columns dealt with questions of
+                science, philosophy and politics, but questions about
+                relationships soon became a feature.</p>
             <div class="row">
-                <div class="col-md-6 m-3 nav-panel">
+                <div class="col-md-6 offset-md-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-one.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
+                        <img src="../images/advice/index-advice-one.jpg" alt="">
+                        <h2><a href="two-anonymous-letters.php" title="">Two anonymous letters</a></h2>
+                        <p>1740s</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
-                    </div>
-                </div>
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="two-anonymous-letters.php">Read more</a>
                     </div>
                 </div>
             </div>

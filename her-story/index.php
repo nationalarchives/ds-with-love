@@ -14,30 +14,15 @@
         </nav>
         <div class="container text-center">
             <h1>Her Story</h1>
-            <p>Love often comes at a cost. The very real price some
-                people have paid for love, committing state crimes
-                and enduring imprisonment, risking utter destitution
-                or renouncing the throne of a kingdom, is made
-                vividly real in these three very different documents.</p>
             <div class="row">
-                <div class="col-md-6 m-3 nav-panel">
+                <div class="col-md-6 offset-md-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-one.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
+                        <img src="../images/her-story/index-her-story-one.jpg" alt="">
+                        <h2><a href="catherine-howard-thomas-culpeper.php" title="">Letter from Catherine Howard to Thomas Culpeper</a></h2>
+                        <p>1541</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
-                    </div>
-                </div>
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="catherine-howard-thomas-culpeper.php">Read more</a>
                     </div>
                 </div>
             </div>

@@ -177,16 +177,14 @@ audio {
     font-size: 1.4em;
 }
 .bg-box {
-    background: linear-gradient(to bottom, rgba(51,46,29,0.6), rgba(0, 0, 0, 0));
+    background: linear-gradient(to bottom, rgba(255,255,255,0.03), rgba(255,255,255,0.03));
     padding: 3em 2em;
     color: #efefef !important;
     font-size: 0.7em;
     text-align: left;
     width: 100%;
     margin: 6em 0 9em;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+
 }
 
 /* -- Section 1 - base settings -- */
@@ -299,7 +297,7 @@ audio {
 }
 #section-three #reputation, #section-three #sacrifice, #section-three #her-story, #section-three #family, #section-three #separation, #section-three #advice, #section-three #heartache, #section-three #legacy {
     background-size: cover;
-    filter: brightness(0.4) sepia(1) hue-rotate(270deg) saturate(0.3) blur(0);
+    filter: brightness(0.4) sepia(1) hue-rotate(197deg) saturate(0.3) blur(0);
     display: block;
     position: absolute;
     width: 100%;
@@ -396,7 +394,7 @@ audio {
 
 /* -- Transcription panel containers (only appear on description templates) -- */
 .transcript-panel {
-    background: linear-gradient(rgba(225, 215, 164, 0.6), rgba(225, 215, 164, 0.3));
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.3));
     color: rbga(0, 0, 0, 1);
     font-family: minion-pro, serif;
     font-weight: 400;
@@ -409,6 +407,11 @@ audio {
 }
 #section-one .transcript-panel p {
     margin: 1.4em 0.5em;
+}
+#section-one .transcript-panel h4 {
+    text-align: center;
+    margin-top: 3em;
+    color: #111;
 }
 
 /* -- Audio panel containers (only appear on description templates) -- */
@@ -498,17 +501,21 @@ hr {
 /* -- Overview -- */
 #home .btn-primary {
     color: #fff;
-    background: rgba(154,23,80,0.9);
+    background: rgba(50,48,83,1);
+}
+#home .jumbotron .btn-primary {
+    color: #fff;
+    background: rgba(100,77,30,0.9);
 }
 #home #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(155%) brightness(80%);
+    filter: grayscale(100%) contrast(125%) brightness(80%);
 }
 
 #home #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(206,161,27,1), rgba(93,0,30,0.9));
+    background: linear-gradient(to bottom, rgba(206,161,27,1), rgba(32,27,60,0.9));
 }
 #home #section-one {
-    background: linear-gradient(to bottom, rgba(154,23,80,0.9), rgba(238,76,124,0.9));
+    background: linear-gradient(to bottom, rgba(32,27,60,1), rgba(50,48,83,1));
     color: #222;
 }
 
@@ -710,7 +717,7 @@ border: 2px solid rgba(156, 60, 2, 0.4);
         font-size: 0.85em;
         text-align: center;
         width: 90%;
-        margin: 6em auto 9em;
+        margin: 3em auto 9em;
     }
     .jumbotron .btn-primary {
         font-size: 1.4em;

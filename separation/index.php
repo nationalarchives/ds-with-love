@@ -14,30 +14,46 @@
         </nav>
         <div class="container text-center">
             <h1>Separation</h1>
-            <p>Love often comes at a cost. The very real price some
-                people have paid for love, committing state crimes
-                and enduring imprisonment, risking utter destitution
-                or renouncing the throne of a kingdom, is made
-                vividly real in these three very different documents.</p>
+            <p>Many lovers have found themselves separated; by
+                war, geography, work or duty. These separations
+                have caused heartaches, jealousies, and the exchange
+                of – often delayed and desperately anticipated – love
+                letters. Letters serve as simulations of the absent
+                writer, touchable reminders of their presence.</p>
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-one.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
+                        <img src="../images/separation/index-separation-one.jpg" alt="">
+                        <h2><a href="birthday-card-hetty-william-crawford.php" title="">Birthday card and letter from Hetty to
+                                to William Crawford</a></h2>
+                        <p>11 January 1917 / 29 January 1917</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="birthday-card-hetty-william-crawford.php">Read more</a>
                     </div>
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <h2><a href="" title="">Title</a></h2>
-                        <p>Date</p>
+                        <img src="../images/separation/index-separation-two.jpg" alt="">
+                        <h2><a href="endymion-porter-to-olive.php" title="">Letter from Endymion Porter
+                                to his wife, Olive</a></h2>
+                        <p>17 July 1623</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="endymion-porter-to-olive.php">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3 mt-3 nav-panel">
+                    <div class="nav-panel-content">
+                        <img src="../images/separation/index-separation-three.jpg" alt="">
+                        <h2><a href="mijntje-meyderts-willem-luckassen.php" title="">Letter from Mijntje Meyderts to her
+                                husband Willem Luckassen</a></h2>
+                        <p>November 1672</p>
+                    </div>
+                    <div class="nav-panel-footer">
+                        <a class="btn btn-primary btn-lg" role="button" href="mijntje-meyderts-willem-luckassen.php">Read more</a>
                     </div>
                 </div>
             </div>

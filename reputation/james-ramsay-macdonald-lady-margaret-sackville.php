@@ -17,15 +17,15 @@
             <h1 class="text-center">Letter from James Ramsay MacDonald to Lady Margaret Sackville</h1>
             <img class="letter-banner" src="../images/reputation/index-reputation-one.jpg" alt="">
             <blockquote>
-                <p class="mb-0">“I want you...”</p>
+                <p class="mb-0">"I want you..."</p>
             </blockquote>
             <p>James Ramsay MacDonald, the working-class Labour
                 leader, and Lady Margaret Sackville, the aristocratic writer
                 and society beauty, were engaged in a passionate love
                 affair between about 1913 and 1928. This letter captures
-                MacDonald’s searing desire for his lover: “Why aren’t you
+                MacDonald’s searing desire for his lover: "Why aren’t you
                 here? I want you & you are hundreds of miles away & I
-                cannot even kiss you.”</p>
+                cannot even kiss you."</p>
             <p>He proposed at least three times but was turned down
                 on every occasion. Their biggest divide was thought to be
                 religious difference; Sackville was Roman Catholic, whilst
@@ -58,7 +58,11 @@
 
             <div class="row mb-4">
                 <div class="col-md-12 p-3 m-3 audio-panel text-center">
-                    <h3>Listen to the letter</h3>
+                    <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-headphones mb-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
+                        <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
+                    </svg>
+                    <h3>Listen to the letter </h3>
                     <audio controls>
                         <source src="viper.mp3" type="audio/mp3">
                         <source src="viper.ogg" type="audio/ogg">
@@ -110,14 +114,14 @@
                     <p>Your wire has come</p>
                 </div>
             </div>
-            <h2>Why is this at The National Archives?</h2>
+            <h2>Why is this in The National Archives?</h2>
             <p>About 150 letters from James Ramsay MacDonald to Lady Margaret Sackville
                 are kept at The National Archives. After her death in 1963, she had left no
                 instructions about what to do with them and they were held in a bank. The
                 local manager sent them to the Historical Manuscripts Commission in 1989,
                 and they were transferred to The National Archives on its formation in 2003.
-                One of the letters from MacDonald closes with the words “Of course
-                you will put this in the fire and it will blaze fiercely as love always does.”
+                One of the letters from MacDonald closes with the words "Of course
+                you will put this in the fire and it will blaze fiercely as love always does."
                 Thankfully Sackville never did and these remarkable letters survive.</p>
 
 
@@ -127,11 +131,11 @@
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content text-center">
                         <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <h2><a href="" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
+                        <h2><a href="robert-dudley-elizabeth-I.php" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
                         <p>29 August 1588
                     </div>
                     <div class="nav-panel-footer text-center">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="robert-dudley-elizabeth-I.php">Read more</a>
                     </div>
                 </div>
             </div>
