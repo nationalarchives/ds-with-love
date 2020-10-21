@@ -15,7 +15,6 @@
         <div class="container">
             <h1 class="text-center">Letter from Harry Houghton to Ethel 'Bunty' Gee</h1>
             <img class="letter-banner" src="../images/sacrifice/index-sacrifice-three.jpg" alt="">
-            <p>Edward VIII's abdication speech, broadcast 11 December 1936.</p>
             <p>The five members of the Portland Spy Ring were prosecuted
                 and imprisoned in March 1961 for passing naval secrets
                 to the Soviet Union. The spy ring took its name from

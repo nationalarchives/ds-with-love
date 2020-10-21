@@ -15,7 +15,7 @@
         </nav>
         <div class="container">
             <h1 class="text-center">Letter from Endymion Porter to his wife, Olive</h1>
-            <img class="letter-banner" src="../images/separation/index-separation-one.jpg" alt="">
+            <img class="letter-banner" src="../images/separation/index-separation-two.jpg" alt="">
             <blockquote>
                 <p class="mb-0">"I kiss thy sweet mouth a thousand times"</p>
             </blockquote>
@@ -155,7 +155,7 @@
                 the Civil Wars.</p>
             <p class="mb-3">Image credit:</p>
             <ul>
-                <li><b>Sir Endymion Porter with his Wife and Three Sons after Sir Anthony Van Dyck (1599-1641)<li> © National Trust Photographic Library / Bridgeman Images</li>
+                <li><b>Sir Endymion Porter with his Wife and Three Sons after Sir Anthony Van Dyck (1599-1641)</b><li> © National Trust Photographic Library / Bridgeman Images</li>
             </ul>
             <hr>
             <h2>Explore other letters within this theme</h2>

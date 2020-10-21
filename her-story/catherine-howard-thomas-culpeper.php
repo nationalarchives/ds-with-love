@@ -15,7 +15,7 @@
         </nav>
         <div class="container">
             <h1 class="text-center">Letter from Catherine Howard to Thomas Culpeper</h1>
-            <img class="letter-banner" src="../images/her-story/index-her-story.jpg" alt="">
+            <img class="letter-banner" src="../images/her-story/index-her-story-one.jpg" alt="">
             <blockquote>
                 <p class="mb-0">"Yours as long as life endures, Katheryn"</p>
             </blockquote>
@@ -59,8 +59,10 @@
 
             <div class="row mb-4">
                 <div class="col-md-12 p-3 m-3 audio-panel text-center">
-                    <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-headphones mb-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
+                    <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-headphones mb-4" fill="currentColor"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                              d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
@@ -111,12 +113,11 @@
                         to tarry here with me still for he says whatsomever you bid
                         him he will do it.</p>
                 </div>
-
-                <p>Image credit:</p>
-                    <ul>
-                        <li><b>Catherine Howard (c.1520-1542)</b> © Hever Castle Ltd, Kent, UK / Bridgeman Images</li>
-                    </ul>
             </div>
+            <p>Image credit:</p>
+            <ul>
+                <li><b>Catherine Howard (c.1520-1542)</b> © Hever Castle Ltd, Kent, UK / Bridgeman Images</li>
+            </ul>
         </div>
     </div>
     <?php include '../includes/footer.php'; ?>

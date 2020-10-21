@@ -15,7 +15,7 @@
         </nav>
         <div class="container">
             <h1 class="text-center">Letter from James Gillespie to David Lloyd George, the British Prime Minister</h1>
-            <img class="letter-banner" src="../images/sacrifice/index-sacrifice-one.jpg" alt="">
+            <img class="letter-banner" src="../images/family/index-family-one.jpg" alt="">
             <blockquote>
                 <p class="mb-0">"I am begging...give me and family
                     passage to Jamaica"</p>
@@ -42,7 +42,7 @@
             </div>
             <h3>Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div class="col-md-6 m-3 image-panel">
+                <div clax§x§ss="col-md-6 m-3 image-panel">
                     <a href="../images/family/1.jpg"><img src="../images/family/1.jpg" alt=""></a>
                     <p>Page 1</p>
                 </div>

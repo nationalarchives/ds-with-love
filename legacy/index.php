@@ -27,21 +27,21 @@
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
                         <img src="../images/legacy/index-legacy-one.jpg" alt="">
-                        <h2><a href="" title="">The will of Anne Lister</a></h2>
+                        <h2><a href="will-of-anne-lister.php" title="">The will of Anne Lister</a></h2>
                         <p>1841</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="will-of-anne-lister.php">Read more</a>
                     </div>
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
                         <img src="../images/legacy/index-legacy-two.jpg" alt="">
-                        <h2><a href="" title="">The will and the pocket diary of Horatio Nelson</a></h2>
+                        <h2><a href="will-pocket-diary-horatio-nelson.php" title="">The will and the pocket diary of Horatio Nelson</a></h2>
                         <p>1803 / 1805</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="will-pocket-diary-horatio-nelson.php">Read more</a>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@
             </ol>
         </nav>
         <div class="container text-center">
-            <h1>Her Story</h1>
+            <h1 class="mb-5">Her Story</h1>
             <div class="row">
                 <div class="col-md-6 offset-md-3 nav-panel">
                     <div class="nav-panel-content">

@@ -24,21 +24,21 @@
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
                         <img src="../images/heartache/index-heartache-one.jpg" alt="">
-                        <h2><a href="" title="">Letter from Cyril to ‘My darling Morris’</a></h2>
+                        <h2><a href="cyril-to-morris.php" title="">Letter from Cyril to 'My darling Morris'</a></h2>
                         <p>1930s</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="cyril-to-morris.php">Read more</a>
                     </div>
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
                         <img src="../images/heartache/index-heartache-two.jpg" alt="">
-                        <h2><a href="" title="">Medieval or Tudor love song</a></h2>
+                        <h2><a href="medieval-tudor-love-song.php" title="">Medieval or Tudor love song</a></h2>
                         <p>About 1457-1530</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="medieval-tudor-love-song.php">Read more</a>
                     </div>
                 </div>
             </div>
