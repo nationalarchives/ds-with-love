@@ -17,7 +17,7 @@
             <h1 class="text-center">Letter from Catherine Howard to Thomas Culpeper</h1>
             <img class="letter-banner" src="../images/her-story/index-her-story-one.jpg" alt="">
             <blockquote>
-                <p class="mb-0">"Yours as long as life endures, Katheryn"</p>
+                <p class="mb-0 medium">"Yours as long as life endures, Katheryn"</p>
             </blockquote>
             <p>The teenage Catherine arrived at the court of Henry VIII
                 in 1540, and soon after coming to the attention of the

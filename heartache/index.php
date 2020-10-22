@@ -23,7 +23,10 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/heartache/index-heartache-one.jpg" alt="">
+                            <div class="img-filter"></div>
+                        </div>
                         <h2><a href="cyril-to-morris.php" title="">Letter from Cyril to 'My darling Morris'</a></h2>
                         <p>1930s</p>
                     </div>
@@ -33,7 +36,10 @@
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/heartache/index-heartache-two.jpg" alt="">
+                        <div class="img-filter"></div>
+                    </div>
                         <h2><a href="medieval-tudor-love-song.php" title="">Medieval or Tudor love song</a></h2>
                         <p>About 1457-1530</p>
                     </div>

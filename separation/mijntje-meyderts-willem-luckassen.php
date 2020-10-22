@@ -17,22 +17,23 @@
             <h1 class="text-center">Letter from Mijntje Meyderts to her husband Willem Luckassen</h1>
             <img class="letter-banner" src="../images/separation/index-separation-one.jpg" alt="">
             <blockquote>
-                <p class="mb-0">"I kiss thy sweet mouth a thousand times"</p>
+                <p class="mb-0 small">"“…you write to me that at night in your bunk you
+                    hold your pillow in your arms and imagine that I
+                    am with you, my beloved, and that I should write
+                    to you that I do the same – but it is in vain: I must
+                    bear the time with endurance"</p>
             </blockquote>
-            <p>This letter was sent from Madrid when Endymion Porter
-                accompanied the future Charles I on a mission to the
-                Spanish royal court. Separated from his wife Olive by his
-                royal duties, his letter exposes a passionate and often
-                jealous relationship.</p>
-            <p>Endymion repeatedly accused Olive of having forgotten
-                him. In turn, she accused him of infidelity; an innkeeper’s
-                daughter from Boulogne is mentioned.
-            <p>Twelve days after this letter was sent Endymion had heard
-                from Olive that she was not well. Reassured but anxious
-                about her health, he declared "In thee I am rich, and
-                without thee nothing but misery."</p>
-            <p>The couple were reunited when he returned to England in
-                September that year.</p>
+            <p>The woman who found no comfort in holding a pillow in
+                place of her absent husband was the wife of a sailor on a
+                Dutch East India Company ship. He was a vast distance
+                away from her in Batavia, now Jakarta in Indonesia; a
+                voyage that had taken nearly a year.</p>
+            <p>The letter, in Dutch, is unsigned and was written for her by
+                a street scribe, the third of her three surviving letters. She
+                had been increasingly worried at not having heard from
+                her husband, and about the terrible situation in the Dutch
+                Republic – which had almost suffered total defeat by France
+                and Britain, and had undergone a political revolution.</p>
             <div class="document-summary">
                 <h2 class="text-center mb-2">The original document</h2>
                 <ul class="text-center">
@@ -148,8 +149,11 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/separation/index-separation-one.jpg" alt="">
-                        <h2><a href="birthday-card-hetty-william-crawford.php" title="">Birthday card and letter from Hetty to to William Crawford</a></h2>
+                            <div class="img-filter"></div>
+                        </div>
+                        <h2><a href="birthday-card-hetty-william-crawford.php" title="">Birthday card and letter from Hetty to William Crawford</a></h2>
                         <p>11 January 1917 / 29 January 1917</p>
                     </div>
                     <div class="nav-panel-footer">
@@ -158,12 +162,13 @@
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
-                        <img src="../images/separation/index-separation-three.jpg" alt="">
-                        <h2><a href="mijntje-meyderts-willem-luckassen.php" title="">Letter from Mijntje Meyderts to her husband Willem Luckassen</a></h2>
-                        <p>November 1672</p>
+                        <img src="../images/separation/index-separation-two.jpg" alt="">
+                        <h2><a href="endymion-porter-to-olive.php" title="">Letter from Endymion Porter
+                                to his wife, Olive</a></h2>
+                        <p>17 July 1623</p>
                     </div>
                     <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="mijntje-meyderts-willem-luckassen.php">Read more</a>
+                        <a class="btn btn-primary btn-lg" role="button" href="endymion-porter-to-olive.php">Read more</a>
                     </div>
                 </div>
             </div>

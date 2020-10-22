@@ -42,7 +42,7 @@
             </div>
             <h3>Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div clax§x§ss="col-md-6 m-3 image-panel">
+                <div class="col-md-6 m-3 image-panel">
                     <a href="../images/family/1.jpg"><img src="../images/family/1.jpg" alt=""></a>
                     <p>Page 1</p>
                 </div>
@@ -127,7 +127,10 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/family/index-family-two.jpg" alt="">
+                        <div class="img-filter"></div>
+                    </div>
                         <h2><a href="roland-to-mother.php" title="">Letter from Roland to his mother</a></h2>
                         <p>24 March 1951</p>
                     </div>

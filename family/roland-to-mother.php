@@ -17,7 +17,7 @@
             <h1 class="text-center">Letter from Roland to his mother</h1>
             <img class="letter-banner" src="../images/sacrifice/index-sacrifice-one.jpg" alt="">
             <blockquote>
-                <p class="mb-0">"With love from Roland"</p>
+                <p class="mb-0 large">"With love from Roland"</p>
             </blockquote>
             <p>Ten-year-old Roland wrote to his mother from Durban,
                 South Africa in 1951. His parents had a fraught divorce and
@@ -93,7 +93,10 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/family/index-family-one.jpg" alt="">
+                            <div class="img-filter"></div>
+                        </div>
                         <h2><a href="james-gillespie-david-lloyd-george.php" title="">Letter from James Gillespie to David Lloyd George, the British Prime Minister</a></h2>
                         <p>24 October 1919</p>
                     </div>

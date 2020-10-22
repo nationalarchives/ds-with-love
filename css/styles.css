@@ -170,6 +170,7 @@ audio {
     font-size: 3.6em;
 }
 .jumbotron p {
+    color: #ccc;
     font-size: 1.3em;
     margin-top: 2em;
 }
@@ -230,7 +231,7 @@ audio {
 }
 .theme #section-one blockquote p {
     margin-top: 0;
-    font-size: 2em;
+    font-size: 1.6em;
     padding: 0.4em;
 }
 
@@ -297,7 +298,7 @@ audio {
 }
 #section-three #reputation, #section-three #sacrifice, #section-three #her-story, #section-three #family, #section-three #separation, #section-three #advice, #section-three #heartache, #section-three #legacy {
     background-size: cover;
-    filter: brightness(0.4) sepia(1) hue-rotate(197deg) saturate(0.3) blur(0);
+    filter: brightness(0.4) sepia(1) hue-rotate(11deg) saturate(0.3) blur(0);
     display: block;
     position: absolute;
     width: 100%;
@@ -351,7 +352,6 @@ audio {
 .nav-panel-content img {
     width: 100%;
     border: 3px solid #efefef;
-    margin-bottom: 3em;
 }
 .letter-banner {
     width: 100%;
@@ -363,7 +363,7 @@ audio {
 
 /* -- Image panel containers (only appear on description templates) -- */
 .image-panel {
-    background: rgba(156, 60, 2, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     color: #fff;
     padding: 3%;
 }
@@ -417,15 +417,15 @@ audio {
 /* -- Audio panel containers (only appear on description templates) -- */
 #section-one .audio-panel {
     padding: 3.2em 0 2.3em !important;
-    border-top: 4px solid rgba(156, 60, 2, 0.4);
-    border-bottom: 4px solid rgba(156, 60, 2, 0.4);
+    border-top: 4px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 4em !important;
 }
 
 /* -- Document summary containers (only appear on description templates) -- */
 .document-summary {
-    border-top: 4px solid rgba(156, 60, 2, 0.4);
-    border-bottom: 4px solid rgba(156, 60, 2, 0.4);
+    border-top: 4px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
     padding: 3.2em 0.5em 2.3em;
     margin: 0 0 4em;
 }
@@ -495,27 +495,53 @@ hr {
 .footnote {
     color: #999;
 }
+.img-container {
+    position: relative;
+    margin-bottom: 3em;
+}
+.img-filter {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    mix-blend-mode: multiply;
+}
+p.small {
+    font-size: 1.6em !important;
+}
+p.medium {
+    font-size: 1.6em !important;
+}
+p.large {
+    font-size: 1.6em !important;
+}
 
 /* -- COLOUR PALETTE MODIFIERS -- */
 
 /* -- Overview -- */
 #home .btn-primary {
-    color: #fff;
-    background: rgba(50,48,83,1);
+    color: #111;
+    font-weight: bold;
+    background: #EBE5E0;
 }
 #home .jumbotron .btn-primary {
-    color: #fff;
-    background: rgba(100,77,30,0.9);
+    color: #111;
+    background: #EBE5E0;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 #home #bg-video-wrapper video {
     filter: grayscale(100%) contrast(125%) brightness(80%);
 }
 
 #home #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(206,161,27,1), rgba(32,27,60,0.9));
+    background: linear-gradient(to bottom, rgba(217,43,58,0.7), rgba(217,43,58,0.7));
 }
 #home #section-one {
-    background: linear-gradient(to bottom, rgba(32,27,60,1), rgba(50,48,83,1));
+    background: #ae0615;
     color: #222;
 }
 
@@ -536,7 +562,11 @@ hr {
     /* border-bottom: 8px solid rgba(227, 96, 0, 0.6); */
 }
 #reputation hr {
-    border: 2px solid rgba(156, 60, 2, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+#reputation .img-filter {
+    background: rgba(247, 123, 0, 0.2);
 }
 
 /* -- Sacrifice -- */
@@ -556,7 +586,10 @@ hr {
     /* border-bottom: 8px solid rgba(172,157,2,0.6); */
 }
 #sacrifice hr {
-    border: 2px solid rgba(156, 60, 2, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+#sacrifice .img-filter {
+    background: rgba(142,191,44,0.2);
 }
 
 /* -- Her Story -- */
@@ -576,7 +609,10 @@ hr {
     /* border-bottom: 8px solid rgba(80,182,233,0.9); */
 }
 #her-story hr {
-border: 2px solid rgba(156, 60, 2, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+#her-story .img-filter {
+    background: rgba(231,139,120,0.2);
 }
 
 /* -- Family -- */
@@ -596,7 +632,10 @@ border: 2px solid rgba(156, 60, 2, 0.4);
     /* border-bottom: 8px solid rgba(192,52,22,0.6); */
 }
 #family hr {
-    border: 2px solid rgba(156, 60, 2, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+#family .img-filter {
+    background: rgba(181,221,222,0.2);
 }
 
 /* -- Separation -- */
@@ -615,8 +654,11 @@ border: 2px solid rgba(156, 60, 2, 0.4);
     color: #111;
     /* border-bottom: 8px solid rgba(86,185,162,0.6); */
 }
-#separation  hr {
-border: 2px solid rgba(156, 60, 2, 0.4);
+#separation hr {
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+#separation .img-filter {
+    background: rgba(86,185,162,0.2);
 }
 
 /* -- Advice -- */
@@ -636,7 +678,10 @@ border: 2px solid rgba(156, 60, 2, 0.4);
     /* border-bottom: 8px solid rgba(227,74,158,0.6); */
 }
 #advice hr {
-border: 2px solid rgba(156, 60, 2, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+#advice .img-filter {
+    background: rgba(244,145,13,0.2);
 }
 
 /* -- Heartache -- */
@@ -656,7 +701,10 @@ border: 2px solid rgba(156, 60, 2, 0.4);
     /* border-bottom: 8px solid rgba(77,100,168,0.6); */
 }
 #heartache hr {
-    border: 2px solid rgba(75,103,177, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+#heartache .img-filter {
+    background: rgba(96,133,185,0.2);
 }
 
 /* -- Legacy -- */
@@ -676,7 +724,10 @@ border: 2px solid rgba(156, 60, 2, 0.4);
     /* border-bottom: 8px solid rgba(58,172,85,0.6); */
 }
 #legacy hr {
-    border: 2px solid rgba(156, 60, 2, 0.4);
+    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+#legacy .img-filter {
+    background: rgba(123,192,228,0.3);
 }
 
 
@@ -756,10 +807,13 @@ border: 2px solid rgba(156, 60, 2, 0.4);
         background: #111;
         z-index: 2;
         display: inline-block;
-        width: fit-content;
-        margin: -2em -2em 0.5em;
-        right: 0;
-        text-align: left;
+        width: 85%;
+        margin: -90px 0 0.5em 7%;
+        text-align: center;
+        font-size: 1.5em !important;
+    }
+    .theme #section-one blockquote p {
+        font-size: 2em;
     }
     #section-one p {
         font-size: 1.3em;
@@ -774,7 +828,7 @@ border: 2px solid rgba(156, 60, 2, 0.4);
         padding: 3%;
     }
     .letter-banner {
-        width: 95%;
+        width: 100%;
         margin: 3em auto;
     }
     .document-summary ul {
@@ -783,6 +837,16 @@ border: 2px solid rgba(156, 60, 2, 0.4);
     #section-one .transcript-panel p {
         margin: 1.4em;
     }
+    p.small {
+        font-size: 1.7em !important;
+    }
+    p.medium {
+        font-size: 2.3em !important;
+    }
+    p.large {
+        font-size: 2.5em !important;
+    }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

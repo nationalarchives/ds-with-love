@@ -17,8 +17,9 @@
             <h1 class="text-center">Letter from James Ramsay MacDonald to Lady Margaret Sackville</h1>
             <img class="letter-banner" src="../images/reputation/index-reputation-one.jpg" alt="">
             <blockquote>
-                <p class="mb-0">"I want you..."</p>
+                <p class="mb-0 large">"I want you..."</p>
             </blockquote>
+
             <p>James Ramsay MacDonald, the working-class Labour
                 leader, and Lady Margaret Sackville, the aristocratic writer
                 and society beauty, were engaged in a passionate love
@@ -130,7 +131,10 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content text-center">
+                    <div class="img-container">
                         <img src="../images/reputation/index-reputation-two.jpg" alt="">
+                        <div class="img-filter"></div>
+                    </div>
                         <h2><a href="robert-dudley-elizabeth-I.php" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
                         <p>29 August 1588
                     </div>

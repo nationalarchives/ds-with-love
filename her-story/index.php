@@ -17,7 +17,10 @@
             <div class="row">
                 <div class="col-md-6 offset-md-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/her-story/index-her-story-one.jpg" alt="">
+                        <div class="img-filter"></div>
+                        </div>
                         <h2><a href="catherine-howard-thomas-culpeper.php" title="">Letter from Catherine Howard to Thomas Culpeper</a></h2>
                         <p>1541</p>
                     </div>

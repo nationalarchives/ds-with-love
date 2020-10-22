@@ -125,7 +125,10 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/sacrifice/index-sacrifice-two.jpg" alt="">
+                        <div class="img-filter"></div>
+                    </div>
                         <h2><a href="instrument-abdication-edward-VIII.php" title="">Instrument of Abdication of Edward VIII</a></h2>
                         <p>1936</p>
                     </div>
@@ -135,7 +138,10 @@
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/sacrifice/index-sacrifice-three.jpg" alt="">
+                            <div class="img-filter"></div>
+                        </div>
                         <h2><a href="harry-houghton-ethel-bunty-gee.php" title="">Letter from Harry Houghton to Ethel ‘Bunty’ Gee</a></h2>
                         <p>24 February 1966</p>
                     </div>

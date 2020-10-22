@@ -26,7 +26,10 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/family/index-family-one.jpg" alt="">
+                            <div class="img-filter"></div>
+                        </div>
                         <h2><a href="james-gillespie-david-lloyd-george.php" title="">Letter from James Gillespie to David Lloyd George, the British Prime Minister</a></h2>
                         <p>24 October 1919</p>
                     </div>
@@ -36,7 +39,10 @@
                 </div>
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/family/index-family-two.jpg" alt="">
+                            <div class="img-filter"></div>
+                        </div>
                         <h2><a href="roland-to-mother.php" title="">Letter from Roland to his mother</a></h2>
                         <p>24 March 1951</p>
                     </div>

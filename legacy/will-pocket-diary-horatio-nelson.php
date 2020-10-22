@@ -198,7 +198,10 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/legacy/index-legacy-one.jpg" alt="">
+                        <div class="img-filter"></div>
+                    </div>
                         <h2><a href="will-of-anne-lister.php" title="">The will of Anne Lister</a></h2>
                         <p>1841</p>
                     </div>

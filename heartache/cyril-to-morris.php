@@ -79,8 +79,8 @@
             <h3>Read the transcript</h3>
             <div class="row mb-5">
                 <div class="col-md-12 m-3 transcript-panel">
-                    <p>My Darling Morris,
-                        Just a note which I feel I must write or should I say type to
+                    <p>My Darling Morris,</p>
+                    <p>Just a note which I feel I must write or should I say type to
                         you. I was very very disappointed to find out that you were
                         not coming to the Club to-night, as ever since I phoned
                         you on Monday and made arrangements, I just lived for
@@ -129,7 +129,10 @@
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
                     <div class="nav-panel-content">
+                        <div class="img-container">
                         <img src="../images/heartache/index-heartache-two.jpg" alt="">
+                        <div class="img-filter"></div>
+                    </div>
                         <h2><a href="medieval-tudor-love-song.php" title="">Medieval or Tudor love song</a></h2>
                         <p>About 1457-1530</p>
                     </div>
