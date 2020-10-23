@@ -1,8 +1,15 @@
 <div id="bg-video-wrapper">
-    <video playsinline autoplay muted loop poster="">
-        <source src="/media/bg-video-uncompressed.mp4" type="video/mp4">
+    <video playsinline autoplay muted loop poster="/images/legacy/index-legacy-two.jpg">
+
     </video>
     <div id="bg-video-filter"></div>
+    <audio loop preload="none">
+    </audio>
+</div>
+<script>
+</script>
+<div id="icon-bar">
+
 </div>
 
 <nav class="navbar no-margin">

@@ -86,7 +86,7 @@ blockquote footer {
     height: 90px;
 }
 .navbar-toggler {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #fff;
     border-radius: 0;
@@ -250,7 +250,11 @@ audio {
     color: #eee;
     font-size: 1.3em;
     text-align: left;
-    border-bottom: 10px solid #ccc;
+    border-bottom: 1px solid #000;
+    -webkit-box-shadow: 0px 22px 22px 2px rgba(255,255,255,0.08);
+    -moz-box-shadow: 0px 22px 22px 2px rgba(255,255,255,0.08);
+    box-shadow: 0px 22px 22px 2px rgba(255,255,255,0.08);
+
 }
 #section-three .row div {
     min-height: 500px;
@@ -538,7 +542,7 @@ p.large {
 }
 
 #home #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(217,43,58,0.7), rgba(217,43,58,0.7));
+    background: linear-gradient(to bottom, rgba(215,167,22,0.7), rgba(217,43,58,1));
 }
 #home #section-one {
     background: #ae0615;
@@ -730,7 +734,66 @@ p.large {
     background: rgba(123,192,228,0.3);
 }
 
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+#icon-bar {
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    z-index: 3;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: none;
+}
 
+/* Style the icon bar links */
+#icon-bar button {
+    display: block;
+    text-align: center;
+    padding: 10px 16px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    opacity: 0.9;
+    border: 0;
+}
+
+/* Style the social media icons with color, if you want */
+#icon-bar button:hover {
+    background-color: #000;
+}
+
+
+.bg-audio-control {
+    background: #fff;
+    color: #111 !important;
+}
+.bg-audio-control:hover {
+    background: #000;
+    color: #fff !important;
+}
+.bg-video-control {
+    background: #111;
+    color: white;
+}
+.bg-video-control:hover {
+    background: #000;
+    color: #fff;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
 /* -- MEDIA QUERIES -- */
 
 /* Small devices (landscape phones, 576px and up) */
@@ -740,7 +803,9 @@ p.large {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    #icon-bar {
+        display: block;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -781,7 +846,8 @@ p.large {
     .navbar-toggler {
         margin-right: 2em;
         padding: 0.9em;
-        border: 1px solid rgba(255, 255, 255, 0.7);
+        font-size: 1em;
+        border: 1px solid rgba(255, 255, 255, 0.6);
     }
     .navbar-brand img {
         width: 125px;
@@ -791,7 +857,7 @@ p.large {
         position: fixed;
         right: 0;
         bottom: 0;
-        z-index: 2;
+        z-index: 4;
         padding: 1em 0 1em 1em;
         width: 30%;
         text-align: right;
@@ -852,4 +918,67 @@ p.large {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-volume-off:before {
+    content: "\e036";
+}
+.glyphicon-volume-up:before {
+    content: "\e038";
+}
+.glyphicon-headphones:before {
+    content: "\e035";
+}
+.glyphicon-flash:before {
+    content: "\e162";
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 10.5em;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 0.68em;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 80%;
+    margin-left: -186px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
