@@ -1,5 +1,5 @@
 <div id="bg-video-wrapper">
-    <video playsinline autoplay muted loop poster="/images/legacy/index-legacy-two.jpg">
+    <video playsinline autoplay muted loop poster="/images/utilities/bg-image.jpg">
 
     </video>
     <div id="bg-video-filter"></div>

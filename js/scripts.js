@@ -30,31 +30,35 @@ $(function() {
 
     var $video = $("#bg-video-wrapper video");
 
-    $video.append("<source src=\"/media/bg-video-uncompressed.mp4\" type=\"video/mp4\">");
+    //if (!window.matchMedia('(prefers-reduced-motion)').matches) {
 
-    var toggleVideo = function () {
+        $video.append("<source src=\"/media/bg-video-compressed.mp4\" type=\"video/mp4\">");
 
-        var $video = $("#bg-video-wrapper video");
+        var toggleVideo = function () {
 
-        if($video[0].paused) {
-            $video_button.attr('data-icon','u');
-            $video[0].play();
-        } else {
-            $video_button.attr('data-icon','P');
-            $video[0].pause();
+            var $video = $("#bg-video-wrapper video");
+
+            if($video[0].paused) {
+                $video_button.attr('data-icon','u');
+                $video[0].play();
+            } else {
+                $video_button.attr('data-icon','P');
+                $video[0].pause();
+            }
         }
-    }
 
-    var $video_button = $('<button class="bg-video-control tooltip" data-icon="P"><span class="glyphicon icon glyphicon-flash"></span><span class="tooltiptext"><b>Turn off</b><br>background motion</span></button>');
-    $video_button.appendTo($("#icon-bar"));
+        var $video_button = $('<button class="bg-video-control tooltip" data-icon="P"><span class="glyphicon icon glyphicon-flash"></span><span class="tooltiptext"><b>Turn off</b><br>background motion</span></button>');
+        $video_button.appendTo($("#icon-bar"));
 
-    $video_button.on('click', function(){
+        $video_button.on('click', function(){
 
-    toggleVideo();
+            toggleVideo();
 
-    })
+        })
+    //}
 
 });
+
 
 
 
