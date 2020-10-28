@@ -5,9 +5,8 @@
     <div id="bg-video-filter"></div>
     <audio loop preload="none">
     </audio>
+
 </div>
-<script>
-</script>
 <div id="icon-bar">
 
 </div>

@@ -1,0 +1,98 @@
+@media screen\0 {
+    /* Conditional IE styles */
+
+    #bg-video-wrapper {
+        display: none;
+    }
+    #icon-bar {
+        display: none;
+    }
+    #home {
+        background: url('../images/overview/bg-overview.jpg') no-repeat;
+    }
+    #reputation {
+        background: url('../images/reputation/bg-reputation.jpg') no-repeat;
+    }
+    #sacrifice {
+        background: url('../images/sacrifice/bg-sacrifice.jpg') no-repeat;
+    }
+    #her-story {
+        background: url('../images/her-story/bg-her-story.jpg') no-repeat;
+    }
+    #family {
+        background: url('../images/family/bg-family.jpg') no-repeat;
+    }
+    #separation {
+        background: url('../images/separation/bg-separation.jpg') no-repeat;
+    }
+    #advice {
+        background: url('../images/advice/bg-advice.jpg') no-repeat;
+    }
+    #heartache {
+        background: url('../images/heartache/bg-heartache.jpg') no-repeat;
+    }
+    #legacy {
+        background: url('../images/legacy/bg-legacy.jpg') no-repeat;
+    }
+    #home, #reputation, #sacrifice, #her-story, #family, #separation, #advice, #heartache, #legacy {
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    #reputation #section-one {
+        background: rgba(247, 123, 0, 0.9);
+    }
+    #sacrifice #section-one {
+        background: rgba(142,191,44,0.9);
+    }
+    #her-story #section-one {
+        background: rgba(231,139,120,0.9);
+    }
+    #family #section-one {
+        background: rgba(247, 147, 48, 0.9);
+    }
+    #separation  #section-one {
+        background: rgba(182,141,207,0.9);
+    }
+    #advice #section-one {
+        background: rgba(244,145,13,0.9);
+    }
+    #heartache #section-one {
+        background: rgba(224,218,0,0.9);
+    }
+    #legacy #section-one {
+        background: rgba(123,192,228,0.9);
+    }
+    .breadcrumb li {
+        float: left;
+    }
+    .row {
+        clear: both;
+    }
+    .image-panel {
+        float: left;
+        display: block;
+    }
+    .nav-panel {
+        float: left;
+        background: rgba(255, 255, 255, 0.5);
+        display: block;
+    }
+    .transcript-panel {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    .nav-panel-content, .nav-panel-footer {
+        float: left;
+    }
+    #section-three .row div {
+        display: block;
+        float: left;
+    }
+    #section-three h3 {
+        position: relative;
+        display: inline-block;
+        margin-top: 50%;
+    }
+    .nav-panel-footer {
+        width: 100%;
+    }
+}

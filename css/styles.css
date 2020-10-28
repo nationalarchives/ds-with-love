@@ -93,7 +93,7 @@ blockquote footer {
     padding: 0.5em;
 }
 .navbar-toggler-icon {
-    background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'></path></svg>");
+    background: url('../images/utilities/menu-icon.svg') no-repeat;
 }
 .large-screen-only {
     display: none;
@@ -522,10 +522,10 @@ p.medium {
 p.large {
     font-size: 1.6em !important;
 }
-
 /* -- COLOUR PALETTE MODIFIERS -- */
 
 /* -- Overview -- */
+
 #home .btn-primary {
     color: #111;
     font-weight: bold;
@@ -549,7 +549,9 @@ p.large {
     color: #222;
 }
 
+
 /* -- Reputation -- */
+
 #reputation .btn-primary {
     color: #fff;
     background: #111;
@@ -563,7 +565,6 @@ p.large {
 #reputation #section-one {
     background: linear-gradient(to bottom, rgba(247, 123, 0, 0.9), rgba(247, 123, 0, 0.9));
     color: #111;
-    /* border-bottom: 8px solid rgba(227, 96, 0, 0.6); */
 }
 #reputation hr {
     border: 2px solid rgba(0, 0, 0, 0.1);
@@ -574,6 +575,7 @@ p.large {
 }
 
 /* -- Sacrifice -- */
+
 #sacrifice .btn-primary {
     color: #fff;
     background: #111;
@@ -582,12 +584,11 @@ p.large {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #sacrifice #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(28,125,9,0.9), rgba(172,157,2,0.9));
+    background: linear-gradient(to bottom, rgba(142,191,44,0.9), rgba(172,157,2,0.9));
 }
 #sacrifice #section-one {
     background: linear-gradient(to bottom, rgba(142,191,44,0.9), rgba(172,157,2,0.9));
     color: #111;
-    /* border-bottom: 8px solid rgba(172,157,2,0.6); */
 }
 #sacrifice hr {
     border: 2px solid rgba(0, 0, 0, 0.1) !important;
@@ -597,6 +598,7 @@ p.large {
 }
 
 /* -- Her Story -- */
+
 #her-story .btn-primary {
     color: #fff;
     background: #111;
@@ -610,7 +612,6 @@ p.large {
 #her-story #section-one {
     background: linear-gradient(to bottom, rgba(231,139,120,0.9), rgba(80,182,233,0.9));
     color: #111;
-    /* border-bottom: 8px solid rgba(80,182,233,0.9); */
 }
 #her-story hr {
     border: 2px solid rgba(0, 0, 0, 0.1) !important;
@@ -620,6 +621,7 @@ p.large {
 }
 
 /* -- Family -- */
+
 #family .btn-primary {
     color: #fff;
     background: #111;
@@ -628,12 +630,11 @@ p.large {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #family #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(29,127,203,1), rgba(174,31,11,1)) ;
+    background: linear-gradient(to bottom, rgba(9,150,167,1), rgba(174,31,11,1)) ;
 }
 #family #section-one {
-    background: linear-gradient(to bottom, rgba(181,221,222,0.9), rgba(192,52,22,0.9));
+    background: linear-gradient(to bottom, rgba(124,195,230,0.9), rgba(247, 147, 48, 0.9), rgba(247, 147, 48, 0.9), rgba(192,52,22,0.9));
     color: #111;
-    /* border-bottom: 8px solid rgba(192,52,22,0.6); */
 }
 #family hr {
     border: 2px solid rgba(0, 0, 0, 0.1) !important;
@@ -643,6 +644,7 @@ p.large {
 }
 
 /* -- Separation -- */
+
 #separation .btn-primary {
     color: #fff;
     background: #111;
@@ -651,12 +653,11 @@ p.large {
     filter: grayscale(100%) contrast(125%) brightness(90%);
 }
 #separation  #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(20,148,98,0.9), rgba(131,104,148,0.7));
+    background: linear-gradient(to bottom, rgba(182,141,207,0.9), rgba(131,104,148,0.9), rgba(20,148,98,0.9));
 }
 #separation  #section-one {
-    background: linear-gradient(to bottom, rgba(86,185,162,0.9), rgba(131,104,148,0.9));
+    background: linear-gradient(to bottom, rgba(182,141,207,0.9), rgba(86,185,162,0.9));
     color: #111;
-    /* border-bottom: 8px solid rgba(86,185,162,0.6); */
 }
 #separation hr {
     border: 2px solid rgba(0, 0, 0, 0.1) !important;
@@ -666,6 +667,7 @@ p.large {
 }
 
 /* -- Advice -- */
+
 #advice .btn-primary {
     color: #fff;
     background: #111;
@@ -679,7 +681,6 @@ p.large {
 #advice #section-one {
     background: linear-gradient(to bottom, rgba(244,145,13,0.9), rgba(235,100,151,0.9));
     color: #111;
-    /* border-bottom: 8px solid rgba(227,74,158,0.6); */
 }
 #advice hr {
     border: 2px solid rgba(0, 0, 0, 0.1) !important;
@@ -702,7 +703,6 @@ p.large {
 #heartache #section-one {
     background: linear-gradient(to bottom, rgba(224,218,0,0.9), rgba(96,133,185,0.9));
     color: #111;
-    /* border-bottom: 8px solid rgba(77,100,168,0.6); */
 }
 #heartache hr {
     border: 2px solid rgba(0, 0, 0, 0.1) !important;
@@ -712,6 +712,7 @@ p.large {
 }
 
 /* -- Legacy -- */
+
 #legacy .btn-primary {
     color: #fff;
     background: #111;
@@ -725,7 +726,6 @@ p.large {
 #legacy #section-one {
     background: linear-gradient(to bottom, rgba(123,192,228,0.9), rgba(22,168,59,0.9));
     color: #111;
-    /* border-bottom: 8px solid rgba(58,172,85,0.6); */
 }
 #legacy hr {
     border: 2px solid rgba(0, 0, 0, 0.1) !important;
@@ -733,7 +733,6 @@ p.large {
 #legacy .img-filter {
     background: rgba(123,192,228,0.3);
 }
-
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 #icon-bar {
     position: fixed;
@@ -761,8 +760,6 @@ p.large {
 #icon-bar button:hover {
     background-color: #000;
 }
-
-
 .bg-audio-control {
     background: #fff;
     color: #111 !important;
@@ -780,25 +777,10 @@ p.large {
     color: #fff;
 }
 
-.google {
-    background: #dd4b39;
-    color: white;
-}
-
-.linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.youtube {
-    background: #bb0000;
-    color: white;
-}
 /* -- MEDIA QUERIES -- */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -919,6 +901,7 @@ p.large {
 @media (min-width: 1200px) {
 
 }
+
 @font-face {
     font-family: 'Glyphicons Halflings';
 
