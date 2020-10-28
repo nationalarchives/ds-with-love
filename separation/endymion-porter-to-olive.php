@@ -42,15 +42,19 @@
             </div>
             <h3>Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/separation/1.jpg"><img
-                                src="../images/separation/2.jpg" alt=""></a>
-                    <p>Birthday card</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/separation/1.jpg"><img
+                                    src="../images/separation/2.jpg" alt=""></a>
+                        <p>Birthday card</p>
+                    </div>
                 </div>
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/separation/1.jpg"><img
-                                src="../images/separation/2.jpg" alt=""></a>
-                    <p>Letter</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/separation/1.jpg"><img
+                                    src="../images/separation/2.jpg" alt=""></a>
+                        <p>Letter</p>
+                    </div>
                 </div>
             </div>
 
@@ -160,30 +164,34 @@
             <hr>
             <h2>Explore other letters within this theme</h2>
             <div class="row">
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <div class="img-container">
-                        <img src="../images/separation/index-separation-one.jpg" alt="">
-                            <div class="img-filter"></div>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <div class="img-container">
+                            <img src="../images/separation/index-separation-one.jpg" alt="">
+                                <div class="img-filter"></div>
+                            </div>
+                            <h2><a href="birthday-card-hetty-william-crawford.php" title="">Birthday card and letter from Hetty to William Crawford</a></h2>
+                            <p>11 January 1917 / 29 January 1917</p>
                         </div>
-                        <h2><a href="birthday-card-hetty-william-crawford.php" title="">Birthday card and letter from Hetty to William Crawford</a></h2>
-                        <p>11 January 1917 / 29 January 1917</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="birthday-card-hetty-william-crawford.php">Read more</a>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="birthday-card-hetty-william-crawford.php">Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <div class="img-container">
-                        <img src="../images/separation/index-separation-three.jpg" alt="">
-                            <div class="img-filter"></div>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <div class="img-container">
+                            <img src="../images/separation/index-separation-three.jpg" alt="">
+                                <div class="img-filter"></div>
+                            </div>
+                            <h2><a href="mijntje-meyderts-willem-luckassen.php" title="">Letter from Mijntje Meyderts to her husband Willem Luckassen</a></h2>
+                            <p>November 1672</p>
                         </div>
-                        <h2><a href="mijntje-meyderts-willem-luckassen.php" title="">Letter from Mijntje Meyderts to her husband Willem Luckassen</a></h2>
-                        <p>November 1672</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="mijntje-meyderts-willem-luckassen.php">Read more</a>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="mijntje-meyderts-willem-luckassen.php">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>

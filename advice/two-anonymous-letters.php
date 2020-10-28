@@ -42,15 +42,19 @@
             </div>
             <h3>Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/advice/1.jpg"><img
-                                src="../images/advice/2.jpg" alt=""></a>
-                    <p>Birthday card</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/advice/1.jpg"><img
+                                    src="../images/advice/2.jpg" alt=""></a>
+                        <p>Birthday card</p>
+                    </div>
                 </div>
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/advice/1.jpg"><img
-                                src="../images/advice/2.jpg" alt=""></a>
-                    <p>Letter</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/advice/1.jpg"><img
+                                    src="../images/advice/2.jpg" alt=""></a>
+                        <p>Letter</p>
+                    </div>
                 </div>
             </div>
 

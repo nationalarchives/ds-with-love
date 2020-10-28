@@ -45,15 +45,19 @@
             </div>
             <h3>Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/heartache/1.jpg"><img
-                                src="../images/heartache/2.jpg" alt=""></a>
-                    <p>Page 1</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/heartache/1.jpg"><img
+                                    src="../images/heartache/2.jpg" alt=""></a>
+                        <p>Page 1</p>
+                    </div>
                 </div>
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/heartache/1.jpg"><img
-                                src="../images/heartache/2.jpg" alt=""></a>
-                    <p>Page 2</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/heartache/1.jpg"><img
+                                    src="../images/heartache/2.jpg" alt=""></a>
+                        <p>Page 2</p>
+                    </div>
                 </div>
             </div>
 

@@ -24,17 +24,19 @@
                 science, philosophy and politics, but questions about
                 relationships soon became a feature.</p>
             <div class="row">
-                <div class="col-md-6 offset-md-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <div class="img-container">
-                        <img src="../images/advice/index-advice-one.jpg" alt="">
-                            <div class="img-filter"></div>
+                <div class="col-md-6 offset-md-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <div class="img-container">
+                            <img src="../images/advice/index-advice-one.jpg" alt="">
+                                <div class="img-filter"></div>
+                            </div>
+                            <h2><a href="two-anonymous-letters.php" title="">Two anonymous letters</a></h2>
+                            <p>1740s</p>
                         </div>
-                        <h2><a href="two-anonymous-letters.php" title="">Two anonymous letters</a></h2>
-                        <p>1740s</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="two-anonymous-letters.php">Read more</a>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="two-anonymous-letters.php">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>

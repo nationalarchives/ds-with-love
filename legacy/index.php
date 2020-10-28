@@ -24,31 +24,34 @@
                 as illicit or socially unacceptable relationships, can
                 often be seen in wills.</p>
             <div class="row">
-                <div class="col-md-6 m-3 nav-panel">
-
-                    <div class="nav-panel-content">
-                        <div class="img-container">
-                        <img src="../images/legacy/index-legacy-one.jpg" alt="">
-                        <div class="img-filter"></div>
-                    </div>
-                        <h2><a href="will-of-anne-lister.php" title="">The will of Anne Lister</a></h2>
-                        <p>1841</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="will-of-anne-lister.php">Read more</a>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <div class="img-container">
+                            <img src="../images/legacy/index-legacy-one.jpg" alt="">
+                            <div class="img-filter"></div>
+                        </div>
+                            <h2><a href="will-of-anne-lister.php" title="">The will of Anne Lister</a></h2>
+                            <p>1841</p>
+                        </div>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="will-of-anne-lister.php">Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <div class="img-container">
-                        <img src="../images/legacy/index-legacy-two.jpg" alt="">
-                        <div class="img-filter"></div>
-                    </div>
-                        <h2><a href="will-pocket-diary-horatio-nelson.php" title="">The will and the pocket diary of Horatio Nelson</a></h2>
-                        <p>1803 / 1805</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="will-pocket-diary-horatio-nelson.php">Read more</a>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <div class="img-container">
+                            <img src="../images/legacy/index-legacy-two.jpg" alt="">
+                            <div class="img-filter"></div>
+                        </div>
+                            <h2><a href="will-pocket-diary-horatio-nelson.php" title="">The will and the pocket diary of Horatio Nelson</a></h2>
+                            <p>1803 / 1805</p>
+                        </div>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="will-pocket-diary-horatio-nelson.php">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>

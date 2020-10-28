@@ -43,15 +43,19 @@
             </div>
             <h3>Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/separation/1.jpg"><img
-                                src="../images/separation/2.jpg" alt=""></a>
-                    <p>Birthday card</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/separation/1.jpg"><img
+                                    src="../images/separation/2.jpg" alt=""></a>
+                        <p>Birthday card</p>
+                    </div>
                 </div>
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/separation/1.jpg"><img
-                                src="../images/separation/2.jpg" alt=""></a>
-                    <p>Letter</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/separation/1.jpg"><img
+                                    src="../images/separation/2.jpg" alt=""></a>
+                        <p>Letter</p>
+                    </div>
                 </div>
             </div>
 
@@ -147,28 +151,32 @@
             <hr>
             <h2>Explore other letters within this theme</h2>
             <div class="row">
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <div class="img-container">
-                        <img src="../images/separation/index-separation-one.jpg" alt="">
-                            <div class="img-filter"></div>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <div class="img-container">
+                            <img src="../images/separation/index-separation-one.jpg" alt="">
+                                <div class="img-filter"></div>
+                            </div>
+                            <h2><a href="birthday-card-hetty-william-crawford.php" title="">Birthday card and letter from Hetty to William Crawford</a></h2>
+                            <p>11 January 1917 / 29 January 1917</p>
                         </div>
-                        <h2><a href="birthday-card-hetty-william-crawford.php" title="">Birthday card and letter from Hetty to William Crawford</a></h2>
-                        <p>11 January 1917 / 29 January 1917</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="birthday-card-hetty-william-crawford.php">Read more</a>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="birthday-card-hetty-william-crawford.php">Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <img src="../images/separation/index-separation-two.jpg" alt="">
-                        <h2><a href="endymion-porter-to-olive.php" title="">Letter from Endymion Porter
-                                to his wife, Olive</a></h2>
-                        <p>17 July 1623</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="endymion-porter-to-olive.php">Read more</a>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <img src="../images/separation/index-separation-two.jpg" alt="">
+                            <h2><a href="endymion-porter-to-olive.php" title="">Letter from Endymion Porter
+                                    to his wife, Olive</a></h2>
+                            <p>17 July 1623</p>
+                        </div>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="endymion-porter-to-olive.php">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>

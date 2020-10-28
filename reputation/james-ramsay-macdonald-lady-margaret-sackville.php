@@ -44,15 +44,19 @@
             </div>
             <h3>Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-1.jpg"><img
-                                src="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-1.jpg" alt=""></a>
-                    <p>Page 1</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-1.jpg"><img
+                                    src="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-1.jpg" alt=""></a>
+                        <p>Page 1</p>
+                    </div>
                 </div>
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-2.jpg"><img
-                                src="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-2.jpg" alt=""></a>
-                    <p>Page 2</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-2.jpg"><img
+                                    src="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-2.jpg" alt=""></a>
+                        <p>Page 2</p>
+                    </div>
                 </div>
             </div>
 
@@ -129,17 +133,19 @@
             <hr>
             <h2>Explore other letters within this theme</h2>
             <div class="row">
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content text-center">
-                    <div class="img-container">
-                        <img src="../images/reputation/index-reputation-two.jpg" alt="">
-                        <div class="img-filter"></div>
-                    </div>
-                        <h2><a href="robert-dudley-elizabeth-I.php" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
-                        <p>29 August 1588
-                    </div>
-                    <div class="nav-panel-footer text-center">
-                        <a class="btn btn-primary btn-lg" role="button" href="robert-dudley-elizabeth-I.php">Read more</a>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content text-center">
+                        <div class="img-container">
+                            <img src="../images/reputation/index-reputation-two.jpg" alt="">
+                            <div class="img-filter"></div>
+                        </div>
+                            <h2><a href="robert-dudley-elizabeth-I.php" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
+                            <p>29 August 1588
+                        </div>
+                        <div class="nav-panel-footer text-center">
+                            <a class="btn btn-primary btn-lg" role="button" href="robert-dudley-elizabeth-I.php">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>

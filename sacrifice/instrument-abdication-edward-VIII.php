@@ -45,13 +45,17 @@
             </div>
             <h3>Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/sacrifice/1.jpg"><img src="../images/sacrifice/2.jpg" alt=""></a>
-                    <p>Page 1</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/sacrifice/1.jpg"><img src="../images/sacrifice/2.jpg" alt=""></a>
+                        <p>Page 1</p>
+                    </div>
                 </div>
-                <div class="col-md-6 m-3 image-panel">
-                    <a href="../images/sacrifice/1.jpg"><img src="../images/sacrifice/2.jpg" alt=""></a>
-                    <p>Page 2</p>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/sacrifice/1.jpg"><img src="../images/sacrifice/2.jpg" alt=""></a>
+                        <p>Page 2</p>
+                    </div>
                 </div>
             </div>
 
@@ -108,30 +112,34 @@
             <hr>
             <h2>Explore other letters within this theme</h2>
             <div class="row">
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <div class="img-container">
-                        <img src="../images/sacrifice/index-sacrifice-one.jpg" alt="">
-                            <div class="img-filter"></div>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <div class="img-container">
+                            <img src="../images/sacrifice/index-sacrifice-one.jpg" alt="">
+                                <div class="img-filter"></div>
+                            </div>
+                            <h2><a href="daniel-rush-to-poor-law-board.php" title="">Letter from Daniel Rush to the Poor Law Board</a></h2>
+                            <p>22 August 1851</p>
                         </div>
-                        <h2><a href="daniel-rush-to-poor-law-board.php" title="">Letter from Daniel Rush to the Poor Law Board</a></h2>
-                        <p>22 August 1851</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="daniel-rush-to-poor-law-board.php">Read more</a>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="daniel-rush-to-poor-law-board.php">Read more</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
-                        <div class="img-container">
-                        <img src="../images/sacrifice/index-sacrifice-three.jpg" alt="">
-                            <div class="img-filter"></div>
+                <div class="col-md-6 p-3">
+                    <div class="nav-panel">
+                        <div class="nav-panel-content">
+                            <div class="img-container">
+                            <img src="../images/sacrifice/index-sacrifice-three.jpg" alt="">
+                                <div class="img-filter"></div>
+                            </div>
+                            <h2><a href="harry-houghton-ethel-bunty-gee.php" title="">Letter from Harry Houghton to Ethel ‘Bunty’ Gee</a></h2>
+                            <p>24 February 1966</p>
                         </div>
-                        <h2><a href="harry-houghton-ethel-bunty-gee.php" title="">Letter from Harry Houghton to Ethel ‘Bunty’ Gee</a></h2>
-                        <p>24 February 1966</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="harry-houghton-ethel-bunty-gee.php">Read more</a>
+                        <div class="nav-panel-footer">
+                            <a class="btn btn-primary btn-lg" role="button" href="harry-houghton-ethel-bunty-gee.php">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>

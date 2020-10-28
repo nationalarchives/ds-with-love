@@ -129,23 +129,16 @@ blockquote footer {
 }
 
 /* -- Video - base settings -- */
-#bg-video-wrapper video {
+ #bg-video-wrapper video {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+     right: 0;
+     bottom: 0;
+     object-fit: cover;
+     width: 100vw;
+     height: 100vh;
     z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url() no-repeat;
-    background-size: cover;
 }
-#bg-video-filter {
+ #bg-video-filter {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -201,9 +194,9 @@ audio {
 #section-one > .row {
     display: flex;
 }
-#section-one .row > div {
+/* #section-one .row > div {
     flex: 1;
-}
+} */
 
 /* -- Section 1 - overview template modifiers -- */
 #home #section-one {
@@ -331,7 +324,8 @@ audio {
     color: rbga(0, 0, 0, 1);
     display: flex;
     flex-direction: column;
-    padding: 5% 3%;
+    height: 100%;
+    padding: 5%;
     -webkit-box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
     -moz-box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
     box-shadow: -1px -1px 45px -8px rgba(0,0,0,0.2);
@@ -873,7 +867,7 @@ p.large {
         font-size: 1.1em;
     }
     .nav-panel {
-        padding: 3%;
+        padding: 5%;
     }
     .letter-banner {
         width: 100%;
