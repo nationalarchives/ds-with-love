@@ -39,20 +39,12 @@
                     <li>Catalogue reference: WO 400/289/2867</li>
                 </ul>
             </div>
-            <h3>Select the images to see larger versions</h3>
+            <h3 class="text-center">Select the images to see larger versions</h3>
             <div class="row mb-4">
-                <div class="col-md-6 p-3">
+                <div class="col-md-6 offset-md-3 p-3">
                     <div class="image-panel">
-                        <a href="../images/separation/1.jpg"><img
-                                    src="../images/separation/2.jpg" alt=""></a>
-                        <p>Birthday card</p>
-                    </div>
-                </div>
-                <div class="col-md-6 p-3">
-                    <div class="image-panel">
-                        <a href="../images/separation/1.jpg"><img
-                                    src="../images/separation/2.jpg" alt=""></a>
-                        <p>Letter</p>
+                        <a href="../images/separation/main-image-hetty-to-william.jpg"><img
+                                    src="../images/separation/main-image-hetty-to-william.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -65,10 +57,10 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
+                    <p>Read by an actor</p>
                     <audio controls>
-                        <source src="viper.mp3" type="audio/mp3">
-                        <source src="viper.ogg" type="audio/ogg">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a>
+                        <source src="../media/separation/audio-hetty.mp3" type="audio/mp3">
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-hetty.mp3">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

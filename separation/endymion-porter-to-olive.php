@@ -40,20 +40,27 @@
                     <li>Catalogue reference: SP 14/148, f 155</li>
                 </ul>
             </div>
-            <h3>Select the images to see larger versions</h3>
+            <h3 >Select the images to see larger versions</h3>
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/separation/1.jpg"><img
-                                    src="../images/separation/2.jpg" alt=""></a>
-                        <p>Birthday card</p>
+                        <a href="../images/separation/main-image-endymion-to-olive-1.jpg"><img
+                                    src="../images/separation/main-image-endymion-to-olive-1.jpg" alt=""></a>
+                        <p>Page 1</p>
                     </div>
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/separation/1.jpg"><img
-                                    src="../images/separation/2.jpg" alt=""></a>
-                        <p>Letter</p>
+                        <a href="../images/separation/main-image-endymion-to-olive-2.jpg"><img
+                                    src="../images/separation/main-image-endymion-to-olive-2.jpg" alt=""></a>
+                        <p>Page 2</p>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-md-3 p-3">
+                    <div class="image-panel">
+                        <a href="../images/separation/main-image-endymion-to-olive-3.jpg"><img
+                                    src="../images/separation/main-image-endymion-to-olive-3.jpg" alt=""></a>
+                        <p>Page 3</p>
                     </div>
                 </div>
             </div>
@@ -69,9 +76,8 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <audio controls>
-                        <source src="viper.mp3" type="audio/mp3">
-                        <source src="viper.ogg" type="audio/ogg">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a>
+                        <source src="../media/separation/audio-endymion-porter.mp3" type="audio/mp3">
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-endymion-porter.mp3">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -159,7 +165,7 @@
                 the Civil Wars.</p>
             <p class="mb-3">Image credit:</p>
             <ul>
-                <li><b>Sir Endymion Porter with his Wife and Three Sons after Sir Anthony Van Dyck (1599-1641)</b><li> © National Trust Photographic Library / Bridgeman Images</li>
+                <li><b>Sir Endymion Porter with his Wife and Three Sons after Sir Anthony Van Dyck (1599-1641)</b> <br>© National Trust Photographic Library / Bridgeman Images</li>
             </ul>
             <hr>
             <h2>Explore other letters within this theme</h2>

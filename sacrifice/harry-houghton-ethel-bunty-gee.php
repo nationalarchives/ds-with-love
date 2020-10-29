@@ -40,15 +40,15 @@
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/sacrifice/1.jpg"><img
-                                    src="../images/sacrifice/2.jpg" alt=""></a>
+                        <a href="../images/sacrifice/main-image-harry-to-ethel-1.jpg"><img
+                                    src="../images/sacrifice/main-image-harry-to-ethel-1.jpg" alt=""></a>
                         <p>Page 1</p>
                     </div>
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/sacrifice/1.jpg"><img
-                                    src="../images/sacrifice/2.jpg" alt=""></a>
+                        <a href="../images/sacrifice/main-image-harry-to-ethel-2.jpg"><img
+                                    src="../images/sacrifice/main-image-harry-to-ethel-2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
                 </div>
@@ -62,10 +62,10 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
+                    <p>Read by an actor</p>
                     <audio controls>
-                        <source src="viper.mp3" type="audio/mp3">
-                        <source src="viper.ogg" type="audio/ogg">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a>
+                        <source src="../media/sacrifice/audio-harry-houghton.mp3" type="audio/mp3">
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/audio-harry-houghton.mp3">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

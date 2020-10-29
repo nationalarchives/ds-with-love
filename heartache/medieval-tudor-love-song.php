@@ -43,20 +43,12 @@
                     <li>Catalogue reference: E 163/22/1/1</li>
                 </ul>
             </div>
-            <h3>Select the images to see larger versions</h3>
+            <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
-                <div class="col-md-6 p-3">
+                <div class="col-md-6 offset-md-3 p-3">
                     <div class="image-panel">
-                        <a href="../images/heartache/1.jpg"><img
-                                    src="../images/heartache/2.jpg" alt=""></a>
-                        <p>Page 1</p>
-                    </div>
-                </div>
-                <div class="col-md-6 p-3">
-                    <div class="image-panel">
-                        <a href="../images/heartache/1.jpg"><img
-                                    src="../images/heartache/2.jpg" alt=""></a>
-                        <p>Page 2</p>
+                        <a href="../images/heartache/main-image-medieval-love-song.jpg"><img
+                                    src="../images/heartache/main-image-medieval-love-song.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -70,10 +62,10 @@
                               d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
-                    <h3>Listen to the letter</h3>
+                    <h3>Listen to a commentary</h3>
+                    <p>Discussed by Dr Euan Roger</p>
                     <audio controls>
-                        <source src="viper.mp3" type="audio/mp3">
-                        <source src="viper.ogg" type="audio/ogg">
+                        <source src="../media/heartache/commentary-medieval-love-song.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a>
                             instead.</p>
                     </audio>

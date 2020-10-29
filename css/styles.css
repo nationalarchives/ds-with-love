@@ -419,6 +419,9 @@ audio {
     border-bottom: 4px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 4em !important;
 }
+#section-one .audio-panel p {
+    margin: 0.3em 0 1em !important;
+}
 
 /* -- Document summary containers (only appear on description templates) -- */
 .document-summary {
@@ -515,6 +518,10 @@ p.medium {
 }
 p.large {
     font-size: 1.6em !important;
+}
+.bb {
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 5rem;
 }
 /* -- COLOUR PALETTE MODIFIERS -- */
 

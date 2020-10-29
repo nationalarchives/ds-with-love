@@ -47,36 +47,51 @@
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/reputation/1.jpg"><img
-                                    src="../images/reputation/2.jpg" alt=""></a>
-                        <p>Page 1</p>
+                        <a href="../images/reputation/main-image-elizabeth-1-robert-dudley-1.jpg"><img
+                                    src="../images/reputation/main-image-elizabeth-1-robert-dudley-1.jpg" alt=""></a>
+                        <p>Front of letter</p>
                     </div>
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/reputation/1.jpg"><img
-                                    src="../images/reputation/2.jpg" alt=""></a>
-                        <p>Page 2</p>
+                        <a href="../images/reputation/main-image-elizabeth-1-robert-dudley-2.jpg"><img
+                                    src="../images/reputation/main-image-elizabeth-1-robert-dudley-2.jpg" alt=""></a>
+                        <p>Back of letter</p>
                     </div>
                 </div>
             </div>
 
-
             <div class="row mb-4">
-                <div class="col-md-12 p-3 m-3 audio-panel text-center">
+                <div class="col-md-6 p-3 audio-panel text-center">
                     <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-headphones mb-4" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
+                    <p>Read by an actor</p>
                     <audio controls>
-                        <source src="viper.mp3" type="audio/mp3">
-                        <source src="viper.ogg" type="audio/ogg">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a>
+                        <source src="../media/reputation/audio-robert-dudley.mp3" type="audio/mp3">
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-robert-dudley.mp3">link to the audio</a>
+                            instead.</p>
+                    </audio>
+                </div>
+                <div class="col-md-6 p-3 audio-panel text-center">
+                    <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-headphones mb-4" fill="currentColor"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                              d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
+                        <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
+                    </svg>
+                    <h3>Listen to a commentary</h3>
+                    <p>Discussed by Dr Katy Mair</p>
+                    <audio controls>
+                        <source src="../media/reputation/commentary-robert-dudley.mp3" type="audio/mp3">
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/commentary-robert-dudley.mp3">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
             </div>
+
 
             <h3>Read the transcript</h3>
             <div class="row mb-5">

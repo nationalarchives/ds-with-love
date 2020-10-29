@@ -67,11 +67,11 @@
                         <path fill-rule="evenodd" d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
-                    <h3>Listen to the letter </h3>
+                    <h3>Listen to the letter</h3>
+                    <p>Read by an actor</p>
                     <audio controls>
-                        <source src="viper.mp3" type="audio/mp3">
-                        <source src="viper.ogg" type="audio/ogg">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a>
+                        <source src="../media/reputation/audio-ramsey-mcdonald.mp3" type="audio/mp3">
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-ramsey-mcdonald.mp3">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
