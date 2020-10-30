@@ -15,7 +15,7 @@
         </nav>
         <div class="container">
             <h1 class="text-center">Letter from Mijntje Meyderts to her husband Willem Luckassen</h1>
-            <img class="letter-banner" src="../images/separation/index-separation-one.jpg" alt="">
+            <img class="letter-banner" src="../images/separation/index-separation-three.jpg" alt="">
             <blockquote>
                 <p class="mb-0 small">"“…you write to me that at night in your bunk you
                     hold your pillow in your arms and imagine that I
@@ -45,24 +45,90 @@
             <div class="row pb-5 bb">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/separation/main-image-mijntje-meyderts-willem-luckassen-1.jpg"><img
-                                    src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-1.jpg" alt=""></a>
+                        <a href="../images/separation/main-image-mijntje-meyderts-willem-luckassen-1.jpg" data-toggle="modal" data-target="#separation-3-1"><img src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-1.jpg" alt=""></a>
                         <p>Page 1</p>
                     </div>
                 </div>
+                <!-- Modal one -->
+                <div class="modal fade" id="separation-3-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">Close this image</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 id="modal-title-one">Page 1 - enlarged image</h5>
+                                <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                <img src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-1.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">Close this image</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Modal one -->
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/separation/main-image-mijntje-meyderts-willem-luckassen-2.jpg"><img
-                                    src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-2.jpg" alt=""></a>
+                        <a href="../images/separation/main-image-mijntje-meyderts-willem-luckassen-2.jpg" data-toggle="modal" data-target="#separation-3-2"><img src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
+                    <!-- Modal two -->
+                    <div class="modal fade" id="separation-3-2" tabindex="-1" role="dialog" aria-labelledby="modal-title-two" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-two">Page 2 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-2.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal two -->
                 </div>
                 <div class="col-md-6 offset-md-3 p-3">
                     <div class="image-panel">
-                        <a href="../images/separation/main-image-mijntje-meyderts-willem-luckassen-3.jpg"><img
-                                    src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-3.jpg" alt=""></a>
+                        <a href="../images/separation/main-image-mijntje-meyderts-willem-luckassen-3.jpg" data-toggle="modal" data-target="#separation-3-3"><img src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-3.jpg" alt=""></a>
                         <p>Page 3</p>
                     </div>
+                    <!-- Modal three -->
+                    <div class="modal fade" id="separation-3-3" tabindex="-1" role="dialog" aria-labelledby="modal-title-three" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-three">Page 3 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/separation/main-image-mijntje-meyderts-willem-luckassen-3.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal three -->
                 </div>
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>

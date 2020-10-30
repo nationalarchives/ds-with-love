@@ -60,7 +60,7 @@
                                 <div class="modal-body">
                                     <h5 id="modal-title-one">Page 1 - enlarged image</h5>
                                     <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" alt=""></a>
+                                    <img src="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -89,7 +89,7 @@
                                 <div class="modal-body">
                                     <h5 id="modal-title-two">Page 2 - enlarged image</h5>
                                     <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" alt=""></a>
+                                    <img src="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">

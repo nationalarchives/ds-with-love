@@ -15,7 +15,7 @@
         </nav>
         <div class="container">
             <h1 class="text-center">Letter from Roland to his mother</h1>
-            <img class="letter-banner" src="../images/sacrifice/index-sacrifice-one.jpg" alt="">
+            <img class="letter-banner" src="../images/family/index-family-two.jpg" alt="">
             <blockquote>
                 <p class="mb-0 large">"With love from Roland"</p>
             </blockquote>
@@ -41,18 +41,62 @@
             <div class="row pb-5 bb">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/family/1.jpg"><img src="../images/family/1.jpg" alt=""></a>
+                        <a href="../images/family/1.jpg"  data-toggle="modal" data-target="#family-2-1"><img src="../images/family/1.jpg" alt=""></a>
                         <p>Page 1</p>
                     </div>
-
-
+                    <!-- Modal one -->
+                    <div class="modal fade" id="family-2-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-one">Page 1 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/family/1.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal one -->
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/family/2.jpg"><img src="../images/family/2.jpg" alt=""></a>
+                        <a href="../images/family/2.jpg" data-toggle="modal" data-target="#family-2-2"><img src="../images/family/2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
                 </div>
+                <!-- Modal two -->
+                <div class="modal fade" id="family-2-2" tabindex="-1" role="dialog" aria-labelledby="modal-title-two" aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">Close this image</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 id="modal-title-two">Page 2 - enlarged image</h5>
+                                <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                <img src="../images/family/1.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">Close this image</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Modal two -->
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
