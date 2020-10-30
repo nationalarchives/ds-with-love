@@ -36,21 +36,28 @@
                     <li>Catalogue reference: PROB 1/22 and PROB 1/22/32-33</li>
                 </ul>
             </div>
-            <h3>Select the images to see larger versions</h3>
+
+            <h3 class="text-center">Select the images to see larger versions</h3>
             <div class="row pb-5 bb">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
                         <a href="../images/separation/1.jpg"><img
                                     src="../images/separation/2.jpg" alt=""></a>
-                        <p>Birthday card</p>
+                        <p>Page 1</p>
                     </div>
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
                         <a href="../images/separation/1.jpg"><img
                                     src="../images/separation/2.jpg" alt=""></a>
-                        <p>Letter</p>
+                        <p>Page 2</p>
                     </div>
+                </div>
+                <div class="col-md-12 p-3c descriptions">
+                    <h4>Explore these documents further</h4>
+                    <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>
+                    <a href="" class="btn-primary" title="">View the catalogue description <small>(The will)</small></a>
+                    <a href="" class="btn-primary" title="">View the catalogue description <small>(The pocket diary)</small></a>
                 </div>
             </div>
 

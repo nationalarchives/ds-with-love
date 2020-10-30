@@ -40,7 +40,7 @@
                     <li>Catalogue reference: SP 46/151/f.415; SP 46/151/f.417</li>
                 </ul>
             </div>
-            <h3>Select the images to see larger versions</h3>
+            <h3 class="text-center">Select the images to see larger versions</h3>
             <div class="row pb-5 bb">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
@@ -55,6 +55,12 @@
                                     src="../images/advice/2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
+                </div>
+                <div class="col-md-12 p-3c descriptions">
+                    <h4>Explore these documents further</h4>
+                    <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>
+                    <a href="" class="btn-primary" title="">View the catalogue description <small>(Letter 1)</small></a>
+                    <a href="" class="btn-primary" title="">View the catalogue description <small>(Letter 2)</small></a>
                 </div>
             </div>
 

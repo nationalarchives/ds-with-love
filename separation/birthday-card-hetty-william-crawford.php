@@ -39,13 +39,18 @@
                     <li>Catalogue reference: WO 400/289/2867</li>
                 </ul>
             </div>
-            <h3 class="text-center">Select the images to see larger versions</h3>
+            <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
                 <div class="col-md-6 offset-md-3 p-3">
                     <div class="image-panel">
                         <a href="../images/separation/main-image-hetty-to-william.jpg"><img
                                     src="../images/separation/main-image-hetty-to-william.jpg" alt=""></a>
                     </div>
+                </div>
+                <div class="col-md-12 p-3 descriptions">
+                    <h4>Explore this document further</h4>
+                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
+                    <a href="" class="btn-primary" title="">View the catalogue description</a>
                 </div>
             </div>
 

@@ -227,7 +227,6 @@ audio {
     font-size: 1.6em;
     padding: 0.4em;
 }
-
 /* -- Section 2 - base settings (only appears on overview template) -- */
 #section-two {
     padding: 8em 0;
@@ -438,6 +437,27 @@ audio {
     font-size: 1.4em;
 }
 
+.descriptions {
+    text-align: center;
+    display: block;
+}
+.descriptions p {
+    font-size: 1.1em !important;
+    padding: 0 !important;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto 0.5em !important;
+}
+.descriptions h4 {
+    margin: 1.6em 0 1em !important;
+    color: #111;
+}
+.descriptions a.btn-primary {
+    padding: 0.6em 1em;
+    margin: 1.3em 0 1em !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em !important;
+    width: 18em;
+}
 /* -- Breadcrumb -- */
 .breadcrumb {
     border-radius: 0;
@@ -777,7 +797,60 @@ p.large {
     background: #000;
     color: #fff;
 }
+.modal {
+    background: rgba(0,0,0,0.9);
+    z-index: 1000;
+}
+.modal h5 {
+    margin: 0 0 1em;
+    font-size: 1.4em;
+    text-align: center;
+}
 
+.modal-body img {
+    width: 100%;
+    border: 10px solid #fff;
+}
+.modal .close {
+    color: #fff !important;
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: none;
+    opacity: 1;
+    font-size: 0.9em;
+    border: 1px solid #fff;
+}
+.modal-header {
+    display: none;
+}
+.modal-header .close {
+    margin: 0rem auto 0rem auto;
+}
+.modal-footer .close {
+    padding: 1rem;
+    margin: 0 auto;
+}
+.modal .close:hover {
+    text-decoration: underline;
+}
+.modal-custom {
+    max-width: 100%;
+}
+.modal-content {
+    background: rgba(0,0,0,0.95);
+    border: 20px solid rgba(0,0,0,0.2);
+}
+.modal-header, .modal-footer {
+    border: 0;
+}
+.mobile-only {
+    display: block;
+    margin: 0.2em 0 1em !important;
+    font-size: 0.9em !important;
+    text-align: center;
+    color: #ccc;
+}
 /* -- MEDIA QUERIES -- */
 
 /* Small devices (landscape phones, 576px and up) */
@@ -789,10 +862,37 @@ p.large {
     #icon-bar {
         display: block;
     }
+    .descriptions p {
+        width: 75%;
+    }
+    .modal-custom {
+        max-width: 90%;
+    }
+    .modal-header {
+        display: block;
+    }
+    .modal-header .close {
+        margin: 0rem 0rem 0rem auto;
+    }
+
+    .modal-footer .close {
+        margin: 0;
+    }
+    .modal h5 {
+        margin-top: 1em;
+        text-align: left;
+        font-size: 1.6em;
+    }
+    .mobile-only {
+        display: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .descriptions p {
+        width: 50%;
+    }
     .btn-primary {
         font-size: 0.9em;
     }
@@ -894,6 +994,9 @@ p.large {
     }
     p.large {
         font-size: 2.5em !important;
+    }
+    .modal-custom {
+        max-width: 80%;
     }
 
 }

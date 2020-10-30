@@ -45,6 +45,11 @@
                                     src="../images/legacy/main-image-will-anne-lister.jpg" alt=""></a>
                     </div>
                 </div>
+                <div class="col-md-12 p-3 descriptions">
+                    <h4>Explore this document further</h4>
+                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
+                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                </div>
             </div>
 
             <h3>Read the transcript</h3>

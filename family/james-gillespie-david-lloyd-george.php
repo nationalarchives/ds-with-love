@@ -3,6 +3,7 @@
 <meta name="description"
       content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
+
 <main id="family" class="theme">
     <?php include '../includes/header.php'; ?>
     <div id="section-one">
@@ -40,19 +41,70 @@
                     <li>Catalogue reference: CO 318/350/400</li>
                 </ul>
             </div>
-            <h3>Select the images to see larger versions</h3>
+            <h3 class="text-center">Select the images to see larger versions</h3>
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg"><img src="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" alt=""></a>
+                        <a href="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" data-toggle="modal" data-target="#family-1-1"><img src="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" alt=""></a>
                         <p>Page 1</p>
                     </div>
+                    <!-- Modal one -->
+                    <div class="modal fade" id="family-1-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-one">Page 1 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" alt=""></a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal one -->
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg"><img src="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" alt=""></a>
+                        <a href="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" data-toggle="modal" data-target="#family-1-2"><img src="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
+                    <!-- Modal two -->
+                    <div class="modal fade" id="family-1-2" tabindex="-1" role="dialog" aria-labelledby="modal-title-two" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-two">Page 2 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" alt=""></a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Modal two -->
+                </div>
+                <div class="col-md-12 p-3 descriptions">
+                    <h4>Explore this document further</h4>
+                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
+                    <a href="" class="btn-primary" title="">View the catalogue description</a>
                 </div>
             </div>
 
@@ -161,4 +213,5 @@
             </div>
         </div>
     </div>
+
     <?php include '../includes/footer.php'; ?>

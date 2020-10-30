@@ -51,6 +51,11 @@
                         <a href="../images/her-story/main-image-catherine-howard.jpg"><img src="../images/her-story/main-image-catherine-howard.jpg" alt=""></a>
                     </div>
                 </div>
+                <div class="col-md-12 p-3 descriptions">
+                    <h4>Explore this document further</h4>
+                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
+                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                </div>
             </div>
 
             <div class="row mb-4">

@@ -43,7 +43,7 @@
                     <li>Catalogue reference: PC 11/1</li>
                 </ul>
             </div>
-            <h3>Select the images to see larger versions</h3>
+            <h3 class="text-center">Select the images to see larger versions</h3>
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
@@ -56,6 +56,11 @@
                         <a href="../images/sacrifice/1.jpg"><img src="../images/sacrifice/2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
+                </div>
+                <div class="col-md-12 p-3 descriptions">
+                    <h4>Explore this document further</h4>
+                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
+                    <a href="" class="btn-primary" title="">View the catalogue description</a>
                 </div>
             </div>
 
