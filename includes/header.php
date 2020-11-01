@@ -7,9 +7,6 @@
     </audio>
 
 </div>
-<div id="icon-bar">
-
-</div>
 
 <nav class="navbar no-margin">
     <!-- Brand -->
@@ -17,11 +14,22 @@
         <img src="/images/utilities/TNA-logo-white.png" alt="The National Archives logo">
     </a>
 
+    <!-- Audio/video controls -->
+    <div id="icon-bar">
+        <button class="bg-settings-control tooltip mobile-only" type="button" data-toggle="collapse" data-target="#collapsibleSettings" id="bg-settings-control"><span class="glyphicon glyphicon-cog"></span><span class="sr-only">Audio/motion controls</span></button>
+        <div class="collapse navbar-collapse" id="collapsibleSettings">
+            <ul class="controls">
+
+            </ul>
+        </div>
+    </div>
+
+
+
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
         <span class="large-screen-only">Select a section</span>
-
     </button>
 
     <!-- Navbar links -->

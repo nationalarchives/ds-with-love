@@ -91,6 +91,7 @@ blockquote footer {
     color: #fff;
     border-radius: 0;
     padding: 0.5em;
+    z-index: 6;
 }
 .navbar-toggler-icon {
     background: url('../images/utilities/menu-icon.svg') no-repeat;
@@ -113,6 +114,9 @@ blockquote footer {
 .navbar-nav {
     width: 100%;
     display: flex;
+    vertical-align: bottom;
+    bottom: 0;
+    position: absolute;
 }
 .navbar-collapse {
     position: fixed;
@@ -122,21 +126,30 @@ blockquote footer {
     background: rgba(0,0,0,1);
     width: 100%;
     padding: 1em;
+    height: 100vh;
 }
 .navbar-collapse a {
     width: 100%;
     text-align: center;
+    font-size: 1.2em;
 }
 
 /* -- Video - base settings -- */
- #bg-video-wrapper video {
+#bg-video-wrapper video {
     position: fixed;
-     right: 0;
-     bottom: 0;
-     object-fit: cover;
-     width: 100vw;
-     height: 100vh;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
     z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url() no-repeat;
+    background-size: cover;
 }
  #bg-video-filter {
     width: 100%;
@@ -756,19 +769,13 @@ p.large {
 }
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 #icon-bar {
-    position: fixed;
-    bottom: 50%;
-    right: 0;
-    z-index: 3;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    display: none;
+    position: relative;
+    z-index: 2;
 }
 
 /* Style the icon bar links */
 #icon-bar button {
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 10px 16px;
     transition: all 0.3s ease;
@@ -778,24 +785,21 @@ p.large {
 }
 
 /* Style the social media icons with color, if you want */
-#icon-bar button:hover {
-    background-color: #000;
-}
 .bg-audio-control {
     background: #fff;
     color: #111 !important;
 }
-.bg-audio-control:hover {
-    background: #000;
-    color: #fff !important;
-}
 .bg-video-control {
     background: #111;
-    color: white;
+    color: #111;
 }
-.bg-video-control:hover {
-    background: #000;
-    color: #fff;
+.bg-settings-control {
+    background: rgba(0, 0, 0, 0);
+    font-size: 1.4em !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    color: #999;
+    padding: 9px 16px !important;
+    margin-right: 10px;
 }
 .modal {
     background: rgba(0,0,0,0.9);
@@ -846,10 +850,71 @@ p.large {
 }
 .mobile-only {
     display: block;
+}
+.modal .mobile-only {
     margin: 0.2em 0 1em !important;
     font-size: 0.9em !important;
     text-align: center;
     color: #ccc;
+}
+#icon-bar {
+    text-align: center;
+    margin-left: auto;
+}
+#icon-bar .navbar-collapse {
+    height: auto !important;
+}
+ul.controls {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.controls li {
+    display: block;
+    margin-bottom: 0.8em;
+}
+ul.controls li:last-of-type {
+    margin-bottom: 0;
+}
+ul.controls li:last-of-type button {
+    background: #fff;
+}
+ul.controls .tooltiptext {
+    visibility: visible !important;
+    display: inline-block;
+    position: relative;
+    opacity: 1;
+    margin: 0;
+    left: auto;
+    text-align: left;
+    width: 15em;
+    color: #111;
+    vertical-align: 3px;
+    padding-left: 10px;
+}
+.tooltiptext b {
+    display: inline;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    font-size: 0.68em;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 /* -- MEDIA QUERIES -- */
 
@@ -859,9 +924,6 @@ p.large {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #icon-bar {
-        display: block;
-    }
     .descriptions p {
         width: 75%;
     }
@@ -883,13 +945,62 @@ p.large {
         text-align: left;
         font-size: 1.6em;
     }
-    .mobile-only {
-        display: none;
-    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #icon-bar {
+        position: fixed;
+        top: 40%;
+        right: 0;
+        display: block;
+        z-index: 3;
+    }
+    .navbar-nav li:last-of-type .nav-link {
+        margin-bottom: 0;
+    }
+    #icon-bar button:hover {
+        background-color: #000;
+    }
+    #icon-bar .collapse {
+        display: block !important;
+    }
+    #icon-bar .navbar-collapse {
+        position: relative;
+        bottom: 50%;
+        right: 0;
+        z-index: 3;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        display: block;
+        width: auto;
+        background: transparent;
+    }
+    ul.controls .tooltiptext {
+        display: inline-block;
+        position: absolute;
+        opacity: 0;
+        margin: -10px 0 0 -220px;
+        left: auto;
+        text-align: left;
+        width: 13em;
+        background: #fff;
+        color: #111;
+        padding: 5px 10px;
+    }
+    ul.controls .tooltiptext:hover {
+        visibility: visible !important;
+    }
+    ul.controls li {
+        margin-bottom: 0.3em;
+    }
+    .mobile-only {
+        display: none !important;
+    }
+    .tooltiptext b {
+        display: block;
+    }
     .descriptions p {
         width: 50%;
     }
@@ -944,6 +1055,13 @@ p.large {
         padding: 1em 0 1em 1em;
         width: 30%;
         text-align: right;
+        height: auto;
+    }
+    .navbar-collapse a {
+        font-size: 1.25em;
+    }
+    .navbar-nav {
+        position: relative;
     }
     blockquote {
         color: #eee;
@@ -998,6 +1116,14 @@ p.large {
     .modal-custom {
         max-width: 80%;
     }
+    .bg-audio-control:hover {
+        background: #000;
+        color: #fff !important;
+    }
+    .bg-video-control:hover {
+        background: #000;
+        color: #fff;
+    }
 
 }
 
@@ -1035,37 +1161,13 @@ p.large {
 .glyphicon-flash:before {
     content: "\e162";
 }
-/* Tooltip container */
-.tooltip {
-    position: relative;
-    display: inline-block;
+.glyphicon-eye-open:before {
+    content: "\e105";
+}
+.glyphicon-eye-close:before {
+    content: "\e106";
+}
+.glyphicon-cog:before {
+    content: "\e019";
 }
 
-/* Tooltip text */
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 10.5em;
-    background-color: #111;
-    color: #fff;
-    text-align: center;
-    padding: 5px 10px;
-    font-size: 0.68em;
-
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    left: 80%;
-    margin-left: -186px;
-
-    /* Fade in tooltip */
-    opacity: 0;
-    transition: all 0.3s ease;
-}
-
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
