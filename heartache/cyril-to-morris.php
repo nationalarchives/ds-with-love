@@ -151,16 +151,13 @@
             <h2>Explore other letters within this theme</h2>
             <div class="row">
                 <div class="col-md-6 m-3 nav-panel">
-                    <div class="nav-panel-content">
+                    <div class="nav-panel-content text-center">
                         <div class="img-container">
                         <img src="../images/heartache/index-heartache-two.jpg" alt="">
                         <div class="img-filter"></div>
                     </div>
-                        <h2><a href="medieval-tudor-love-song.php" title="">Medieval or Tudor love song</a></h2>
+                        <h2><a href="medieval-tudor-love-song.php" class="stretched-link" title="">Medieval or Tudor love song</a></h2>
                         <p>About 1457-1530</p>
-                    </div>
-                    <div class="nav-panel-footer">
-                        <a class="btn btn-primary btn-lg" role="button" href="medieval-tudor-love-song.php">Read more</a>
                     </div>
                 </div>
             </div>

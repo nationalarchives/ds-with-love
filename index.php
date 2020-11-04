@@ -57,35 +57,35 @@
             <div class="row no-gutters">
                 <div class="col-sm-6 col-lg-3">
                     <div id="reputation"></div>
-                    <h3 class="align-middle"><a href="reputation/index.php">Reputation</a></h3>
+                    <h3 class="align-middle"><a href="reputation/index.php" class="stretched-link">Reputation</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="sacrifice"></div>
-                    <h3 class="align-middle"><a href="sacrifice/index.php">Sacrifice</a></h3>
+                    <h3 class="align-middle"><a href="sacrifice/index.php" class="stretched-link">Sacrifice</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="her-story"></div>
-                    <h3 class="align-middle"><a href="her-story/index.php">Her Story</a></h3>
+                    <h3 class="align-middle"><a href="her-story/index.php" class="stretched-link">Her Story</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="family"></div>
-                    <h3 class="align-middle"><a href="family/index.php">Family</a></h3>
+                    <h3 class="align-middle"><a href="family/index.php" class="stretched-link">Family</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="separation"></div>
-                    <h3 class="align-middle"><a href="separation/index.php">Separation</a></h3>
+                    <h3 class="align-middle"><a href="separation/index.php" class="stretched-link">Separation</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="advice"></div>
-                    <h3 class="align-middle"><a href="advice/index.php">Advice</a></h3>
+                    <h3 class="align-middle"><a href="advice/index.php" class="stretched-link">Advice</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="heartache"></div>
-                    <h3 class="align-middle"><a href="heartache/index.php">Heartache</a></h3>
+                    <h3 class="align-middle"><a href="heartache/index.php" class="stretched-link">Heartache</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="legacy"></div>
-                    <h3 class="align-middle"><a href="legacy/index.php">Legacy</a></h3>
+                    <h3 class="align-middle"><a href="legacy/index.php" class="stretched-link">Legacy</a></h3>
                 </div>
             </div>
         </div>

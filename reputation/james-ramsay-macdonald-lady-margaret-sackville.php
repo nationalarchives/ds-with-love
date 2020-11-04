@@ -189,11 +189,8 @@
                             <img src="../images/reputation/index-reputation-two.jpg" alt="">
                             <div class="img-filter"></div>
                         </div>
-                            <h2><a href="robert-dudley-elizabeth-I.php" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
-                            <p>29 August 1588
-                        </div>
-                        <div class="nav-panel-footer text-center">
-                            <a class="btn btn-primary btn-lg" role="button" href="robert-dudley-elizabeth-I.php">Read more</a>
+                            <h2><a href="robert-dudley-elizabeth-I.php" class="stretched-link" title="">Letter from Robert Dudley to Elizabeth I</a></h2>
+                            <p>29 August 1588</p>
                         </div>
                     </div>
                 </div>

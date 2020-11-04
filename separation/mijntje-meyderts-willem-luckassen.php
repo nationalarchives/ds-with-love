@@ -212,29 +212,22 @@
             <div class="row">
                 <div class="col-md-6 p-3">
                     <div class="nav-panel">
-                        <div class="nav-panel-content">
+                        <div class="nav-panel-content text-center">
                             <div class="img-container">
                             <img src="../images/separation/index-separation-one.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="birthday-card-hetty-william-crawford.php" title="">Birthday card and letter from Hetty to William Crawford</a></h2>
+                            <h2><a href="birthday-card-hetty-william-crawford.php" class="stretched-link" title="">Birthday card and letter from Hetty to William Crawford</a></h2>
                             <p>11 January 1917 / 29 January 1917</p>
-                        </div>
-                        <div class="nav-panel-footer">
-                            <a class="btn btn-primary btn-lg" role="button" href="birthday-card-hetty-william-crawford.php">Read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="nav-panel">
-                        <div class="nav-panel-content">
+                        <div class="nav-panel-content text-center">
                             <img src="../images/separation/index-separation-two.jpg" alt="">
-                            <h2><a href="endymion-porter-to-olive.php" title="">Letter from Endymion Porter
-                                    to his wife, Olive</a></h2>
+                            <h2><a href="endymion-porter-to-olive.php" class="stretched-link" title="">Letter from Endymion Porter to his wife, Olive</a></h2>
                             <p>17 July 1623</p>
-                        </div>
-                        <div class="nav-panel-footer">
-                            <a class="btn btn-primary btn-lg" role="button" href="endymion-porter-to-olive.php">Read more</a>
                         </div>
                     </div>
                 </div>

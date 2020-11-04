@@ -31,11 +31,8 @@
                             <img src="../images/advice/index-advice-one.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="two-anonymous-letters.php" title="">Two anonymous letters</a></h2>
+                            <h2><a href="two-anonymous-letters.php" class="stretched-link" title="">Two anonymous letters</a></h2>
                             <p>1740s</p>
-                        </div>
-                        <div class="nav-panel-footer">
-                            <a class="btn btn-primary btn-lg" role="button" href="two-anonymous-letters.php">Read more</a>
                         </div>
                     </div>
                 </div>

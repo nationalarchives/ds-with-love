@@ -129,16 +129,13 @@
             <div class="row">
                 <div class="col-md-6 p-3">
                     <div class="nav-panel">
-                        <div class="nav-panel-content">
+                        <div class="nav-panel-content text-center">
                             <div class="img-container">
                             <img src="../images/family/index-family-one.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="james-gillespie-david-lloyd-george.php" title="">Letter from James Gillespie to David Lloyd George, the British Prime Minister</a></h2>
+                            <h2><a href="james-gillespie-david-lloyd-george.php" class="stretched-link" title="">Letter from James Gillespie to David Lloyd George, the British Prime Minister</a></h2>
                             <p>24 October 1919</p>
-                        </div>
-                        <div class="nav-panel-footer">
-                            <a class="btn btn-primary btn-lg" role="button" href="james-gillespie-david-lloyd-george.php"">Read more</a>
                         </div>
                     </div>
                 </div>

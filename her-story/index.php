@@ -22,11 +22,8 @@
                             <img src="../images/her-story/index-her-story-one.jpg" alt="">
                             <div class="img-filter"></div>
                             </div>
-                            <h2><a href="catherine-howard-thomas-culpeper.php" title="">Letter from Catherine Howard to Thomas Culpeper</a></h2>
+                            <h2><a href="catherine-howard-thomas-culpeper.php" class="stretched-link" title="">Letter from Catherine Howard to Thomas Culpeper</a></h2>
                             <p>1541</p>
-                        </div>
-                        <div class="nav-panel-footer">
-                            <a class="btn btn-primary btn-lg" role="button" href="catherine-howard-thomas-culpeper.php">Read more</a>
                         </div>
                     </div>
                 </div>

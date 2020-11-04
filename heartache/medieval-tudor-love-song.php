@@ -147,16 +147,13 @@
             <div class="row">
                 <div class="col-md-6 p-3">
                     <div class="nav-panel">
-                        <div class="nav-panel-content">
+                        <div class="nav-panel-content text-center">
                             <div class="img-container">
                             <img src="../images/heartache/index-heartache-one.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="cyril-to-morris.php" title="">Letter from Cyril to 'My darling Morris'</a></h2>
+                            <h2><a href="cyril-to-morris.php" class="stretched-link" title="">Letter from Cyril to 'My darling Morris'</a></h2>
                             <p>1930s</p>
-                        </div>
-                        <div class="nav-panel-footer">
-                            <a class="btn btn-primary btn-lg" role="button" href="cyril-to-morris.php">Read more</a>
                         </div>
                     </div>
                 </div>

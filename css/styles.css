@@ -161,7 +161,6 @@ blockquote footer {
 
 /* -- Audio - base settings -- */
 audio {
-    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
     margin: 2em 0;
 }
 
@@ -572,11 +571,11 @@ p.large {
     font-size: 1.3em;
 }
 #home #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(80%);
+
 }
 
 #home #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(215,167,22,0.7), rgba(217,43,58,1));
+    background: linear-gradient(to bottom, rgba(215,167,22,1), rgba(217,43,58,1));
 }
 #home #section-one {
     background: #ae0615;
@@ -591,7 +590,7 @@ p.large {
     background: #111;
 }
 #reputation #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(90%);
+    /* filter: grayscale(100%) contrast(125%) brightness(90%); */
 }
 #reputation #bg-video-filter {
     background: linear-gradient(to bottom, rgba(206,18,18,0.8), rgba(227, 96, 0, 0.9));
@@ -615,20 +614,20 @@ p.large {
     background: #111;
 }
 #sacrifice #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(90%);
+    /* filter: grayscale(100%) contrast(125%) brightness(90%); */
 }
 #sacrifice #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(142,191,44,0.9), rgba(172,157,2,0.9));
+background: linear-gradient(to bottom, rgba(142,191,44,0.9), rgba(172,157,2,0.9));
 }
 #sacrifice #section-one {
-    background: linear-gradient(to bottom, rgba(142,191,44,0.9), rgba(172,157,2,0.9));
-    color: #111;
+background: linear-gradient(to bottom, rgba(142,191,44,0.9), rgba(172,157,2,0.9));
+color: #111;
 }
 #sacrifice hr {
-    border: 2px solid rgba(0, 0, 0, 0.1) !important;
+border: 2px solid rgba(0, 0, 0, 0.1) !important;
 }
 #sacrifice .img-filter {
-    background: rgba(142,191,44,0.2);
+background: rgba(142,191,44,0.2);
 }
 
 /* -- Her Story -- */
@@ -638,7 +637,7 @@ p.large {
     background: #111;
 }
 #her-story #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(90%);
+    /* filter: grayscale(100%) contrast(125%) brightness(90%); */
 }
 #her-story #bg-video-filter {
     background: linear-gradient(to bottom, rgba(255,3,164,0.6), rgba(29,127,203,0.9));
@@ -661,7 +660,7 @@ p.large {
     background: #111;
  }
 #family #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(90%);
+   /* filter: grayscale(100%) contrast(125%) brightness(90%); */
 }
 #family #bg-video-filter {
     background: linear-gradient(to bottom, rgba(9,150,167,1), rgba(174,31,11,1)) ;
@@ -684,7 +683,7 @@ p.large {
     background: #111;
 }
 #separation  #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(90%);
+    /* filter: grayscale(100%) contrast(125%) brightness(90%); */
 }
 #separation  #bg-video-filter {
     background: linear-gradient(to bottom, rgba(182,141,207,0.9), rgba(131,104,148,0.9), rgba(20,148,98,0.9));
@@ -707,7 +706,7 @@ p.large {
     background: #111;
 }
 #advice #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(90%);
+    /* filter: grayscale(100%) contrast(125%) brightness(90%); */
 }
 #advice #bg-video-filter {
     background: linear-gradient(to bottom, rgba(244,145,13,0.9), rgba(230,0,127,0.9));
@@ -729,7 +728,7 @@ p.large {
     background: #111;
 }
 #heartache #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(90%);
+    /* filter: grayscale(100%) contrast(125%) brightness(90%); */
 }
 #heartache #bg-video-filter {
     background: linear-gradient(to bottom, rgba(224,218,0,0.8), rgba(96,133,185,0.9));
@@ -752,7 +751,7 @@ p.large {
     background: #111;
 }
 #legacy #bg-video-wrapper video {
-    filter: grayscale(100%) contrast(125%) brightness(90%);
+    /* filter: grayscale(100%) contrast(125%) brightness(90%); */
 }
 #legacy #bg-video-filter {
     background: linear-gradient(to bottom, rgba(123,192,228,0.9), rgba(22,168,59,0.9));
@@ -1169,5 +1168,20 @@ ul.controls .tooltiptext {
 }
 .glyphicon-cog:before {
     content: "\e019";
+}
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+.nav-panel:hover    {
+    background-color: rgba(255,255,255,0.2);
+    transition: all 0.5s ease;
 }
 

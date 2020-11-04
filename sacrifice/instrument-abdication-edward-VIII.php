@@ -158,38 +158,32 @@
                 became George VI.</p>
             <p class="mb-3">Image credits:</p>
             <ul>
-                <li><b>Edward VIII (1894-1972) King of Great Britain and Wallis Simpson (1896-1986)<li> © Granger / Bridgeman Images</li>
+                <li><b>Edward VIII (1894-1972) King of Great Britain and Wallis Simpson (1896-1986)</b> © Granger / Bridgeman Images</li>
             </ul>
             <hr>
             <h2>Explore other letters within this theme</h2>
             <div class="row">
                 <div class="col-md-6 p-3">
                     <div class="nav-panel">
-                        <div class="nav-panel-content">
+                        <div class="nav-panel-content text-center">
                             <div class="img-container">
                             <img src="../images/sacrifice/index-sacrifice-one.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="daniel-rush-to-poor-law-board.php" title="">Letter from Daniel Rush to the Poor Law Board</a></h2>
+                            <h2><a href="daniel-rush-to-poor-law-board.php" class="stretched-link" title="">Letter from Daniel Rush to the Poor Law Board</a></h2>
                             <p>22 August 1851</p>
-                        </div>
-                        <div class="nav-panel-footer">
-                            <a class="btn btn-primary btn-lg" role="button" href="daniel-rush-to-poor-law-board.php">Read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="nav-panel">
-                        <div class="nav-panel-content">
+                        <div class="nav-panel-content text-center">
                             <div class="img-container">
                             <img src="../images/sacrifice/index-sacrifice-three.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="harry-houghton-ethel-bunty-gee.php" title="">Letter from Harry Houghton to Ethel ‘Bunty’ Gee</a></h2>
+                            <h2><a href="harry-houghton-ethel-bunty-gee.php" class="stretched-link" title="">Letter from Harry Houghton to Ethel ‘Bunty’ Gee</a></h2>
                             <p>24 February 1966</p>
-                        </div>
-                        <div class="nav-panel-footer">
-                            <a class="btn btn-primary btn-lg" role="button" href="harry-houghton-ethel-bunty-gee.php">Read more</a>
                         </div>
                     </div>
                 </div>
