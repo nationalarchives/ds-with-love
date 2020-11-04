@@ -3,7 +3,7 @@
 
     </video>
     <div id="bg-video-filter"></div>
-    <audio loop preload="none">
+    <audio id='bg-audio' loop preload="none">
     </audio>
 
 </div>

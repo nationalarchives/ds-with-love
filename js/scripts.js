@@ -115,6 +115,9 @@ $(function() {
     }
 });
 
+var audio = document.getElementById("bg-audio");
+audio.volume = 0.1;
+
 
 
 
