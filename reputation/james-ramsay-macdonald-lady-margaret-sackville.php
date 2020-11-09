@@ -42,11 +42,11 @@
                     <li>Catalogue reference: RW 1/2/37</li>
                 </ul>
             </div>
-            <h3 class="text-center">Select the images to see larger versions</h3>
+            <h3 id="instructions" class="text-center">Select the images to see larger versions</h3>
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-1.jpg" data-toggle="modal" data-target="#reputation-1-1"><img src="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-1.jpg" alt=""></a>
+                        <a href="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-1.jpg" aria-labelledby="instructions" data-toggle="modal" data-target="#reputation-1-1"><img src="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-1.jpg" alt="Letter from James Ramsay MacDonald to Lady Margaret Sackville"></a>
                         <p>Page 1</p>
                     </div>
                     <!-- Modal one -->
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-2.jpg" data-toggle="modal" data-target="#reputation-1-2"><img src="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-2.jpg" alt=""></a>
+                        <a href="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-2.jpg" aria-labelledby="instructions" data-toggle="modal" data-target="#reputation-1-2"><img src="../images/reputation/RW1-2-37_0001-Ramsay-&-Margaret-2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
                     <!-- Modal two -->
