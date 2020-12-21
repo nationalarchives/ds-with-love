@@ -192,22 +192,6 @@
             <ul>
                 <li><b>Photograph thought to be of James Gillespie</b>, Merchant Seaman Register Identity Certificate, 1918</li>
             </ul>
-            <hr>
-            <h2>Explore other letters within this theme</h2>
-            <div class="row">
-                <div class="col-md-6 p-3">
-                    <div class="nav-panel">
-                        <div class="nav-panel-content text-center">
-                            <div class="img-container">
-                            <img src="../images/family/index-family-two.jpg" alt="">
-                            <div class="img-filter"></div>
-                        </div>
-                            <h2><a href="roland-to-mother.php" class="stretched-link" title="">Letter from Roland to his mother</a></h2>
-                            <p>24 March 1951</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 

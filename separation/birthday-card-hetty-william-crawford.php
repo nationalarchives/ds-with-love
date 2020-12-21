@@ -119,7 +119,7 @@
                         you couldn’t do as you like without thinking of me first
                         but you could dear Will because you know I have no claim
                         upon you. But still I shouldn’t like to think that what passed
-                        Separation between you and I would pass between you and someone else.</p>
+                        between you and I would pass between you and someone else.</p>
                     <p>But I trust you dear Will. Well Will my brother has gone
                         back to France on Friday night. I had a letter from him
                         today he landed at Folkestone quite safely and I hope that

@@ -24,18 +24,7 @@
                 49-year-old king, the two were married. It was essential
                 that a royal consort was known to be chaste but Catherine
                 had a complicated sexual past.</p>
-            <p>She is thought to have fallen in love with courtier
-                Thomas Culpeper before marrying the king, and when
-                their relationship was revealed to him, a shocked Henry
-                unleashed all his anger on the couple. Both were executed
-                for treason and adultery.</p>
-            <p>Edward had been a renowned womaniser in his youth but
-                just prior to becoming King had fallen in love with
-                Wallis Simpson. As King he could not hope to marry the
-                twice-divorced American – the country would have been
-                outraged. After his abdication Edward was created Duke
-                of Windsor and he and Wallis spent the rest of their
-                lives together.</p>
+            <p>She is thought to have fallen in love with courtier Thomas Culpeper before marrying Henry. When their relationship was revealed to Henry, the shocked king unleased all his anger on the couple. Both Catherine and Culpeper were executed for treason and adultery.</p>
 
             <div class="document-summary">
                 <h2 class="text-center mb-2">The original document</h2>

@@ -30,8 +30,8 @@
             <p>He proposed at least three times but was turned down
                 on every occasion. Their biggest divide was thought to be
                 religious difference; Sackville was Roman Catholic, whilst
-                MacDonald was raised in the Presbyterian Church.
-                MacDonald, a widower when he met Sackville, never
+                MacDonald was raised in the Presbyterian Church.</p>
+                <p>MacDonald, a widower when he met Sackville, never
                 married again. Sackville never married.</p>
 
 
@@ -173,8 +173,8 @@
                 are kept at The National Archives. After her death in 1963, she had left no
                 instructions about what to do with them and they were held in a bank. The
                 local manager sent them to the Historical Manuscripts Commission in 1989,
-                and they were transferred to The National Archives on its formation in 2003.
-                One of the letters from MacDonald closes with the words "Of course
+                and they were transferred to The National Archives on its formation in 2003.</p>
+                <p>One of the letters from MacDonald closes with the words "Of course
                 you will put this in the fire and it will blaze fiercely as love always does."
                 Thankfully Sackville never did and these remarkable letters survive.</p>
 

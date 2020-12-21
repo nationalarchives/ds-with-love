@@ -89,7 +89,7 @@
                             <div class="modal-body">
                                 <h5 id="modal-title-two">Page 2 - enlarged image</h5>
                                 <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                <img src="../images/sacrifice/main-image-daniel-rush-1.jpg" alt="">
+                                <img src="../images/sacrifice/main-image-daniel-rush-2.jpg" alt="">
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -156,11 +156,11 @@
                     a goe I had a Blad Vessel burst in my Leg and Went to the
                     Poor house and as soon as I got Well I took my Discharge
                     Mr Bresto the Reliving Officer met me in the yard and
-                    told me to goe to Norwich and Claim my Lelatives1
+                    told me to goe to Norwich and Claim my relatives
                         Property wich</p>
                     <p>[OVERLEAF]</p>
                     <p>[I] did not understand and he told he Ment Rush the
-                        Murderer Wich Whas not any Lelative to me me is not this
+                        Murderer Wich Whas not any relative to me is not this
                         unbecomin to any man in his situation to trie to ereitate
                         any Person be Cause their Name is the same. I was once
                         Cast away in Africa in the Caffers Country and Traveled
@@ -169,7 +169,7 @@
                         Gentlemen in the Act for the Administration of the Laws in
                         England 23rd July 1847 Chap 109 Verse 23 any two Persons
                         being Husband and Wife shall not be ness be Compeld to
-                        be separate and Gentlmen I hope you Wioll take my Case
+                        be separate and Gentlmen I hope you will take my Case
                         into your Most seirous Consideration to alow me som little
                         Relief or not be separated in the Poor house</p>
                         <p>and I in Duty Bound<br>

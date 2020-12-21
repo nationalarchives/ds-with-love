@@ -73,7 +73,7 @@ blockquote {
     text-align: center;
 }
 blockquote footer {
-    color: #000 !important;
+    color: #ccc !important;
     margin-top: 0;
 }
 
@@ -187,7 +187,6 @@ audio {
     padding: 3em 2em;
     color: #efefef !important;
     font-size: 0.7em;
-    text-align: left;
     width: 100%;
     margin: 6em 0 9em;
 
@@ -241,7 +240,7 @@ audio {
 }
 /* -- Section 2 - base settings (only appears on overview template) -- */
 #section-two {
-    padding: 8em 0;
+    padding: 8em 0 4em;
     background: rgba(17, 17, 17, 0.9);
     color: #eee;
     font-size: 1em;
@@ -575,10 +574,10 @@ p.large {
 }
 
 #home #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(215,167,22,1), rgba(217,43,58,1));
+    background: linear-gradient(to bottom, rgba(215,167,22,1), rgba(29,25,51,1));
 }
 #home #section-one {
-    background: #ae0615;
+    background: #1d1933;
     color: #222;
 }
 
@@ -1020,16 +1019,20 @@ ul.controls .tooltiptext {
     }
     .jumbotron h1 {
         font-size: 4em;
+        text-align: center;
     }
     .bg-box {
         padding: 5em 4em;
-        font-size: 0.85em;
-        text-align: center;
+        font-size: 0.75em;
         width: 90%;
-        margin: 3em auto 9em;
+        margin: 2em auto 9em;
+    }
+    .bg-box p {
+        text-align: left;
     }
     .jumbotron .btn-primary {
         font-size: 1.4em;
+        text-align: center;
     }
     .large-screen-only {
         display: inline-block;
@@ -1089,6 +1092,7 @@ ul.controls .tooltiptext {
     }
     #section-two {
         font-size: 1.1em;
+        text-align: center;
     }
     .nav-panel {
         padding: 5%;

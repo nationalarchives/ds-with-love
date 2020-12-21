@@ -14,17 +14,9 @@
         </nav>
         <div class="container text-center">
             <h1>Family</h1>
-            <p>Love takes many forms; the love of friends, the love of
-                couples and the complex love that comes with family
-                relationships. Letters written between family members
-                can contradict the typical idea of a love letter as an
-                expression of purely romantic or erotic love.
-                In these two letters familial bonds reach across
-                continents and borders; a mother wanting to be with
-                her son, and a father desperate not to be separated
-                from his wife and child.</p>
+            <p>Love takes many forms: the love of friends, the love of couples and the complex love that comes with family relationships. Letters written about family members can contradict the typical idea of a love letter as an expression of purely romantic or erotic love shared between two lovers. In this letter, we see a father desperately appeal to the state, pleading not to be separated from his wife and child</p>
             <div class="row">
-                <div class="col-md-6 p-3">
+                <div class="col-md-6 offset-md-3">
                     <div class="nav-panel">
                         <div class="nav-panel-content">
                             <div class="img-container">
@@ -33,18 +25,6 @@
                             </div>
                             <h2><a href="james-gillespie-david-lloyd-george.php" class="stretched-link" title="">Letter from James Gillespie to David Lloyd George, the British Prime Minister</a></h2>
                             <p>24 October 1919</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-3">
-                    <div class="nav-panel">
-                        <div class="nav-panel-content">
-                            <div class="img-container">
-                            <img src="../images/family/index-family-two.jpg" alt="">
-                                <div class="img-filter"></div>
-                            </div>
-                            <h2><a href="roland-to-mother.php" class="stretched-link" title="">Letter from Roland to his mother</a></h2>
-                            <p>24 March 1951</p>
                         </div>
                     </div>
                 </div>

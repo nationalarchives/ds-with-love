@@ -32,7 +32,7 @@
                 <p>This was his final letter to her, and his affection for his
                 friend and ruler is clear – though somewhat coded in places.
                 He’s drawn eyebrow-like dashes above the double-os in
-                "pōōr"[the last word of the first line] to mimic her nickname
+                "pōōr" [the last word of the first line] to mimic her nickname
                 for him – 'Eyes'.</p>
 
 
