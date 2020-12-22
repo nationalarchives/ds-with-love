@@ -240,7 +240,7 @@ audio {
 }
 /* -- Section 2 - base settings (only appears on overview template) -- */
 #section-two {
-    padding: 8em 0 4em;
+    padding: 8em 0;
     background: rgba(17, 17, 17, 0.9);
     color: #eee;
     font-size: 1em;
@@ -553,6 +553,10 @@ p.large {
 .bb {
     border-bottom: 4px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 5rem;
+}
+.dark {
+    color: #222;
+    margin-top: 2em;
 }
 /* -- COLOUR PALETTE MODIFIERS -- */
 
@@ -1009,7 +1013,7 @@ ul.controls .tooltiptext {
         font-size: 3.5em;
     }
     h1 span {
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
     .theme h2 {
         font-size: 2.3em;
@@ -1084,15 +1088,24 @@ ul.controls .tooltiptext {
     .theme #section-one blockquote p {
         font-size: 2em;
     }
-    #section-one p {
-        font-size: 1.3em;
-    }
     #section-one {
         text-align: center;
+    }
+    #section-one p {
+        font-size: 1.4em;
+    }
+    #section-one .container {
+        padding: 0 4%;
     }
     #section-two {
         font-size: 1.1em;
         text-align: center;
+    }
+    #section-two p {
+        font-size: 1.1em;
+        margin: 2em auto;
+        width: 75%;
+        font-style: oblique;
     }
     .nav-panel {
         padding: 5%;

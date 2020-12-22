@@ -38,11 +38,12 @@
             </div>
 
             <h3 class="text-center">Select the images to see larger versions</h3>
+            <h4 class="dark">The pocket diary</h4>
             <div class="row pb-5 bb">
-                <div class="col-md-6 p-3">
+                <div class="col-md-4 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/1.jpg" data-toggle="modal" data-target="#legacy-2-1"><img src="../images/legacy/2.jpg" alt=""></a>
-                        <p>Page 1</p>
+                        <a href="../images/legacy/main-image-nelsons-diary-1.jpg" data-toggle="modal" data-target="#legacy-2-1"><img src="../images/legacy/main-image-nelsons-diary-1.jpg" alt=""></a>
+                        <p>Diary entry - Page 1</p>
                     </div>
                     <!-- Modal one -->
                     <div class="modal fade" id="legacy-2-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
@@ -56,7 +57,7 @@
                                 <div class="modal-body">
                                     <h5 id="modal-title-one">The will - enlarged image</h5>
                                     <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/legacy/1.jpg" alt=""></a>
+                                    <img src="../images/legacy/main-image-nelsons-diary-1.jpg" alt=""></a>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -68,10 +69,10 @@
                     </div>
                     <!-- end Modal one -->
                 </div>
-                <div class="col-md-6 p-3">
+                <div class="col-md-4 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/2.jpg" data-toggle="modal" data-target="#legacy-2-2"><img src="../images/legacy/2.jpg" alt=""></a>
-                        <p>Page 2</p>
+                        <a href="../images/legacy/main-image-nelsons-diary-2.jpg" data-toggle="modal" data-target="#legacy-2-2"><img src="../images/legacy/main-image-nelsons-diary-2.jpg" alt=""></a>
+                        <p>Diary entry - Page 2</p>
                     </div>
                     <!-- Modal two -->
                     <div class="modal fade" id="legacy-2-2" tabindex="-1" role="dialog" aria-labelledby="modal-title-two" aria-hidden="true" data-backdrop="false">
@@ -85,7 +86,7 @@
                                 <div class="modal-body">
                                     <h5 id="modal-title-two">The pocket diary - enlarged image</h5>
                                     <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/legacy/2.jpg" alt="">
+                                    <img src="../images/legacy/main-image-nelsons-diary-2.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -97,6 +98,155 @@
                     </div>
                     <!-- end Modal two -->
                 </div>
+                <div class="col-md-4 p-3">
+                    <div class="image-panel">
+                        <a href="../images/legacy/main-image-nelsons-diary-3.jpg" data-toggle="modal" data-target="#legacy-2-3"><img src="../images/legacy/main-image-nelsons-diary-3.jpg" alt=""></a>
+                        <p>Diary entry - Page 3</p>
+                    </div>
+                    <!-- Modal three -->
+                    <div class="modal fade" id="legacy-2-3" tabindex="-1" role="dialog" aria-labelledby="modal-title-three" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-three">Diary entry - Page 3 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/legacy/main-image-nelsons-diary-3.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal three -->
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="image-panel">
+                        <a href="../images/legacy/main-image-nelsons-diary-4.jpg" data-toggle="modal" data-target="#legacy-2-4"><img src="../images/legacy/main-image-nelsons-diary-4.jpg" alt=""></a>
+                        <p>Diary entry - Page 4</p>
+                    </div>
+                    <!-- Modal four -->
+                    <div class="modal fade" id="legacy-2-4" tabindex="-1" role="dialog" aria-labelledby="modal-title-four" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-four">Diary entry - Page 4 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/legacy/main-image-nelsons-diary-4.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal four -->
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="image-panel">
+                        <a href="../images/legacy/main-image-nelsons-diary-5.jpg" data-toggle="modal" data-target="#legacy-2-5"><img src="../images/legacy/main-image-nelsons-diary-5.jpg" alt=""></a>
+                        <p>Diary entry - Page 5</p>
+                    </div>
+                    <!-- Modal five -->
+                    <div class="modal fade" id="legacy-2-5" tabindex="-1" role="dialog" aria-labelledby="modal-title-five" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-five">Diary entry - Page 5 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/legacy/main-image-nelsons-diary-5.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal five -->
+                </div>
+                <div class="col-md-4 p-3">
+                    <div class="image-panel">
+                        <a href="../images/legacy/main-image-nelsons-diary-6.jpg" data-toggle="modal" data-target="#legacy-2-6"><img src="../images/legacy/main-image-nelsons-diary-6.jpg" alt=""></a>
+                        <p>Diary entry - Page 6</p>
+                    </div>
+                    <!-- Modal six -->
+                    <div class="modal fade" id="legacy-2-6" tabindex="-1" role="dialog" aria-labelledby="modal-title-six" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-six">Diary entry - Page 6 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/legacy/main-image-nelsons-diary-6.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal six -->
+                </div>
+            </div>
+                <h4 class="dark">The will</h4>
+                <div class="row pb-5 bb mb-2">
+                    <div class="col-md-6 offset-md-3 p-3">
+                        <div class="image-panel">
+                            <a href="../images/legacy/main-image-nelsons-will.jpg" data-toggle="modal" data-target="#legacy-2-7"><img src="../images/legacy/main-image-nelsons-will.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- Modal seven -->
+                    <div class="modal fade" id="legacy-2-7" tabindex="-1" role="dialog" aria-labelledby="modal-title-seven" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-seven">The will - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/legacy/main-image-nelsons-will.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal seven -->
+                </div>
+            <div class="row pb-5 bb">
                 <div class="col-md-12 p-3c descriptions">
                     <h4>Explore these documents further</h4>
                     <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>

@@ -9,7 +9,7 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/her-story/">Her Story</a></li>
+                <li class="breadcrumb-item"><a href="/her-story/">Betrayal</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -79,7 +79,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
-                    <p>Read by an actor</p>
+                    <p>Read by Joanna Lucas<br><small>Actor</small></p>
                     <audio controls>
                         <source src="../media/her-story/audio-catherine-howard.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/audio-catherine-howard.mp3">link to the audio</a>
@@ -94,7 +94,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to a commentary</h3>
-                    <p>Discussed by Dr Neil Johnston</p>
+                    <p>Discussed by Dr Neil Johnston<br><small>Principal Records Specialist, The National Archives</small></p>
                     <audio controls>
                         <source src="../media/her-story/commentary-catherine-howard.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/commentary-catherine-howard.mp3">link to the audio</a>

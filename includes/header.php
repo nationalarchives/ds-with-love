@@ -45,7 +45,7 @@
                 <a class="nav-link" href="/sacrifice/">Sacrifice</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/her-story/">Her Story</a>
+                <a class="nav-link" href="/her-story/">Betrayal</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/family/">Family</a>

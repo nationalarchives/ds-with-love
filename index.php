@@ -30,11 +30,13 @@
 
     <div id="section-two">
         <div class="container">
-            <h2>Eight themes. Fifteen stories.</h2>
-            <p>The ideas and terms contained in the records that appear in this
-                display reflect the attitudes and language of their authors and the
-                period in which the records were created. Some would now be
-                considered offensive.</p>
+            <h2>Watch a guided tour of the exhibition</h2>
+
+            <p>VIDEO TO GO HERE!</p>
+
+            <p class="footnote">Please note that the ideas and terms contained in these records reflect the attitudes and language of their authors and the
+                period in which the records were created. Some would now be considered offensive.</p>
+            <a class="btn btn-primary btn-lg" role="button" href="#section-three">Choose a theme</a>
 
         </div>
     </div>
@@ -52,15 +54,7 @@
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="her-story"></div>
-                    <h3 class="align-middle"><a href="her-story/index.php" class="stretched-link">Her Story</a></h3>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div id="family"></div>
-                    <h3 class="align-middle"><a href="family/index.php" class="stretched-link">Family</a></h3>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div id="separation"></div>
-                    <h3 class="align-middle"><a href="separation/index.php" class="stretched-link">Separation</a></h3>
+                    <h3 class="align-middle"><a href="her-story/index.php" class="stretched-link">Betrayal</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="advice"></div>
@@ -69,6 +63,14 @@
                 <div class="col-sm-6 col-lg-3">
                     <div id="heartache"></div>
                     <h3 class="align-middle"><a href="heartache/index.php" class="stretched-link">Heartache</a></h3>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div id="separation"></div>
+                    <h3 class="align-middle"><a href="separation/index.php" class="stretched-link">Separation</a></h3>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div id="family"></div>
+                    <h3 class="align-middle"><a href="family/index.php" class="stretched-link">Family</a></h3>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     <div id="legacy"></div>

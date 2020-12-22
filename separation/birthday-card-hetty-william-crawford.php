@@ -41,9 +41,10 @@
             </div>
             <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
-                <div class="col-md-6 offset-md-3 p-3">
+                <div class="col-md-6 p-3">
                     <div class="image-panel">
                         <a href="../images/separation/main-image-hetty-to-william.jpg" data-toggle="modal" data-target="#separation-1-1"><img src="../images/separation/main-image-hetty-to-william.jpg" alt=""></a>
+                        <p>Front of letter</p>
                     </div>
                     <!-- Modal one -->
                     <div class="modal fade" id="separation-1-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
@@ -67,8 +68,67 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end Modal one -->
                 </div>
+                    <!-- end Modal one -->
+                    <div class="col-md-6 p-3">
+                        <div class="image-panel">
+                            <a href="../images/separation/main-image-hetty-to-william-reverse.jpg" data-toggle="modal" data-target="#separation-1-2"><img src="../images/separation/main-image-hetty-to-william-reverse.jpg" alt=""></a>
+                            <p>Back of letter</p>
+                        </div>
+                        <!-- Modal two -->
+                        <div class="modal fade" id="separation-1-2" tabindex="-1" role="dialog" aria-labelledby="modal-title-two" aria-hidden="true" data-backdrop="false">
+                            <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">Close this image</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5 id="modal-title-two">Page 2 - enlarged image</h5>
+                                        <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                        <img src="../images/separation/main-image-hetty-to-william-reverse.jpg" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">Close this image</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end Modal two -->
+                    </div>
+                    <div class="col-md-6 offset-md-3 p-3">
+                        <div class="image-panel">
+                            <a href="../images/separation/main-image-hetty-to-william-card.jpg" data-toggle="modal" data-target="#separation-1-3"><img src="../images/separation/main-image-hetty-to-william-card.jpg" alt=""></a>
+                            <p>Birthday card</p>
+                        </div>
+                    </div>
+                    <!-- Modal three -->
+                    <div class="modal fade" id="separation-1-3" tabindex="-1" role="dialog" aria-labelledby="modal-title-three" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-three">Page 3 - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/separation/main-image-hetty-to-william-card.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal three -->
+
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
@@ -84,7 +144,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
-                    <p>Read by an actor</p>
+                    <p>Read by Margaret Clunie<br><small>Actor</small></p>
                     <audio controls>
                         <source src="../media/separation/audio-hetty.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-hetty.mp3">link to the audio</a>

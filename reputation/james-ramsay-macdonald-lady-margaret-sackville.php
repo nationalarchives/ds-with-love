@@ -117,7 +117,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
-                    <p>Read by an actor</p>
+                    <p>Read by Peter Forbes<br><small>Actor</small></p>
                     <audio controls>
                         <source src="../media/reputation/audio-ramsey-mcdonald.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-ramsey-mcdonald.mp3">link to the audio</a>
