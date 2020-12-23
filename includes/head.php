@@ -29,9 +29,9 @@
     <link rel="stylesheet" type="text/css" media="all" href="/css/ie-styles.css">
     <!-- Fav icon -->
     <link rel="shortcut icon" type="image/vnd.microsoft.icon"
-          href="www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/favicon.png">
+          href="images/utilities/favicon.png">
     <link rel="icon" type="image/vnd.microsoft.icon"
-          href="www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/favicon.png">
+          href="images/utilities/favicon.png">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
