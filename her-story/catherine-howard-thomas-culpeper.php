@@ -78,7 +78,7 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Joanna Lucas<br><small>Actor</small></p>
-                    <audio controls>
+                    <audio controls id="audio-catherine-howard-player">
                         <source src="../media/her-story/audio-catherine-howard.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/audio-catherine-howard.mp3" id="audio-catherine-howard">link to the audio</a>
                             instead.</p>
@@ -93,7 +93,7 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Dr Neil Johnston<br><small>Principal Records Specialist, The National Archives</small></p>
-                    <audio controls>
+                    <audio controls id="commentary-catherine-howard-audio-player">
                         <source src="../media/her-story/commentary-catherine-howard.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/commentary-catherine-howard.mp3" id="commentary-catherine-howard-audio">link to the audio</a>
                             instead.</p>

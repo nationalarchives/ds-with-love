@@ -89,7 +89,7 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Dr Euan Roger<br><small>Principal Records Specialist, The National Archives</small></p>
-                    <audio controls>
+                    <audio controls id="viper-audio-player">
                         <source src="../media/heartache/commentary-medieval-love-song.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3" id="viper-audio">link to the audio</a>
                             instead.</p>

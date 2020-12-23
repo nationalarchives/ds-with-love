@@ -145,9 +145,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Ben Elder<br><small>Actor</small></p>
-                    <audio controls>
+                    <audio controls id="audio-endymion-porter-player">
                         <source src="../media/separation/audio-endymion-porter.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-endymion-porter.mp3">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-endymion-porter.mp3" id="audio-endymion-porter">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
