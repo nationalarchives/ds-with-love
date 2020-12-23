@@ -41,11 +41,12 @@
                 </ul>
             </div>
             <h3 class="text-center">Select the images to see larger versions</h3>
+            <h4 class="dark">Letter 1</h4>
             <div class="row pb-5 bb">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/advice/1.jpg" data-toggle="modal" data-target="#advice-1-1"><img src="../images/advice/1.jpg" alt=""></a>
-                        <p>Page 1</p>
+                        <a href="../images/advice/main-image-advice-letter-1-front.jpg" data-toggle="modal" data-target="#advice-1-1"><img src="../images/advice/main-image-advice-letter-1-front.jpg" alt=""></a>
+                        <p>Front</p>
                     </div>
                     <!-- Modal one -->
                     <div class="modal fade" id="advice-1-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
@@ -57,9 +58,9 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 id="modal-title-one">Page 1 - enlarged image</h5>
+                                    <h5 id="modal-title-one">Front of letter one - enlarged image</h5>
                                     <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/advice/1.jpg" alt="">
+                                    <img src="../images/advice/main-image-advice-letter-1-front.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -73,8 +74,8 @@
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/advice/2.jpg" data-toggle="modal" data-target="#advice-1-2"><img src="../images/advice/2.jpg" alt=""></a>
-                        <p>Page 2</p>
+                        <a href="../images/advice/main-image-advice-letter-1-back.jpg" data-toggle="modal" data-target="#advice-1-2"><img src="../images/advice/main-image-advice-letter-1-back.jpg" alt=""></a>
+                        <p>Back</p>
                     </div>
                     <!-- Modal two -->
                     <div class="modal fade" id="advice-1-2" tabindex="-1" role="dialog" aria-labelledby="modal-title-two" aria-hidden="true" data-backdrop="false">
@@ -86,9 +87,9 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 id="modal-title-two">Page 2 - enlarged image</h5>
+                                    <h5 id="modal-title-two">Back of letter one - enlarged image</h5>
                                     <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/advice/2.jpg" alt="">
+                                    <img src="../images/advice/main-image-advice-letter-1-back.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -100,6 +101,98 @@
                     </div>
                     <!-- end Modal two -->
                 </div>
+                <div class="col-md-6 offset-md-3 p-3">
+                    <div class="image-panel">
+                        <a href="../images/advice/main-image-advice-letter-1-inside.jpg" data-toggle="modal" data-target="#advice-1-3"><img src="../images/advice/main-image-advice-letter-1-inside.jpg" alt=""></a>
+                        <p>Inside</p>
+                    </div>
+                </div>
+                <!-- Modal three -->
+                <div class="modal fade" id="advice-1-3" tabindex="-1" role="dialog" aria-labelledby="modal-title-three" aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">Close this image</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 id="modal-title-three">Inside letter one - enlarged image</h5>
+                                <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                <img src="../images/advice/main-image-advice-letter-1-inside.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">Close this image</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Modal three -->
+            </div>
+            <h4 class="dark">Letter two</h4>
+            <div class="row pb-5 bb mb-30">
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/advice/main-image-advice-letter-2-front.jpg" data-toggle="modal" data-target="#advice-1-4"><img src="../images/advice/main-image-advice-letter-2-front.jpg" alt=""></a>
+                        <p>Front</p>
+                    </div>
+                    <!-- Modal four -->
+                    <div class="modal fade" id="advice-1-4" tabindex="-1" role="dialog" aria-labelledby="modal-title-four" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-four">Front of letter two - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/advice/main-image-advice-letter-2-front.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal four -->
+                </div>
+                <div class="col-md-6 p-3">
+                    <div class="image-panel">
+                        <a href="../images/advice/main-image-advice-letter-2-back.jpg" data-toggle="modal" data-target="#advice-1-5"><img src="../images/advice/main-image-advice-letter-2-back.jpg" alt=""></a>
+                        <p>Back</p>
+                    </div>
+                    <!-- Modal five -->
+                    <div class="modal fade" id="advice-1-5" tabindex="-1" role="dialog" aria-labelledby="modal-title-five" aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 id="modal-title-five">Back of letter two - enlarged image</h5>
+                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                    <img src="../images/advice/main-image-advice-letter-2-back.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">Close this image</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Modal five -->
+                </div>
+            </div>
+            <div class="row pb-5 bb">
                 <div class="col-md-12 p-3c descriptions">
                     <h4>Explore these documents further</h4>
                     <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>

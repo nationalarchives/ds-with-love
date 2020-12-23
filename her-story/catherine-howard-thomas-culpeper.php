@@ -9,7 +9,7 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/her-story/">Her Story</a></li>
+                <li class="breadcrumb-item"><a href="/her-story/">Betrayal</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -24,18 +24,7 @@
                 49-year-old king, the two were married. It was essential
                 that a royal consort was known to be chaste but Catherine
                 had a complicated sexual past.</p>
-            <p>She is thought to have fallen in love with courtier
-                Thomas Culpeper before marrying the king, and when
-                their relationship was revealed to him, a shocked Henry
-                unleashed all his anger on the couple. Both were executed
-                for treason and adultery.</p>
-            <p>Edward had been a renowned womaniser in his youth but
-                just prior to becoming King had fallen in love with
-                Wallis Simpson. As King he could not hope to marry the
-                twice-divorced American – the country would have been
-                outraged. After his abdication Edward was created Duke
-                of Windsor and he and Wallis spent the rest of their
-                lives together.</p>
+            <p>She is thought to have fallen in love with courtier Thomas Culpeper before marrying Henry. When their relationship was revealed to Henry, the shocked king unleased all his anger on the couple. Both Catherine and Culpeper were executed for treason and adultery.</p>
 
             <div class="document-summary">
                 <h2 class="text-center mb-2">The original document</h2>
@@ -90,7 +79,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
-                    <p>Read by an actor</p>
+                    <p>Read by Joanna Lucas<br><small>Actor</small></p>
                     <audio controls>
                         <source src="../media/her-story/audio-catherine-howard.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/audio-catherine-howard.mp3">link to the audio</a>
@@ -105,7 +94,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to a commentary</h3>
-                    <p>Discussed by Dr Neil Johnston</p>
+                    <p>Discussed by Dr Neil Johnston<br><small>Principal Records Specialist, The National Archives</small></p>
                     <audio controls>
                         <source src="../media/her-story/commentary-catherine-howard.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/commentary-catherine-howard.mp3">link to the audio</a>

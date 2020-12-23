@@ -43,12 +43,11 @@
                     <li>Catalogue reference: PC 11/1</li>
                 </ul>
             </div>
-            <h3 class="text-center">Select the images to see larger versions</h3>
+            <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
-                <div class="col-md-6 p-3">
+                <div class="col-md-6 offset-md-3 p-3">
                     <div class="image-panel">
-                        <a href="../images/sacrifice/1.jpg" data-toggle="modal" data-target="#sacrifice-2-1"><img src="../images/sacrifice/1.jpg" alt=""></a>
-                        <p>Page 1</p>
+                        <a href="../images/sacrifice/main-image-edward-VIII.jpg" data-toggle="modal" data-target="#sacrifice-2-1"><img src="../images/sacrifice/main-image-edward-VIII.jpg" alt=""></a>
                     </div>
                     <!-- Modal one -->
                     <div class="modal fade" id="sacrifice-2-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
@@ -60,9 +59,9 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 id="modal-title-one">Page 1 - enlarged image</h5>
+                                    <h5 id="modal-title-one">Enlarged image</h5>
                                     <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/sacrifice/1.jpg" alt="">
+                                    <img src="../images/sacrifice/main-image-edward-VIII.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -73,35 +72,6 @@
                         </div>
                     </div>
                     <!-- end Modal one -->
-                </div>
-                <div class="col-md-6 p-3">
-                    <div class="image-panel">
-                        <a href="../images/sacrifice/2.jpg" data-toggle="modal" data-target="#sacrifice-2-2"><img src="../images/sacrifice/2.jpg" alt=""></a>
-                        <p>Page 2</p>
-                    </div>
-                    <!-- Modal two -->
-                    <div class="modal fade" id="sacrifice-2-2" tabindex="-1" role="dialog" aria-labelledby="modal-title-two" aria-hidden="true" data-backdrop="false">
-                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">Close this image</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <h5 id="modal-title-two">Page 2 - enlarged image</h5>
-                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/sacrifice/2.jpg" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">Close this image</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end Modal two -->
                 </div>
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
@@ -118,7 +88,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to a commentary</h3>
-                    <p>Discussed by Anne Sebba</p>
+                    <p>Discussed by Anne Sebba<br><small>Historian</small></p>
                     <audio controls>
                         <source src="../media/sacrifice/commentary-edward-VIII.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/commentary-edward-VIII.mp3">link to the audio</a>

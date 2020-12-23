@@ -73,7 +73,7 @@ blockquote {
     text-align: center;
 }
 blockquote footer {
-    color: #000 !important;
+    color: #ccc !important;
     margin-top: 0;
 }
 
@@ -187,7 +187,6 @@ audio {
     padding: 3em 2em;
     color: #efefef !important;
     font-size: 0.7em;
-    text-align: left;
     width: 100%;
     margin: 6em 0 9em;
 
@@ -555,6 +554,10 @@ p.large {
     border-bottom: 4px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 5rem;
 }
+.dark {
+    color: #222;
+    margin-top: 2em;
+}
 /* -- COLOUR PALETTE MODIFIERS -- */
 
 /* -- Overview -- */
@@ -575,10 +578,10 @@ p.large {
 }
 
 #home #bg-video-filter {
-    background: linear-gradient(to bottom, rgba(215,167,22,1), rgba(217,43,58,1));
+    background: linear-gradient(to bottom, rgba(215,167,22,1), rgba(29,25,51,1));
 }
 #home #section-one {
-    background: #ae0615;
+    background: #1d1933;
     color: #222;
 }
 
@@ -1010,7 +1013,7 @@ ul.controls .tooltiptext {
         font-size: 3.5em;
     }
     h1 span {
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
     .theme h2 {
         font-size: 2.3em;
@@ -1020,16 +1023,20 @@ ul.controls .tooltiptext {
     }
     .jumbotron h1 {
         font-size: 4em;
+        text-align: center;
     }
     .bg-box {
         padding: 5em 4em;
-        font-size: 0.85em;
-        text-align: center;
+        font-size: 0.75em;
         width: 90%;
-        margin: 3em auto 9em;
+        margin: 2em auto 9em;
+    }
+    .bg-box p {
+        text-align: left;
     }
     .jumbotron .btn-primary {
         font-size: 1.4em;
+        text-align: center;
     }
     .large-screen-only {
         display: inline-block;
@@ -1081,14 +1088,24 @@ ul.controls .tooltiptext {
     .theme #section-one blockquote p {
         font-size: 2em;
     }
-    #section-one p {
-        font-size: 1.3em;
-    }
     #section-one {
         text-align: center;
     }
+    #section-one p {
+        font-size: 1.4em;
+    }
+    #section-one .container {
+        padding: 0 4%;
+    }
     #section-two {
         font-size: 1.1em;
+        text-align: center;
+    }
+    #section-two p {
+        font-size: 1.1em;
+        margin: 2em auto;
+        width: 75%;
+        font-style: oblique;
     }
     .nav-panel {
         padding: 5%;

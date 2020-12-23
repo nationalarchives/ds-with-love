@@ -117,7 +117,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
-                    <p>Read by an actor</p>
+                    <p>Read by Daniel Norford<br><small>Actor</small></p>
                     <audio controls>
                         <source src="../media/family/audio-james-gillespie.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../images/family/audio-james-gillespie.mp3">link to the audio</a>
@@ -132,7 +132,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to a commentary</h3>
-                    <p>Discussed by Iqbal Singh</p>
+                    <p>Discussed by Iqbal Singh<br><small>Regional Community Partnerships Manager, The National Archives</small></p>
                     <audio controls>
                         <source src="../media/family/commentary-james-gillespie.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/family/commentary-james-gillespie.mp3">link to the audio</a>
@@ -192,22 +192,6 @@
             <ul>
                 <li><b>Photograph thought to be of James Gillespie</b>, Merchant Seaman Register Identity Certificate, 1918</li>
             </ul>
-            <hr>
-            <h2>Explore other letters within this theme</h2>
-            <div class="row">
-                <div class="col-md-6 p-3">
-                    <div class="nav-panel">
-                        <div class="nav-panel-content text-center">
-                            <div class="img-container">
-                            <img src="../images/family/index-family-two.jpg" alt="">
-                            <div class="img-filter"></div>
-                        </div>
-                            <h2><a href="roland-to-mother.php" class="stretched-link" title="">Letter from Roland to his mother</a></h2>
-                            <p>24 March 1951</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 

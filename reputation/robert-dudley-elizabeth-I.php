@@ -32,7 +32,7 @@
                 <p>This was his final letter to her, and his affection for his
                 friend and ruler is clear – though somewhat coded in places.
                 He’s drawn eyebrow-like dashes above the double-os in
-                "pōōr"[the last word of the first line] to mimic her nickname
+                "pōōr" [the last word of the first line] to mimic her nickname
                 for him – 'Eyes'.</p>
 
 
@@ -117,7 +117,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to the letter</h3>
-                    <p>Read by an actor</p>
+                    <p>Read by Sean Patterson<br><small>Actor</small></p>
                     <audio controls>
                         <source src="../media/reputation/audio-robert-dudley.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-robert-dudley.mp3">link to the audio</a>
@@ -132,7 +132,7 @@
                         <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
                     </svg>
                     <h3>Listen to a commentary</h3>
-                    <p>Discussed by Dr Katy Mair</p>
+                    <p>Discussed by Katy Mair <br><small>Head of Collections, The National Archives</small></p>
                     <audio controls>
                         <source src="../media/reputation/commentary-robert-dudley.mp3" type="audio/mp3">
                         <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/commentary-robert-dudley.mp3">link to the audio</a>
