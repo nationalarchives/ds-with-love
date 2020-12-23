@@ -1,10 +1,13 @@
+<?php
+ $description = "In our latest exhibition, love letters offer glimpses into private worlds – from a queen’s treasonous love letter, to the generous wish of a naval hero and the forlorn poetry of a prime minister. Expect secret stories of heartbreak, passion and disappointment as you explore 500 years of letters in this intimate exhibition."
+?>
 
     <link rel="canonical" href="http://www.nationalarchives.gov.uk/"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta content="initial-scale = 1.0" name="viewport">
     <meta name="robots" content="noindex" />
-    <meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
+    <meta name="description" content="<?php echo $description ?>"/>
     <link rel='dns-prefetch' href='//cdn.nationalarchives.gov.uk'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel="stylesheet" href="https://use.typekit.net/cbl4nty.css">
