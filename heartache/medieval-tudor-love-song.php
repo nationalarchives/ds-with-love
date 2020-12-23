@@ -6,8 +6,8 @@
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/heartache/">Heartache</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/heartache/" id="heartache">Heartache</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -45,14 +45,14 @@
             <div class="row mb-4">
                 <div class="col-md-6 offset-md-3 p-3">
                     <div class="image-panel">
-                        <a href="../images/heartache/main-image-medieval-love-song.jpg" data-toggle="modal" data-target="#heartache-2-1"><img src="../images/heartache/main-image-medieval-love-song.jpg" alt=""></a>
+                        <a href="../images/heartache/main-image-medieval-love-song.jpg" data-toggle="modal" data-target="#heartache-2-1"id="tudor-love-song-enlarged-image-modal-toggle"><img src="../images/heartache/main-image-medieval-love-song.jpg" alt=""></a>
                     </div>
                     <!-- Modal one -->
                     <div class="modal fade" id="heartache-2-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="tudor-love-song-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -62,7 +62,7 @@
                                     <img src="../images/heartache/main-image-medieval-love-song.jpg" alt=""></a>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="tudor-love-song-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -74,7 +74,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                    <a href="" class="btn-primary" title="" id="medieval-tudor-love-song-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 
@@ -91,7 +91,7 @@
                     <p>Discussed by Dr Euan Roger<br><small>Principal Records Specialist, The National Archives</small></p>
                     <audio controls>
                         <source src="../media/heartache/commentary-medieval-love-song.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3" id="viper-audio">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -150,7 +150,7 @@
                             <img src="../images/heartache/index-heartache-one.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="cyril-to-morris.php" class="stretched-link" title="">Letter from Cyril to 'My darling Morris'</a></h2>
+                            <h2><a href="cyril-to-morris.php" class="stretched-link" title="" id="letter-from-cyril-to-my-darling-morris">Letter from Cyril to 'My darling Morris'</a></h2>
                             <p>1930s</p>
                         </div>
                     </div>

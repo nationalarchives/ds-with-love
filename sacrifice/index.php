@@ -7,7 +7,7 @@
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -26,7 +26,7 @@
                             <img src="../images/sacrifice/index-sacrifice-one.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="daniel-rush-to-poor-law-board.php" class="stretched-link" title="">Letter from Daniel Rush to the Poor Law Board</a></h2>
+                            <h2><a href="daniel-rush-to-poor-law-board.php" class="stretched-link" title="" id="letter-from-daniel-rush-to-poor-law-board">Letter from Daniel Rush to the Poor Law Board</a></h2>
                             <p>22 August 1851</p>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                             <img src="../images/sacrifice/index-sacrifice-two.jpg" alt="">
                             <div class="img-filter"></div>
                         </div>
-                            <h2><a href="instrument-abdication-edward-VIII.php" class="stretched-link" title="">Instrument of Abdication of Edward VIII</a></h2>
+                            <h2><a href="instrument-abdication-edward-VIII.php" class="stretched-link" title="" id="instrument-abdication-edward-viii">Instrument of Abdication of Edward VIII</a></h2>
                             <p>1936</p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             <img src="../images/sacrifice/index-sacrifice-three.jpg" alt="">
                             <div class="img-filter"></div>
                         </div>
-                            <h2><a href="harry-houghton-ethel-bunty-gee.php" class="stretched-link" title="">Letter from Harry Houghton to Ethel ‘Bunty’ Gee</a></h2>
+                            <h2><a href="harry-houghton-ethel-bunty-gee.php" class="stretched-link" title="" id="letter-from-harry-houghton-ethel-bunty-gee">Letter from Harry Houghton to Ethel ‘Bunty’ Gee</a></h2>
                             <p>24 February 1966</p>
                         </div>
                     </div>

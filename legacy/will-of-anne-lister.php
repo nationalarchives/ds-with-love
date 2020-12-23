@@ -6,8 +6,8 @@
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/legacy/">Legacy</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/legacy/" id="legacy">Legacy</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -40,14 +40,14 @@
             <div class="row pb-5 bb">
                 <div class="col-md-6 offset-md-3 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/main-image-will-anne-lister.jpg" data-toggle="modal" data-target="#legacy-1-1"><img src="../images/legacy/main-image-will-anne-lister.jpg" alt=""></a>
+                        <a href="../images/legacy/main-image-will-anne-lister.jpg" data-toggle="modal" data-target="#legacy-1-1" id="will-of-anne-lister-modal-toggle"><img src="../images/legacy/main-image-will-anne-lister.jpg" alt=""></a>
                     </div>
                     <!-- Modal one -->
                     <div class="modal fade" id="legacy-1-1" tabindex="-1" role="dialog" aria-labelledby="modal-title-one" aria-hidden="true" data-backdrop="false">
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="will-of-anne-lister-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -57,7 +57,7 @@
                                     <img src="../images/legacy/main-image-will-anne-lister.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="will-of-anne-lister-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -69,7 +69,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                    <a href="" class="btn-primary" title="" id="will-of-anne-lister-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 
@@ -146,7 +146,7 @@
                             <img src="../images/legacy/index-legacy-two.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                            <h2><a href="will-pocket-diary-horatio-nelson.php" class="stretched-link" title="">The will and the pocket diary of Horatio Nelson</a></h2>
+                            <h2><a href="will-pocket-diary-horatio-nelson.php" class="stretched-link" title="" id="will-and-pocket-diary-of-horatio-nelson">The will and the pocket diary of Horatio Nelson</a></h2>
                             <p>1803 / 1805</p>
                         </div>
                     </div>

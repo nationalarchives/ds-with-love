@@ -7,8 +7,8 @@
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/family/">Family</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/family/" id="family">Family</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -43,7 +43,7 @@
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" data-toggle="modal" data-target="#family-1-1"><img src="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" alt=""></a>
+                        <a href="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" data-toggle="modal" data-target="#family-1-1" id="page-1-enlarged-image-modal-toggle"><img src="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" alt=""></a>
                         <p>Page 1</p>
                     </div>
                     <!-- Modal one -->
@@ -51,7 +51,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-1-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -61,7 +61,7 @@
                                     <img src="../images/family/main-image-james-gillespie-david-lloyd-george-1.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-1-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" data-toggle="modal" data-target="#family-1-2"><img src="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" alt=""></a>
+                        <a href="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" data-toggle="modal" data-target="#family-1-2" id="page-2-enlarged-image-modal-toggle"><img src="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
                     <!-- Modal two -->
@@ -80,7 +80,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-2-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -90,7 +90,7 @@
                                     <img src="../images/family/main-image-james-gillespie-david-lloyd-george-2.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-2-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
