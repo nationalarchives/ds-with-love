@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta content="initial-scale = 1.0" name="viewport">
     <meta name="robots" content="noindex" />
+    <meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
     <link rel='dns-prefetch' href='//cdn.nationalarchives.gov.uk'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel="stylesheet" href="https://use.typekit.net/cbl4nty.css">

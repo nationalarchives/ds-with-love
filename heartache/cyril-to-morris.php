@@ -1,7 +1,5 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Letter from Cyril to 'My darling Morris' - The National Archives</title>
-<meta name="description"
-      content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="heartache" class="theme">
     <?php include '../includes/header.php'; ?>
