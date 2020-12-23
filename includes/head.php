@@ -8,6 +8,16 @@
     <meta content="initial-scale = 1.0" name="viewport">
     <meta name="robots" content="noindex" />
     <meta name="description" content="<?php echo $description ?>"/>
+    <meta property="og:locale" content="en_GB"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="The National Archives - With Love exhibition"/>
+    <meta property="og:description" content="<?php echo $description ?>"/>
+    <meta property="og:url" content="http://www.nationalarchives.gov.uk/"/>
+    <meta property="og:site_name" content="The National Archives - With Love exhibition"/>
+    <meta property="og:image" content="http://www.nationalarchives.gov.uk/wp-content/uploads/sites/24/2019/07/tna-logo-600x315.jpg"/>
+    <meta property="og:image:width" content="600"/>
+    <meta property="og:image:height" content="315"/>
+    <meta property="og:image:alt" content="The National Archives logo"/>
     <link rel='dns-prefetch' href='//cdn.nationalarchives.gov.uk'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel="stylesheet" href="https://use.typekit.net/cbl4nty.css">
