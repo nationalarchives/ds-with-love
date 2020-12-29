@@ -116,9 +116,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Peter Forbes<br><small>Actor</small></p>
-                    <audio controls id="ramsey-mcdonald-audio-player">
+                    <audio controls id="audio-reading-ramsey-mcdonald">
                         <source src="../media/reputation/audio-ramsey-mcdonald.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-ramsey-mcdonald.mp3" id="ramsey-mcdonald-audio">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-ramsey-mcdonald.mp3" id="audio-reading-ramsey-mcdonald">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

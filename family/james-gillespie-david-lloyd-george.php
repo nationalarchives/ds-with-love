@@ -116,9 +116,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Daniel Norford<br><small>Actor</small></p>
-                    <audio controls id="audio-james-gillespie-reading-player">
+                    <audio controls id="audio-reading-james-gillespie">
                         <source src="../media/family/audio-james-gillespie.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../images/family/audio-james-gillespie.mp3" id="audio-james-gillespie">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../images/family/audio-james-gillespie.mp3" id="audio-reading-james-gillespie-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -131,9 +131,9 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Iqbal Singh<br><small>Regional Community Partnerships Manager, The National Archives</small></p>
-                    <audio controls id="audio-james-gillespie-commentary-player">
+                    <audio controls id="audio-commentary-james-gillespie">
                         <source src="../media/family/commentary-james-gillespie.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/family/commentary-james-gillespie.mp3" id="audio-james-gillespie">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/family/commentary-james-gillespie.mp3" id="audio-commentary-james-gillespie-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

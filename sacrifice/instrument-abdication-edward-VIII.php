@@ -87,9 +87,9 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Anne Sebba<br><small>Historian</small></p>
-                    <audio controls id="audio-commentary-edward-viii-player">
+                    <audio controls id="audio-commentary-edward-viii">
                         <source src="../media/sacrifice/commentary-edward-VIII.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/commentary-edward-VIII.mp3" id="commentary-edward-viii">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/commentary-edward-VIII.mp3" id="audio-commentary-edward-viii-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

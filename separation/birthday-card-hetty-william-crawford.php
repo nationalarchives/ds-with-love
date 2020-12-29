@@ -144,9 +144,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Margaret Clunie<br><small>Actor</small></p>
-                    <audio controls id="audio-hetty-player">
+                    <audio controls id="audio-reading-hetty">
                         <source src="../media/separation/audio-hetty.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-hetty.mp3" id="audio-hetty">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-hetty.mp3" id="audio-reading-hetty-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

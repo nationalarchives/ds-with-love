@@ -89,9 +89,9 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Dr Euan Roger<br><small>Principal Records Specialist, The National Archives</small></p>
-                    <audio controls id="medieval-love-song-audio-player">
+                    <audio controls id="audio-commentary-medieval-love-song">
                         <source src="../media/heartache/commentary-medieval-love-song.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/heartache/commentary-medieval-love-song.mp3" id="medieval-love-song-audio">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/heartache/commentary-medieval-love-song.mp3" id="audio-commentary-medieval-love-song-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

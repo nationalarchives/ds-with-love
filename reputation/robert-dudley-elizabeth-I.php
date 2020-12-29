@@ -116,9 +116,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Sean Patterson<br><small>Actor</small></p>
-                    <audio controls id="audio-robert-dudley-player">
+                    <audio controls id="audio-reading-robert-dudley">
                         <source src="../media/reputation/audio-robert-dudley.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-robert-dudley.mp3" id="audio-robert-dudley">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-robert-dudley.mp3" id="audio-reading-robert-dudley-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -131,9 +131,9 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Katy Mair <br><small>Head of Collections, The National Archives</small></p>
-                    <audio controls id="commentary-robert-dudley-audio-player">
+                    <audio controls id="audio-commentary-robert-dudley">
                         <source src="../media/reputation/commentary-robert-dudley.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/commentary-robert-dudley.mp3" id="commentary-robert-dudley-audio">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/commentary-robert-dudley.mp3" id="audio-commentary-robert-dudley-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

@@ -89,9 +89,9 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Vicky Iglikowski-Broad<br><small>Principal Records Specialist, The National Archives</small></p>
-                    <audio controls id="commentary-cyril-to-morris-audio-player">
+                    <audio controls id="audio-commentary-cyril-to-morris">
                         <source src="../media/heartache/commentary-cyril-to-morris.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/heartache/commentary-cyril-to-morris.mp3" id="commentary-cyril-to-morris-audio">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/heartache/commentary-cyril-to-morris.mp3" id="audio-commentary-cyril-to-morris-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

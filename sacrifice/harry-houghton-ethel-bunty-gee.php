@@ -111,9 +111,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Michael Simkins<br><small>Actor</small></p>
-                    <audio controls id="audio-harry-haughton-player">
+                    <audio controls id="audio-reading-harry-haughton">
                         <source src="../media/sacrifice/audio-harry-houghton.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/audio-harry-houghton.mp3" id="audio-harry-haughton">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/audio-harry-houghton.mp3" id="audio-reading-harry-haughton-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

@@ -113,9 +113,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Adrian McLoughlin<br><small>Actor</small></p>
-                    <audio controls id="audio-daniel-rush-player">
+                    <audio controls id="audio-reading-daniel-rush">
                         <source src="../media/sacrifice/audio-daniel-rush.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/audio-daniel-rush.mp3" id="audio-daniel-rush">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/audio-daniel-rush.mp3" id="audio-reading-daniel-rush-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -128,9 +128,9 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Dr Paul Carter<br><small>Principal Records Specialist, The National Archives</small></p>
-                    <audio controls id="commentary-daniel-rush-audio-player">
+                    <audio controls id="audio-commentary-daniel-rush">
                         <source src="../media/sacrifice/commentary-daniel-rush.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/commentary-daniel-rush.mp3" id="commentary-daniel-rush-audio">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/commentary-daniel-rush.mp3" id="audio-commentary-daniel-rush-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
