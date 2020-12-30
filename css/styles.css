@@ -497,6 +497,26 @@ audio {
     color: #222;
     border-bottom: 3px solid rgba(0,0,0,1);
 }
+/* -- Feedback -- */
+.feedback {
+    text-align: center;
+    padding: 4em 0;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+}
+.feedback h2 {
+    margin-bottom: 0.5em;
+    font-size: 1.7em;
+    color: #fff;
+}
+.feedback .btn-primary {
+    background: #fff !important;
+    color: #222 !important;
+    font-weight: bold;
+}
+.theme .feedback h2 {
+    font-size: 1.8em;
+}
 
 /* -- Footer -- */
 footer {
