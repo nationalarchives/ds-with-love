@@ -192,4 +192,5 @@
             </div>
         </div>
     </div>
+    <?php include '../includes/feedback.php'; ?>
     <?php include '../includes/footer.php'; ?>
