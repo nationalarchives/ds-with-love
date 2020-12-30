@@ -1,15 +1,13 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Letter from Catherine Howard to Thomas Culpeper - The National Archives</title>
-<meta name="description"
-      content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="her-story" class="theme">
     <?php include '../includes/header.php'; ?>
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/her-story/">Betrayal</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/her-story/" id="betrayal">Betrayal</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -37,7 +35,7 @@
             <div class="row mb-4">
                 <div class="col-md-6 offset-md-3 p-3">
                     <div class="image-panel">
-                        <a href="../images/her-story/main-image-catherine-howard.jpg" data-toggle="modal" data-target="#her-story-1-1"><img src="../images/her-story/main-image-catherine-howard.jpg" alt=""></a>
+                        <a href="../images/her-story/main-image-catherine-howard.jpg" data-toggle="modal" data-target="#her-story-1-1" id="letter-from-catherine-howard-to-thomas-culpeper-modal-toggle"><img src="../images/her-story/main-image-catherine-howard.jpg" alt=""></a>
                     </div>
                 </div>
                 <!-- Modal one -->
@@ -45,7 +43,7 @@
                     <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="letter-from-catherine-howard-to-thomas-culpeper-close-button-top">
                                     <span aria-hidden="true">Close this image</span>
                                 </button>
                             </div>
@@ -55,7 +53,7 @@
                                 <img src="../images/her-story/main-image-catherine-howard.jpg" alt="">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="letter-from-catherine-howard-to-thomas-culpeper-close-button-bottom">
                                     <span aria-hidden="true">Close this image</span>
                                 </button>
                             </div>
@@ -66,7 +64,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                    <a href="" class="btn-primary" title="" id="catalogue-description-catherine-howard-thomas-culpeper">View the catalogue description</a>
                 </div>
             </div>
 
@@ -80,9 +78,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Joanna Lucas<br><small>Actor</small></p>
-                    <audio controls>
+                    <audio controls id="audio-reading-catherine-howard">
                         <source src="../media/her-story/audio-catherine-howard.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/audio-catherine-howard.mp3">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/audio-catherine-howard.mp3" id="audio-reading-catherine-howard-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -95,9 +93,9 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Dr Neil Johnston<br><small>Principal Records Specialist, The National Archives</small></p>
-                    <audio controls>
+                    <audio controls id="audio-commentary-catherine-howard">
                         <source src="../media/her-story/commentary-catherine-howard.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/commentary-catherine-howard.mp3">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/her-story/commentary-catherine-howard.mp3" id="audio-commentary-catherine-howard-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

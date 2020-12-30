@@ -1,6 +1,5 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Her Story - The National Archives</title>
-<meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="her-story" class="theme">
     <?php include '../includes/header.php'; ?>
@@ -8,7 +7,7 @@
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -23,7 +22,7 @@
                             <img src="../images/her-story/index-her-story-one.jpg" alt="">
                             <div class="img-filter"></div>
                             </div>
-                            <h2><a href="catherine-howard-thomas-culpeper.php" class="stretched-link" title="">Letter from Catherine Howard to Thomas Culpeper</a></h2>
+                            <h2><a href="catherine-howard-thomas-culpeper.php" class="stretched-link" title="" id="letter-from-catherine-howard-to-thomas-culpeper">Letter from Catherine Howard to Thomas Culpeper</a></h2>
                             <p>1541</p>
                         </div>
                     </div>

@@ -1,6 +1,5 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Birthday card from Hetty to William Crawford - The National Archives</title>
-<meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="separation" class="theme">
     <?php include '../includes/header.php'; ?>
@@ -51,7 +50,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -61,7 +60,7 @@
                                     <img src="../images/separation/main-image-hetty-to-william.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -80,7 +79,7 @@
                             <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-2-enlarged-image-close-button-top">
                                             <span aria-hidden="true">Close this image</span>
                                         </button>
                                     </div>
@@ -90,7 +89,7 @@
                                         <img src="../images/separation/main-image-hetty-to-william-reverse.jpg" alt="">
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-2-enlarged-image-close-button-bottom">
                                             <span aria-hidden="true">Close this image</span>
                                         </button>
                                     </div>
@@ -110,7 +109,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-3-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -120,7 +119,7 @@
                                     <img src="../images/separation/main-image-hetty-to-william-card.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-3-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -145,9 +144,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Margaret Clunie<br><small>Actor</small></p>
-                    <audio controls>
+                    <audio controls id="audio-reading-hetty">
                         <source src="../media/separation/audio-hetty.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-hetty.mp3">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/separation/audio-hetty.mp3" id="audio-reading-hetty-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>

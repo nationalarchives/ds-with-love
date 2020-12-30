@@ -1,14 +1,13 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>The will of Anne Lister - The National Archives</title>
-<meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="legacy" class="theme">
     <?php include '../includes/header.php'; ?>
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/legacy/">Legacy</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/legacy/" id="legacy">Legacy</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -42,7 +41,7 @@
             <div class="row pb-5 bb">
                 <div class="col-md-4 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/main-image-nelsons-diary-1.jpg" data-toggle="modal" data-target="#legacy-2-1"><img src="../images/legacy/main-image-nelsons-diary-1.jpg" alt=""></a>
+                        <a href="../images/legacy/main-image-nelsons-diary-1.jpg" data-toggle="modal" data-target="#legacy-2-1" id="the-will-enlarged-image-toggle-modal"><img src="../images/legacy/main-image-nelsons-diary-1.jpg" alt=""></a>
                         <p>Diary entry - Page 1</p>
                     </div>
                     <!-- Modal one -->
@@ -50,7 +49,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="the-will-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -60,7 +59,7 @@
                                     <img src="../images/legacy/main-image-nelsons-diary-1.jpg" alt=""></a>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="the-will-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -71,7 +70,7 @@
                 </div>
                 <div class="col-md-4 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/main-image-nelsons-diary-2.jpg" data-toggle="modal" data-target="#legacy-2-2"><img src="../images/legacy/main-image-nelsons-diary-2.jpg" alt=""></a>
+                        <a href="../images/legacy/main-image-nelsons-diary-2.jpg" data-toggle="modal" data-target="#legacy-2-2" id="the-pocket-diary-enlarged-image-toggle-modal"><img src="../images/legacy/main-image-nelsons-diary-2.jpg" alt=""></a>
                         <p>Diary entry - Page 2</p>
                     </div>
                     <!-- Modal two -->
@@ -79,7 +78,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="the-pocket-diary-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -89,7 +88,7 @@
                                     <img src="../images/legacy/main-image-nelsons-diary-2.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="the-pocket-diary-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -100,7 +99,7 @@
                 </div>
                 <div class="col-md-4 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/main-image-nelsons-diary-3.jpg" data-toggle="modal" data-target="#legacy-2-3"><img src="../images/legacy/main-image-nelsons-diary-3.jpg" alt=""></a>
+                        <a href="../images/legacy/main-image-nelsons-diary-3.jpg" data-toggle="modal" data-target="#legacy-2-3" id="diary-entry-page-3-toggle-modal"><img src="../images/legacy/main-image-nelsons-diary-3.jpg" alt=""></a>
                         <p>Diary entry - Page 3</p>
                     </div>
                     <!-- Modal three -->
@@ -108,7 +107,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-3-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -118,7 +117,7 @@
                                     <img src="../images/legacy/main-image-nelsons-diary-3.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-3-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -129,7 +128,7 @@
                 </div>
                 <div class="col-md-4 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/main-image-nelsons-diary-4.jpg" data-toggle="modal" data-target="#legacy-2-4"><img src="../images/legacy/main-image-nelsons-diary-4.jpg" alt=""></a>
+                        <a href="../images/legacy/main-image-nelsons-diary-4.jpg" data-toggle="modal" data-target="#legacy-2-4" id="diary-entry-page-4-toggle-modal"><img src="../images/legacy/main-image-nelsons-diary-4.jpg" alt=""></a>
                         <p>Diary entry - Page 4</p>
                     </div>
                     <!-- Modal four -->
@@ -137,7 +136,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-4-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -147,7 +146,7 @@
                                     <img src="../images/legacy/main-image-nelsons-diary-4.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-4-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -158,7 +157,7 @@
                 </div>
                 <div class="col-md-4 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/main-image-nelsons-diary-5.jpg" data-toggle="modal" data-target="#legacy-2-5"><img src="../images/legacy/main-image-nelsons-diary-5.jpg" alt=""></a>
+                        <a href="../images/legacy/main-image-nelsons-diary-5.jpg" data-toggle="modal" data-target="#legacy-2-5" id="diary-entry-page-5-toggle-modal"><img src="../images/legacy/main-image-nelsons-diary-5.jpg" alt=""></a>
                         <p>Diary entry - Page 5</p>
                     </div>
                     <!-- Modal five -->
@@ -166,7 +165,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-5-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -176,7 +175,7 @@
                                     <img src="../images/legacy/main-image-nelsons-diary-5.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"  id="diary-entry-page-5-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -187,7 +186,7 @@
                 </div>
                 <div class="col-md-4 p-3">
                     <div class="image-panel">
-                        <a href="../images/legacy/main-image-nelsons-diary-6.jpg" data-toggle="modal" data-target="#legacy-2-6"><img src="../images/legacy/main-image-nelsons-diary-6.jpg" alt=""></a>
+                        <a href="../images/legacy/main-image-nelsons-diary-6.jpg" data-toggle="modal" data-target="#legacy-2-6" id="diary-entry-page-6-toggle-modal"><img src="../images/legacy/main-image-nelsons-diary-6.jpg" alt=""></a>
                         <p>Diary entry - Page 6</p>
                     </div>
                     <!-- Modal six -->
@@ -195,7 +194,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-6-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -205,7 +204,7 @@
                                     <img src="../images/legacy/main-image-nelsons-diary-6.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-6-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -219,7 +218,7 @@
                 <div class="row pb-5 bb mb-2">
                     <div class="col-md-6 offset-md-3 p-3">
                         <div class="image-panel">
-                            <a href="../images/legacy/main-image-nelsons-will.jpg" data-toggle="modal" data-target="#legacy-2-7"><img src="../images/legacy/main-image-nelsons-will.jpg" alt=""></a>
+                            <a href="../images/legacy/main-image-nelsons-will.jpg" data-toggle="modal" data-target="#legacy-2-7" id="diary-entry-page-7-toggle-modal"><img src="../images/legacy/main-image-nelsons-will.jpg" alt=""></a>
                         </div>
                     </div>
                     <!-- Modal seven -->
@@ -227,17 +226,17 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-7-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <h5 id="modal-title-seven">The will - enlarged image</h5>
+                                    <h5 id="modal-title-seven">The will - Page 7 - enlarged image</h5>
                                     <p class="mobile-only">Pinch the screen to zoom in/out</p>
                                     <img src="../images/legacy/main-image-nelsons-will.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-7-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -250,8 +249,8 @@
                 <div class="col-md-12 p-3c descriptions">
                     <h4>Explore these documents further</h4>
                     <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description <small>(The will)</small></a>
-                    <a href="" class="btn-primary" title="">View the catalogue description <small>(The pocket diary)</small></a>
+                    <a href="" class="btn-primary" title="" id="view-catalogue-description-the-will">View the catalogue description <small>(The will)</small></a>
+                    <a href="" class="btn-primary" title="" id="view-catalogue-description-the-pocket-diary">View the catalogue description <small>(The pocket diary)</small></a>
                 </div>
             </div>
 
@@ -391,7 +390,7 @@
                             <img src="../images/legacy/index-legacy-one.jpg" alt="">
                             <div class="img-filter"></div>
                         </div>
-                            <h2><a href="will-of-anne-lister.php"  class="stretched-link" title="">The will of Anne Lister</a></h2>
+                            <h2><a href="will-of-anne-lister.php"  class="stretched-link" title="" id="will-of-anne-lister">The will of Anne Lister</a></h2>
                             <p>1841</p>
                         </div>
                     </div>

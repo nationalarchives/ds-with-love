@@ -1,9 +1,23 @@
+<?php
+ $description = "In our latest exhibition, love letters offer glimpses into private worlds – from a queen’s treasonous love letter, to the generous wish of a naval hero and the forlorn poetry of a prime minister. Expect secret stories of heartbreak, passion and disappointment as you explore 500 years of letters in this intimate exhibition."
+?>
 
     <link rel="canonical" href="http://www.nationalarchives.gov.uk/"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta content="initial-scale = 1.0" name="viewport">
     <meta name="robots" content="noindex" />
+    <meta name="description" content="<?php echo $description ?>"/>
+    <meta property="og:locale" content="en_GB"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="The National Archives - With Love exhibition"/>
+    <meta property="og:description" content="<?php echo $description ?>"/>
+    <meta property="og:url" content="http://www.nationalarchives.gov.uk/"/>
+    <meta property="og:site_name" content="The National Archives - With Love exhibition"/>
+    <meta property="og:image" content="http://www.nationalarchives.gov.uk/wp-content/uploads/sites/24/2019/07/tna-logo-600x315.jpg"/>
+    <meta property="og:image:width" content="600"/>
+    <meta property="og:image:height" content="315"/>
+    <meta property="og:image:alt" content="The National Archives logo"/>
     <link rel='dns-prefetch' href='//cdn.nationalarchives.gov.uk'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel="stylesheet" href="https://use.typekit.net/cbl4nty.css">
@@ -15,12 +29,34 @@
     <link rel="stylesheet" type="text/css" media="all" href="/css/ie-styles.css">
     <!-- Fav icon -->
     <link rel="shortcut icon" type="image/vnd.microsoft.icon"
-          href="www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/favicon.png">
+          href="images/utilities/favicon.png">
     <link rel="icon" type="image/vnd.microsoft.icon"
-          href="www.nationalarchives.gov.uk/wp-content/themes/tna-base/img/favicon.png">
+          href="images/utilities/favicon.png">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T8DSWV');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
 </head>
+<?php include 'opening-body.php' ?>

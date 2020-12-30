@@ -1,14 +1,13 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Letter from Harry Houghton to Ethel 'Bunty' Gee - The National Archives</title>
-<meta name="description" content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="sacrifice" class="theme">
     <?php include '../includes/header.php'; ?>
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/sacrifice/">Sacrifice</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/sacrifice/" id="sacrifice">Sacrifice</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -40,7 +39,7 @@
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/sacrifice/main-image-harry-to-ethel-1.jpg" data-toggle="modal" data-target="#sacrifice-3-1"><img src="../images/sacrifice/main-image-harry-to-ethel-1.jpg" alt=""></a>
+                        <a href="../images/sacrifice/main-image-harry-to-ethel-1.jpg" data-toggle="modal" data-target="#sacrifice-3-1" id="page-1-enlarged-image-modal-toggle"><img src="../images/sacrifice/main-image-harry-to-ethel-1.jpg" alt=""></a>
                         <p>Page 1</p>
                     </div>
                     <!-- Modal one -->
@@ -48,7 +47,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-1-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -58,7 +57,7 @@
                                     <img src="../images/sacrifice/main-image-harry-to-ethel-1.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-1-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -69,7 +68,7 @@
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/sacrifice/main-image-harry-to-ethel-2.jpg" data-toggle="modal" data-target="#sacrifice-3-2"><img src="../images/sacrifice/main-image-harry-to-ethel-2.jpg" alt=""></a>
+                        <a href="../images/sacrifice/main-image-harry-to-ethel-2.jpg" data-toggle="modal" data-target="#sacrifice-3-2" id="page-2-enlarged-image-modal-toggle"><img src="../images/sacrifice/main-image-harry-to-ethel-2.jpg" alt=""></a>
                         <p>Page 2</p>
                     </div>
                 </div>
@@ -78,7 +77,7 @@
                     <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-2-enlarged-image-close-button-top">
                                     <span aria-hidden="true">Close this image</span>
                                 </button>
                             </div>
@@ -88,7 +87,7 @@
                                 <img src="../images/sacrifice/main-image-harry-to-ethel-2.jpg" alt="">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-2-enlarged-image-close-button-bottom">
                                     <span aria-hidden="true">Close this image</span>
                                 </button>
                             </div>
@@ -99,7 +98,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                    <a href="" class="btn-primary" title="" id="catalogue-description-harry-houghton-ethel-bunty-gee">View the catalogue description</a>
                 </div>
             </div>
 
@@ -112,9 +111,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Michael Simkins<br><small>Actor</small></p>
-                    <audio controls>
+                    <audio controls id="audio-reading-harry-haughton">
                         <source src="../media/sacrifice/audio-harry-houghton.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/audio-harry-houghton.mp3">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/sacrifice/audio-harry-houghton.mp3" id="audio-reading-harry-haughton-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -193,7 +192,7 @@
                             <img src="../images/sacrifice/index-sacrifice-one.jpg" alt="">
                             <div class="img-filter"></div>
                         </div>
-                            <h2><a href="daniel-rush-to-poor-law-board.php" class="stretched-link" title="">Letter from Daniel Rush to the Poor Law Board</a></h2>
+                            <h2><a href="daniel-rush-to-poor-law-board.php" class="stretched-link" title="" id="letter-from-daniel-rush-to-the-poor-law-board">Letter from Daniel Rush to the Poor Law Board</a></h2>
                             <p>22 August 1851</p>
                         </div>
                     </div>
@@ -205,7 +204,7 @@
                             <img src="../images/sacrifice/index-sacrifice-two.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
-                                <h2><a href="instrument-abdication-edward-VIII.php" class="stretched-link" title="">Instrument of Abdication of Edward VIII</a></h2>
+                                <h2><a href="instrument-abdication-edward-VIII.php" class="stretched-link" title="" id="instrument-abdication-edward-viii">Instrument of Abdication of Edward VIII</a></h2>
                             <p>1936</p>
                         </div>
                     </div>

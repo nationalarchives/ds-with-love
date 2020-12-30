@@ -1,7 +1,5 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Letter from Roland to his mother - The National Archives</title>
-<meta name="description"
-      content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="family" class="theme">
     <?php include '../includes/header.php'; ?>
@@ -49,7 +47,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-1-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -59,7 +57,7 @@
                                     <img src="../images/family/1.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-1-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -79,7 +77,7 @@
                     <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-2-enlarged-image-close-button-top">
                                     <span aria-hidden="true">Close this image</span>
                                 </button>
                             </div>
@@ -89,7 +87,7 @@
                                 <img src="../images/family/1.jpg" alt="">
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="page-2-enlarged-image-close-button-bottom">
                                     <span aria-hidden="true">Close this image</span>
                                 </button>
                             </div>

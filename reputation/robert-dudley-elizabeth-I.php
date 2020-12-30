@@ -1,15 +1,13 @@
 <?php include '../includes/opening-tags.php'; ?>
 <title>Letter from Robert Dudley to Elizabeth I - The National Archives</title>
-<meta name="description"
-      content="We are a non-ministerial department, and the official archive and publisher for the UK Government, and for England and Wales."/>
 <?php include '../includes/head.php'; ?>
 <main id="reputation" class="theme">
     <?php include '../includes/header.php'; ?>
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/reputation/">Reputation</a></li>
+                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
+                <li class="breadcrumb-item"><a href="/reputation/" id="reputation">Reputation</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>
@@ -47,7 +45,7 @@
             <div class="row mb-4">
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/reputation/main-image-elizabeth-1-robert-dudley-1.jpg" data-toggle="modal" data-target="#reputation-2-1"><img src="../images/reputation/main-image-elizabeth-1-robert-dudley-1.jpg" alt=""></a>
+                        <a href="../images/reputation/main-image-elizabeth-1-robert-dudley-1.jpg" data-toggle="modal" data-target="#reputation-2-1" id="front-of-letter-enlarged-image-modal-toggle"><img src="../images/reputation/main-image-elizabeth-1-robert-dudley-1.jpg" alt=""></a>
                         <p>Front of letter</p>
                     </div>
                     <!-- Modal one -->
@@ -55,7 +53,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="front-of-letter-enlarged-image-close-button-top">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -65,7 +63,7 @@
                                     <img src="../images/reputation/main-image-elizabeth-1-robert-dudley-1.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="front-of-letter-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -76,7 +74,7 @@
                 </div>
                 <div class="col-md-6 p-3">
                     <div class="image-panel">
-                        <a href="../images/reputation/main-image-elizabeth-1-robert-dudley-2.jpg" data-toggle="modal" data-target="#reputation-2-2"><img src="../images/reputation/main-image-elizabeth-1-robert-dudley-2.jpg" alt=""></a>
+                        <a href="../images/reputation/main-image-elizabeth-1-robert-dudley-2.jpg" data-toggle="modal" data-target="#reputation-2-2" id="back-of-letter-enlarged-image-modal-toggle"><img src="../images/reputation/main-image-elizabeth-1-robert-dudley-2.jpg" alt=""></a>
                         <p>Back of letter</p>
                     </div>
                     <!-- Modal two -->
@@ -84,7 +82,7 @@
                         <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="back-of-letter-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -94,7 +92,7 @@
                                     <img src="../images/reputation/main-image-elizabeth-1-robert-dudley-2.jpg" alt="">
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="back-of-letter-enlarged-image-close-button-bottom">
                                         <span aria-hidden="true">Close this image</span>
                                     </button>
                                 </div>
@@ -106,7 +104,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                    <a href="" class="btn-primary" title="" id="robert-dudley-elizabeth">View the catalogue description</a>
                 </div>
             </div>
 
@@ -118,9 +116,9 @@
                     </svg>
                     <h3>Listen to the letter</h3>
                     <p>Read by Sean Patterson<br><small>Actor</small></p>
-                    <audio controls>
+                    <audio controls id="audio-reading-robert-dudley">
                         <source src="../media/reputation/audio-robert-dudley.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-robert-dudley.mp3">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/audio-robert-dudley.mp3" id="audio-reading-robert-dudley-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -133,9 +131,9 @@
                     </svg>
                     <h3>Listen to a commentary</h3>
                     <p>Discussed by Katy Mair <br><small>Head of Collections, The National Archives</small></p>
-                    <audio controls>
+                    <audio controls id="audio-commentary-robert-dudley">
                         <source src="../media/reputation/commentary-robert-dudley.mp3" type="audio/mp3">
-                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/commentary-robert-dudley.mp3">link to the audio</a>
+                        <p>Your browser doesn't support HTML5 audio. Here is a <a href="../media/reputation/commentary-robert-dudley.mp3" id="audio-commentary-robert-dudley-fallback">link to the audio</a>
                             instead.</p>
                     </audio>
                 </div>
@@ -186,7 +184,7 @@
                             <img src="../images/reputation/index-reputation-one.jpg" alt="">
                             <div class="img-filter"></div>
                         </div>
-                            <h2><a href="james-ramsay-macdonald-lady-margaret-sackville.php" class="stretched-link" title="">Letter from James Ramsay MacDonald to Lady Margaret Sackville</a></h2>
+                            <h2><a href="james-ramsay-macdonald-lady-margaret-sackville.php" class="stretched-link" title="" id="james-ramsay-macdonald-lady-margaret-sackville">Letter from James Ramsay MacDonald to Lady Margaret Sackville</a></h2>
                             <p>30 December 1915</p>
                         </div>
                     </div>

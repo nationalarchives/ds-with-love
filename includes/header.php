@@ -3,7 +3,7 @@
 
     </video>
     <div id="bg-video-filter"></div>
-    <audio id='bg-audio' loop preload="none">
+    <audio id='bg-audio' loop preload="none" id="background-audio-player">
     </audio>
 
 </div>
@@ -27,7 +27,7 @@
 
 
     <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="navbar-toggler">
         <span class="navbar-toggler-icon"></span>
         <span class="large-screen-only">Select a section</span>
     </button>
