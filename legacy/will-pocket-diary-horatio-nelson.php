@@ -28,12 +28,13 @@
                 disregarded, and a shunned Emma died destitute in
                 France in 1815.</p>
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Dates: 1803 and 1805</li>
                     <li>Catalogue reference: PROB 1/22 and PROB 1/22/32-33</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C198040" class="btn-primary" title="" id="view-catalogue-description-the-will">View Nelson's will in our catalogue</a>
             </div>
 
             <h3 class="text-center">Select the images to see larger versions</h3>
@@ -214,46 +215,37 @@
                     <!-- end Modal six -->
                 </div>
             </div>
-                <h4 class="dark">The will</h4>
-                <div class="row pb-5 bb mb-2">
-                    <div class="col-md-6 offset-md-3 p-3">
-                        <div class="image-panel">
-                            <a href="../images/legacy/main-image-nelsons-will.jpg" data-toggle="modal" data-target="#legacy-2-7" id="diary-entry-page-7-toggle-modal"><img src="../images/legacy/main-image-nelsons-will.jpg" alt=""></a>
-                        </div>
+            <h4 class="dark">The will</h4>
+            <div class="row pb-5 bb">
+                <div class="col-md-6 offset-md-3 p-3">
+                    <div class="image-panel">
+                        <a href="../images/legacy/main-image-nelsons-will.jpg" data-toggle="modal" data-target="#legacy-2-7" id="diary-entry-page-7-toggle-modal"><img src="../images/legacy/main-image-nelsons-will.jpg" alt=""></a>
                     </div>
-                    <!-- Modal seven -->
-                    <div class="modal fade" id="legacy-2-7" tabindex="-1" role="dialog" aria-labelledby="modal-title-seven" aria-hidden="true" data-backdrop="false">
-                        <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-7-enlarged-image-close-button-top">
-                                        <span aria-hidden="true">Close this image</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <h5 id="modal-title-seven">The will - Page 7 - enlarged image</h5>
-                                    <p class="mobile-only">Pinch the screen to zoom in/out</p>
-                                    <img src="../images/legacy/main-image-nelsons-will.jpg" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-7-enlarged-image-close-button-bottom">
-                                        <span aria-hidden="true">Close this image</span>
-                                    </button>
-                                </div>
+                </div>
+                <!-- Modal seven -->
+                <div class="modal fade" id="legacy-2-7" tabindex="-1" role="dialog" aria-labelledby="modal-title-seven" aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog modal-dialog-centered modal-custom" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-7-enlarged-image-close-button-top">
+                                    <span aria-hidden="true">Close this image</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 id="modal-title-seven">The will - Page 7 - enlarged image</h5>
+                                <p class="mobile-only">Pinch the screen to zoom in/out</p>
+                                <img src="../images/legacy/main-image-nelsons-will.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="diary-entry-page-7-enlarged-image-close-button-bottom">
+                                    <span aria-hidden="true">Close this image</span>
+                                </button>
                             </div>
                         </div>
                     </div>
-                    <!-- end Modal seven -->
                 </div>
-            <div class="row pb-5 bb">
-                <div class="col-md-12 p-3c descriptions">
-                    <h4>Explore these documents further</h4>
-                    <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="view-catalogue-description-the-will">View the catalogue description <small>(The will)</small></a>
-                    <a href="" class="btn-primary" title="" id="view-catalogue-description-the-pocket-diary">View the catalogue description <small>(The pocket diary)</small></a>
-                </div>
+                <!-- end Modal seven -->
             </div>
-
             <h3>Read the transcript</h3>
             <div class="row mb-5">
                 <div class="col-md-12 m-3 transcript-panel">

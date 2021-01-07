@@ -17,19 +17,20 @@
             <blockquote>
                 <p class="mb-0 medium">"Yours as long as life endures, Katheryn"</p>
             </blockquote>
-            <p>The teenage Catherine arrived at the court of Henry VIII
-                in 1540, and soon after coming to the attention of the
+            <p>The teenaged Catherine arrived at the court of Henry VIII
+                in 1540, and, soon after coming to the attention of the
                 49-year-old king, the two were married. It was essential
                 that a royal consort was known to be chaste but Catherine
                 had a complicated sexual past.</p>
             <p>She is thought to have fallen in love with courtier Thomas Culpeper before marrying Henry. When their relationship was revealed to Henry, the shocked king unleased all his anger on the couple. Both Catherine and Culpeper were executed for treason and adultery.</p>
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 1541</li>
                     <li>Catalogue reference: SP 1/167 f.14</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C3063454" class="btn-primary" title="" id="catalogue-description-catherine-howard-thomas-culpeper">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
@@ -61,11 +62,6 @@
                     </div>
                 </div>
                 <!-- end Modal one -->
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="catalogue-description-catherine-howard-thomas-culpeper">View the catalogue description</a>
-                </div>
             </div>
 
             <div class="row mb-4">

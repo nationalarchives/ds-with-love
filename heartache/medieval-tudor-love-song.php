@@ -20,7 +20,7 @@
             </blockquote>
             <p>These are words that may have been sung at the court of
                 Henry VIII – the refrain "Alone I live, alone" also appears in
-                a songbook owned by the King.</p>
+                a songbook owned by the king.</p>
             <p>The poem bears signs of the writer’s own experience
                 of the loneliness of unrequited love, with heartbroken
                 sighs throughout. Love is framed as a pursuit, or a game,
@@ -34,12 +34,13 @@
                     The joy in me that would be than.</b></p>
 
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 1457-1530</li>
                     <li>Catalogue reference: E 163/22/1/1</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C4005442" class="btn-primary" title="" id="medieval-tudor-love-song-catalogue-description">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
@@ -70,11 +71,6 @@
                         </div>
                     </div>
                     <!-- end Modal one -->
-                </div>
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="medieval-tudor-love-song-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 
@@ -136,7 +132,7 @@
             <p>Copied onto the back of a draft official report – an enquiry into a riot of
                 1457 – this poem with accompanying music in three parts has survived in
                 the collections of The National Archives by accident. Paper was sometimes
-                used for draft accounts in the fifteenth century, with final accounts later
+                used for draft accounts in the 15th century, with final accounts later
                 produced on parchment, and this report may have been a handy source of
                 writing material for the copyist. His identity remains unknown – perhaps a
                 clerk or official with his own experience of unrequited love.</p>

@@ -25,19 +25,20 @@
                 Britain: "I am willing to leave the country at once with my
                 wife and child (not without)". The attack took place during
                 the 1919 race riots, a series of violent riots in port towns
-                which saw black populations - many of whom had lived and
+                which saw black populations &mdash; many of whom had lived and
                 worked here for many years and served Britain during the
-                war - targeted.</p>
-            <p>As in so many stories of 'everyday' people it has not been
+                war &mdash; targeted.</p>
+            <p>As in so many stories of 'everyday' people, it has not been
                 possible to trace what happened to James Gillespie and
                 his family.</p>
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 24 October 1919</li>
                     <li>Catalogue reference: CO 318/350/400</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C998730" class="btn-primary" title="">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the images to see larger versions</h3>
             <div class="row mb-4">
@@ -98,11 +99,6 @@
                         </div>
                     </div>
                     <!-- End Modal two -->
-                </div>
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
                 </div>
             </div>
 

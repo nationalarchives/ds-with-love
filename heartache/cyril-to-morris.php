@@ -34,12 +34,13 @@
                 even if Morris had been willing.</p>
 
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 1930s</li>
                     <li>Catalogue reference: DPP 2/224</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C10870619" class="btn-primary" title="" id="cyril-to-morris-catalogue-description">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
@@ -70,11 +71,6 @@
                         </div>
                     </div>
                     <!-- end Modal one -->
-                </div>
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="cyril-to-morris-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 
@@ -143,7 +139,7 @@
                 raided, Cyril ripped up the letter and hid it under a divan. It was pieced
                 together and typed up into its current format by police. 103 people were
                 arrested during the raid. Cyril was committed to trial for aiding and abetting
-                in keeping a disorderly house and found not guilty but the club owners were
+                in keeping a disorderly house and found not guilty, but the club owners were
                 sentenced to hard labour for 20 and 12 months respectively.</p>
             <hr>
             <h2>Explore other letters within this theme</h2>

@@ -14,9 +14,9 @@
         <div class="container text-center">
             <h1>Legacy</h1>
             <p>Wills are legal documents that may appear formulaic
-                and emotionless, but are often revealing of intimate
+                and emotionless, but often reveal intimate
                 feelings and desires. What tells us more about
-                love than to whom someone choose to leave their
+                love than to whom someone chooses to leave their
                 possessions and wealth?</p>
             <p>Love that could not be expressed in other ways, such
                 as illicit or socially unacceptable relationships, can

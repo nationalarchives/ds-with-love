@@ -25,21 +25,22 @@
                 Great Britain, Northern Ireland and its dominions for just
                 326 days, signed this document stating his “irrevocable
                 determination to renounce the Throne”. He was to give up
-                his Crown, in part, for love.</p>
+                his crown, in part, for love.</p>
             <p>Edward had been a renowned womaniser in his youth but
-                just prior to becoming King had fallen in love with
-                Wallis Simpson. As King he could not hope to marry the
+                just prior to becoming king had fallen in love with
+                Wallis Simpson. As king he could not hope to marry the
                 twice-divorced American – the country would have been
                 outraged. After his abdication Edward was created Duke
-                of Windsor and he and Wallis spent the rest of their
+                of Windsor, and he and Wallis spent the rest of their
                 lives together.</p>
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 1936</li>
                     <li>Catalogue reference: PC 11/1</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C1933462" class="btn-primary" title="" id="catalogue-description-instrument-abdication">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
@@ -70,11 +71,6 @@
                         </div>
                     </div>
                     <!-- end Modal one -->
-                </div>
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="catalogue-description-instrument-abdication">View the catalogue description</a>
                 </div>
             </div>
 
@@ -119,7 +115,7 @@
             </div>
             <h2>Why is this in The National Archives?</h2>
             <p>This document sits within the records of the Privy Council, who formalised
-                the abdication. Signed by his brothers Albert, Henry and George this piece
+                the abdication. Signed by his brothers Albert, Henry and George, this piece
                 of paper is both a record of love and of a process scrabbled together by
                 politicians desperate to “avoid any constitutional struggle, so as to make
                 matters easy for the King’s successor”. The first brother to sign, Albert, soon

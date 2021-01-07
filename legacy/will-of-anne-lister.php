@@ -24,17 +24,18 @@
                 Walker. In an unusual, and perhaps rather controlling, twist,
                 she stipulated that if Walker should marry she would be
                 disinherited "… as if the said Ann Walker should have then
-                departed this life'.</p>
+                departed this life".</p>
                 <p>Walker was not to stay at Shibden Hall for long. Two years
                 after Lister’s death, she was declared of “unsound mind”
                 and removed to an asylum in York.</p>
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 1841</li>
                     <li>Catalogue reference: PROB 10/6000</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C5481462" class="btn-primary" title="" id="will-of-anne-lister-catalogue-description">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row pb-5 bb">
@@ -65,11 +66,6 @@
                         </div>
                     </div>
                     <!-- end Modal one -->
-                </div>
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="will-of-anne-lister-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 
