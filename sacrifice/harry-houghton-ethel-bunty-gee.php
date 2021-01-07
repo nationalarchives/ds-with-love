@@ -6,8 +6,8 @@
     <div id="section-one">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/" id="overview">Overview</a></li>
-                <li class="breadcrumb-item"><a href="/sacrifice/" id="sacrifice">Sacrifice</a></li>
+                <li class="breadcrumb-item"><a href="../" id="overview">Overview</a></li>
+                <li class="breadcrumb-item"><a href="../sacrifice/" id="sacrifice">Sacrifice</a></li>
                 <li class="breadcrumb-item active" aria-current="page">...</li>
             </ol>
         </nav>

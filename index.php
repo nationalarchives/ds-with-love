@@ -1,8 +1,8 @@
 <?php include 'includes/opening-tags.php'; ?>
 <title>With Love - The National Archives</title>
-<?php include 'includes/head.php'; ?>
+<?php include 'includes/root-level/head.php'; ?>
 <main id="home">
-    <?php include 'includes/header.php'; ?>
+    <?php include 'includes/root-level/header.php'; ?>
 
     <div class="jumbotron">
         <div class="container text-center">
@@ -75,6 +75,6 @@
             </div>
         </div>
     </div>
-    <?php include 'includes/feedback.php'; ?>
+    <?php include 'includes/root-level/feedback.php'; ?>
     <?php include 'includes/footer.php'; ?>
 

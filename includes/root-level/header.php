@@ -1,5 +1,5 @@
 <div id="bg-video-wrapper">
-    <video playsinline autoplay muted loop poster="../images/utilities/bg-image.jpg">
+    <video playsinline autoplay muted loop poster="images/utilities/bg-image.jpg">
 
     </video>
     <div id="bg-video-filter"></div>
@@ -11,7 +11,7 @@
 <nav class="navbar no-margin">
     <!-- Brand -->
     <a class="navbar-brand" href="https://www.nationalarchives.gov.uk">
-        <img src="../images/utilities/TNA-logo-white.png" alt="The National Archives logo">
+        <img src="images/utilities/TNA-logo-white.png" alt="The National Archives logo">
     </a>
 
     <!-- Audio/video controls -->
@@ -36,31 +36,31 @@
     <div class="collapse navbar-collapse text-right" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="../">Overview</a>
+                <a class="nav-link" href="index.php">Overview</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../reputation/">Reputation</a>
+                <a class="nav-link" href="reputation/">Reputation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../sacrifice/">Sacrifice</a>
+                <a class="nav-link" href="sacrifice/">Sacrifice</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../her-story/">Betrayal</a>
+                <a class="nav-link" href="her-story/">Betrayal</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../family/">Family</a>
+                <a class="nav-link" href="family/">Family</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../separation/">Separation</a>
+                <a class="nav-link" href="separation/">Separation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../advice/">Advice</a>
+                <a class="nav-link" href="advice/">Advice</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../heartache/">Heartache</a>
+                <a class="nav-link" href="heartache/">Heartache</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../legacy/">Legacy</a>
+                <a class="nav-link" href="legacy/">Legacy</a>
             </li>
         </ul>
     </div>
