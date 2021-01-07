@@ -31,12 +31,13 @@
                 without thee nothing but misery".</p>
             <p>The couple were reunited when he returned to England in
                 September that year.</p>
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 17 July 1623</li>
                     <li>Catalogue reference: SP 14/148 f.155</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C1902926" class="btn-primary" title="">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the images to see larger versions</h3>
             <div class="row mb-4">
@@ -127,11 +128,6 @@
                     </div>
                 </div>
                 <!-- end Modal three -->
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C1902926" class="btn-primary" title="">View the catalogue description</a>
-                </div>
             </div>
 
 

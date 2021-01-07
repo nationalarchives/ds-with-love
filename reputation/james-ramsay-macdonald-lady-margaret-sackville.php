@@ -33,12 +33,13 @@
                 married again. Sackville never married.</p>
 
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 30 December 1915</li>
                     <li>Catalogue reference: RW 1/2/37</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C11287091" class="btn-primary text-center" title="" id="james-ramsay-macdonald-lady-margaret-sackville-catalogue-description">View this document in our catalogue</a>
             </div>
             <h3 id="instructions" class="text-center">Select the images to see larger versions</h3>
             <div class="row mb-4">
@@ -99,11 +100,6 @@
                         </div>
                     </div>
                     <!-- end Modal two -->
-                </div>
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C11287091" class="btn-primary" title="" id="james-ramsay-macdonald-lady-margaret-sackville-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 

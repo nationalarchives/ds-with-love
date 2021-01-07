@@ -34,12 +34,13 @@
                     The joy in me that would be than.</b></p>
 
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 1457-1530</li>
                     <li>Catalogue reference: E 163/22/1/1</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C4005442" class="btn-primary" title="" id="medieval-tudor-love-song-catalogue-description">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
@@ -70,11 +71,6 @@
                         </div>
                     </div>
                     <!-- end Modal one -->
-                </div>
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C4005442" class="btn-primary" title="" id="medieval-tudor-love-song-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 

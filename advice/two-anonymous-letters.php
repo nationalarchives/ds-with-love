@@ -32,12 +32,14 @@
                 continues to argue passionately for 'L.H.'. It remains
                 a mystery which, if either, of the two women the
                 man married.</p>
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Date: 1740s</li>
                     <li>Catalogue reference: SP 46/151/f.415; SP 46/151/f.417</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C7713641" class="btn-primary" title="">View letter 1 in our catalogue</a>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C7713642" class="btn-primary" title="">View letter 2 in our catalogue</a>
             </div>
             <h3 class="text-center">Select the images to see larger versions</h3>
             <h4 class="dark">Letter 1</h4>
@@ -189,14 +191,6 @@
                         </div>
                     </div>
                     <!-- end Modal five -->
-                </div>
-            </div>
-            <div class="row pb-5 bb">
-                <div class="col-md-12 p-3c descriptions">
-                    <h4>Explore these documents further</h4>
-                    <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>
-                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C7713641" class="btn-primary" title="">View the catalogue description <small>(Letter 1)</small></a>
-                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C7713642" class="btn-primary" title="">View the catalogue description <small>(Letter 2)</small></a>
                 </div>
             </div>
 

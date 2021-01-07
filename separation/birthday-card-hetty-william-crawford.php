@@ -31,12 +31,13 @@
                 of wounds just over a year later in February 1918. We do not
                 know whether Hetty found another love.</p>
 
-            <div class="document-summary">
-                <h2 class="text-center mb-2">The original document</h2>
-                <ul class="text-center">
+            <div class="document-summary text-center">
+                <h2 class="mb-2">The original document</h2>
+                <ul>
                     <li>Dates: 11 January 1917 and 29 January 1917</li>
                     <li>Catalogue reference: WO 400/289/2867</li>
                 </ul>
+                <a href="https://discovery.nationalarchives.gov.uk/details/r/C14031568" class="btn-primary" title="">View this document in our catalogue</a>
             </div>
             <h3 class="text-center">Select the image to see a larger version</h3>
             <div class="row mb-4">
@@ -127,12 +128,6 @@
                         </div>
                     </div>
                     <!-- end Modal three -->
-
-                <div class="col-md-12 p-3 descriptions">
-                    <h4>Explore this document further</h4>
-                    <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C14031568" class="btn-primary" title="">View the catalogue description</a>
-                </div>
             </div>
 
 
