@@ -17,8 +17,8 @@
             <blockquote>
                 <p class="mb-0 medium">"Yours as long as life endures, Katheryn"</p>
             </blockquote>
-            <p>The teenage Catherine arrived at the court of Henry VIII
-                in 1540, and soon after coming to the attention of the
+            <p>The teenaged Catherine arrived at the court of Henry VIII
+                in 1540, and, soon after coming to the attention of the
                 49-year-old king, the two were married. It was essential
                 that a royal consort was known to be chaste but Catherine
                 had a complicated sexual past.</p>
@@ -64,7 +64,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="catalogue-description-catherine-howard-thomas-culpeper">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C3063454" class="btn-primary" title="" id="catalogue-description-catherine-howard-thomas-culpeper">View the catalogue description</a>
                 </div>
             </div>
 

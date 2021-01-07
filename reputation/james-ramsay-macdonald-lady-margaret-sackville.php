@@ -27,7 +27,7 @@
                 cannot even kiss you."</p>
             <p>He proposed at least three times but was turned down
                 on every occasion. Their biggest divide was thought to be
-                religious difference; Sackville was Roman Catholic, whilst
+                religious difference: Sackville was Roman Catholic, whilst
                 MacDonald was raised in the Presbyterian Church.</p>
                 <p>MacDonald, a widower when he met Sackville, never
                 married again. Sackville never married.</p>
@@ -103,7 +103,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="james-ramsay-macdonald-lady-margaret-sackville-catalogue-description">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C11287091" class="btn-primary" title="" id="james-ramsay-macdonald-lady-margaret-sackville-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 
@@ -173,7 +173,7 @@
                 local manager sent them to the Historical Manuscripts Commission in 1989,
                 and they were transferred to The National Archives on its formation in 2003.</p>
                 <p>One of the letters from MacDonald closes with the words "Of course
-                you will put this in the fire and it will blaze fiercely as love always does."
+                you will put this in the fire and it will blaze fiercely as love always does".
                 Thankfully Sackville never did and these remarkable letters survive.</p>
 
 

@@ -13,7 +13,7 @@
         </nav>
         <div class="container text-center">
             <h1>Separation</h1>
-            <p>Many lovers have found themselves separated; by
+            <p>Many lovers have found themselves separated: by
                 war, geography, work or duty. These separations
                 have caused heartaches, jealousies, and the exchange
                 of – often delayed and desperately anticipated – love

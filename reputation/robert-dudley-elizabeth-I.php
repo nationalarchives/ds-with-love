@@ -104,7 +104,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="robert-dudley-elizabeth">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C1903209" class="btn-primary" title="" id="robert-dudley-elizabeth">View the catalogue description</a>
                 </div>
             </div>
 
@@ -163,7 +163,7 @@
                 </div>
             </div>
             <h2>Why is this in The National Archives?</h2>
-            <p>This letter, with the words "his last letter", written on the reverse, was found
+            <p>This letter, with the words "his last letter" written on the reverse, was found
                 in a box by Elizabeth’s bedside upon her death. At The National Archives it is
                 housed in a collection known as the State Papers, which includes letters and
                 papers connected to the work of the Secretary of State, the chief advisor to

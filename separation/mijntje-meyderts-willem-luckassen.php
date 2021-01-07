@@ -15,7 +15,7 @@
             <h1 class="text-center">Letter from Mijntje Meyderts to her husband Willem Luckassen</h1>
             <img class="letter-banner" src="../images/separation/index-separation-three.jpg" alt="">
             <blockquote>
-                <p class="mb-0 small">"“…you write to me that at night in your bunk you
+                <p class="mb-0 small">"…you write to me that at night in your bunk you
                     hold your pillow in your arms and imagine that I
                     am with you, my beloved, and that I should write
                     to you that I do the same – but it is in vain: I must
@@ -24,7 +24,7 @@
             <p>The woman who found no comfort in holding a pillow in
                 place of her absent husband was the wife of a sailor on a
                 Dutch East India Company ship. He was a vast distance
-                away from her in Batavia, now Jakarta in Indonesia; a
+                away from her in Batavia, now Jakarta in Indonesia &mdash; a
                 voyage that had taken nearly a year.</p>
             <p>The letter, in Dutch, is unsigned and was written for her by
                 a street scribe, the third of her three surviving letters. She
@@ -36,7 +36,7 @@
                 <h2 class="text-center mb-2">The original document</h2>
                 <ul class="text-center">
                     <li>Date: November 1672</li>
-                    <li>Catalogue reference: HCA 30/1061, A21</li>
+                    <li>Catalogue reference: HCA 30/1061 A21</li>
                 </ul>
             </div>
             <h3 class="text-center">Select the images to see larger versions</h3>
@@ -131,7 +131,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C17114541" class="btn-primary" title="">View the catalogue description</a>
                 </div>
             </div>
 
@@ -199,10 +199,10 @@
                 lead and threw them overboard to prevent their capture.</p>
             <p>Four cases were recovered from the sea and sent to the High Court of
                 Admiralty in London, where they were used as evidence to determine
-                whether the captured ship was enemy property as enemy ships could be
+                whether the captured ship was enemy property, as enemy ships could be
                 seized and plundered as 'legal prize'.</p>
             <p>The court kept these captured documents which are now part of the ‘Prize
-                Papers’ collection at The National Archives – this letter is just one of perhaps
+                Papers’ collection at The National Archives. This letter is just one of perhaps
                 as many as 160,000 letters, most of them undelivered, and some never read
                 nor even opened since the day they were written.</p>
             <hr>

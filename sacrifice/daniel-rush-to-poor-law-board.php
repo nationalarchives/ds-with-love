@@ -18,12 +18,12 @@
                 <p class="mb-0">"so[o]ner then We Would be seperated
                     We Will Perish for Want"</p>
             </blockquote>
-            <p>In August 1851 Daniel Rush wrote to the Poor Law Board
+            <p>In August 1851, Daniel Rush wrote to the Poor Law Board
                 complaining that the Bethnal Green Poor Law Union
                 had refused him and his wife any money or help when
                 they found full-time employment hard to come by. The
                 local authorities had instead insisted the elderly couple
-                should go to the workhouse which would have entailed
+                should go to the workhouse, which would have entailed
                 "Sepratin me from my Wife Wich I have had 49 years".
                 Daniel indignantly and accurately referred in his letter to
                 the Consolidated General Order, issued on 26 July 1847,
@@ -101,7 +101,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="daniel-rush-to-poor-law-board-catalogue-description">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C3281658" class="btn-primary" title="" id="daniel-rush-to-poor-law-board-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 

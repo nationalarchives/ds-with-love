@@ -21,7 +21,7 @@
             </blockquote>
             <p>This birthday card and letter were sent by Hetty to her
                 sweetheart William. The young couple, like thousands
-                of others, were separated by distance and conflict whilst
+                of others, were separated by distance and conflict while
                 William served on the Western Front during the First World
                 War. Only Hetty’s letters survive, and they are a vivid record
                 of the love between the couple and a stark reminder that the
@@ -131,7 +131,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C14031568" class="btn-primary" title="">View the catalogue description</a>
                 </div>
             </div>
 

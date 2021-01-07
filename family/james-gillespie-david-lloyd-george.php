@@ -25,10 +25,10 @@
                 Britain: "I am willing to leave the country at once with my
                 wife and child (not without)". The attack took place during
                 the 1919 race riots, a series of violent riots in port towns
-                which saw black populations - many of whom had lived and
+                which saw black populations &mdash; many of whom had lived and
                 worked here for many years and served Britain during the
-                war - targeted.</p>
-            <p>As in so many stories of 'everyday' people it has not been
+                war &mdash; targeted.</p>
+            <p>As in so many stories of 'everyday' people, it has not been
                 possible to trace what happened to James Gillespie and
                 his family.</p>
 
@@ -102,7 +102,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C998730" class="btn-primary" title="">View the catalogue description</a>
                 </div>
             </div>
 

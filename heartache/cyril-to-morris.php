@@ -74,7 +74,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="cyril-to-morris-catalogue-description">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C10870619" class="btn-primary" title="" id="cyril-to-morris-catalogue-description">View the catalogue description</a>
                 </div>
             </div>
 
@@ -143,7 +143,7 @@
                 raided, Cyril ripped up the letter and hid it under a divan. It was pieced
                 together and typed up into its current format by police. 103 people were
                 arrested during the raid. Cyril was committed to trial for aiding and abetting
-                in keeping a disorderly house and found not guilty but the club owners were
+                in keeping a disorderly house and found not guilty, but the club owners were
                 sentenced to hard labour for 20 and 12 months respectively.</p>
             <hr>
             <h2>Explore other letters within this theme</h2>

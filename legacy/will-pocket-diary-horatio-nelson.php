@@ -249,11 +249,10 @@
                 <div class="col-md-12 p-3c descriptions">
                     <h4>Explore these documents further</h4>
                     <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="view-catalogue-description-the-will">View the catalogue description <small>(The will)</small></a>
-                    <a href="" class="btn-primary" title="" id="view-catalogue-description-the-pocket-diary">View the catalogue description <small>(The pocket diary)</small></a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C198040" class="btn-primary" title="" id="view-catalogue-description-the-will">View the catalogue description <small>(The will)</small></a>
+
                 </div>
             </div>
-
             <h3>Read the transcript</h3>
             <div class="row mb-5">
                 <div class="col-md-12 m-3 transcript-panel">

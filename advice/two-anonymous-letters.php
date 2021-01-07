@@ -21,9 +21,9 @@
             </blockquote>
             <p>Two anonymous letters present one side of a debate over
                 the decision to marry for love or money. They appear to be
-                written from one man to his friend and seem desperate and
+                written from one man to his friend, and seem desperate and
                 hurried in tone and style, with the first written on Saturday
-                morning at 6am; the second on Sunday night at 2am. From
+                morning at 6am, the second on Sunday night at 2am. From
                 what can be gleaned from the letters it seems as though
                 the friend is torn between two women, and the writer lays
                 out his argument against the rich heiress in the beginning
@@ -195,8 +195,8 @@
                 <div class="col-md-12 p-3c descriptions">
                     <h4>Explore these documents further</h4>
                     <p>You can view a detailed description of these records and <br>discover how to access them by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="">View the catalogue description <small>(Letter 1)</small></a>
-                    <a href="" class="btn-primary" title="">View the catalogue description <small>(Letter 2)</small></a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C7713641" class="btn-primary" title="">View the catalogue description <small>(Letter 1)</small></a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C7713642" class="btn-primary" title="">View the catalogue description <small>(Letter 2)</small></a>
                 </div>
             </div>
 

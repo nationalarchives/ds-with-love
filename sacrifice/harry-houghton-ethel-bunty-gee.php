@@ -32,7 +32,7 @@
                 <h2 class="text-center mb-2">The original document</h2>
                 <ul class="text-center">
                     <li>Date: 24 February 1966</li>
-                    <li>Catalogue reference: KV 2/4474/ 235a</li>
+                    <li>Catalogue reference: KV 2/4474/235a</li>
                 </ul>
             </div>
             <h3 class="text-center">Select the images to see larger versions</h3>
@@ -98,7 +98,7 @@
                 <div class="col-md-12 p-3 descriptions">
                     <h4>Explore this document further</h4>
                     <p>You can view a detailed description of this record and <br>discover how to access it by visiting our catalogue</p>
-                    <a href="" class="btn-primary" title="" id="catalogue-description-harry-houghton-ethel-bunty-gee">View the catalogue description</a>
+                    <a href="https://discovery.nationalarchives.gov.uk/details/r/C17023843" class="btn-primary" title="" id="catalogue-description-harry-houghton-ethel-bunty-gee">View the catalogue description</a>
                 </div>
             </div>
 
