@@ -75,6 +75,6 @@
             </div>
         </div>
     </div>
-    <?php include 'includes/root-level/feedback.php'; ?>
-    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/feedback.php'; ?>
+    <?php include 'includes/root-level/footer.php'; ?>
 
