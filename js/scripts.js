@@ -18,7 +18,7 @@ $(function() {
 
     // Set and append audio tag
     var $audio = $("#bg-video-wrapper audio");
-    $audio.append("<source src=\"../media/bg-audio.mp3\" type=\"audio/mpeg\">");
+    $audio.append("<source src=\"/media/bg-audio.mp3\" type=\"audio/mpeg\">");
 
     // Set and append audio button
     var $audio_button = $('<li><button class="bg-audio-control tooltip"><span id="audio-icon-toggle" class="glyphicon glyphicon-volume-off" aria-hidden="true"></span><span id="audio-text-toggle" class="tooltiptext"><b>Turn on</b> ambient music</span></button></li>');
@@ -57,7 +57,7 @@ $(function() {
 
     // Set and append video tag
     var $video = $("#bg-video-wrapper video");
-    $video.append("<source src=\"../media/bg-video-compressed.mp4\" type=\"video/mp4\">");
+    $video.append("<source src=\"/media/bg-video-compressed.mp4\" type=\"video/mp4\">");
 
     // Set empty video button variable
     var $video_button = $('');
