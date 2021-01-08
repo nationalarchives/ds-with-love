@@ -14,7 +14,7 @@
     <meta property="og:description" content="<?php echo $description ?>"/>
     <meta property="og:url" content="http://www.nationalarchives.gov.uk/"/>
     <meta property="og:site_name" content="The National Archives - With Love exhibition"/>
-    <meta property="og:image" content="http://www.nationalarchives.gov.uk/wp-content/uploads/sites/24/2019/07/tna-logo-600x315.jpg"/>
+    <meta property="og:image" content="images/utilities/with-love-og-image.jpg"/>
     <meta property="og:image:width" content="600"/>
     <meta property="og:image:height" content="315"/>
     <meta property="og:image:alt" content="The National Archives logo"/>
