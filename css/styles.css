@@ -158,6 +158,21 @@ blockquote footer {
     mix-blend-mode: multiply;
     z-index: -1;
 }
+/* -- Video - embedded video -- */
+
+.video-embed-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    margin-bottom: 50px;
+}
+.video-embed-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* -- Audio - base settings -- */
 audio {
@@ -1048,7 +1063,7 @@ ul.controls .tooltiptext {
     .bg-box {
         padding: 5em 4em;
         font-size: 0.75em;
-        width: 90%;
+        width: 100%;
         margin: 2em auto 9em;
     }
     .bg-box p {
@@ -1124,7 +1139,7 @@ ul.controls .tooltiptext {
     #section-two p {
         font-size: 1.1em;
         margin: 2em auto;
-        width: 75%;
+        width: 90%;
         font-style: oblique;
     }
     .nav-panel {

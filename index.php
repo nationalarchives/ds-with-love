@@ -28,7 +28,9 @@
         <div class="container">
             <h2>Watch a guided tour of the exhibition</h2>
 
-            <p>VIDEO TO GO HERE!</p>
+            <div class="video-embed-wrapper">
+                <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/tdcXuGPf0dQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
             <p class="footnote">Please note that the ideas and terms contained in these records reflect the attitudes and language of their authors and the
                 period in which the records were created. Some would now be considered offensive.</p>
