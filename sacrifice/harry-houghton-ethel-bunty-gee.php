@@ -176,7 +176,7 @@
                 made available to the public at The National Archives in September 2019.</p>
             <p class="mb-3">Image credits:</p>
             <ul>
-                <li><b>Harry Hougton and Ethel Gee, 1970</b> © Keystone/Stringer</li>
+                <li><b>Harry Hougton and Ethel Gee, 1970</b> © Keystone / Stringer</li>
             </ul>
             <hr>
             <h2>Explore other letters within this theme</h2>

@@ -171,8 +171,11 @@
                 <p>One of the letters from MacDonald closes with the words "Of course
                 you will put this in the fire and it will blaze fiercely as love always does".
                 Thankfully Sackville never did and these remarkable letters survive.</p>
-
-
+            <p class="mb-3">Image credits:</p>
+            <ul>
+                <li><b>James Ramsay MacDonald (1866-1937)</b> © Look and Learn / Elgar Collection / Bridgeman Images</li>
+                <li><b>Lady Margaret Sackville (1881-1963)</b> © PVDE / Bridgeman Images</li>
+            </ul>
             <hr>
             <h2>Explore other letters within this theme</h2>
             <div class="row">

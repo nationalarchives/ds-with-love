@@ -167,8 +167,8 @@
                 into the State Papers collection.</p>
             <p class="mb-3">Image credits:</p>
             <ul>
-            <li><b>Elizabeth I, Queen of England and Ireland (1533-1603)</b>. Photo © Stefano Baldini / Bridgeman Images</li>
-            <li><b>Robert Dudley, the Earl of Leicester (1532-1588)</b>. © Yale Center for British Art, Paul Mellon Collection, USA / Bridgeman Images</li>
+            <li><b>Elizabeth I, Queen of England and Ireland (1533-1603)</b> © Stefano Baldini / Bridgeman Images</li>
+            <li><b>Robert Dudley, the Earl of Leicester (1532-1588)</b> © Yale Center for British Art, Paul Mellon Collection, USA / Bridgeman Images</li>
             </ul>
             <hr>
             <h2>Explore other letters within this theme</h2>

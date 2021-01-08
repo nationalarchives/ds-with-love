@@ -372,6 +372,11 @@
                         and codicils registered December 1805.</p>
                 </div>
             </div>
+            <p class="mb-3">Image credits:</p>
+            <ul>
+                <li><b>Horatio Nelson (1758-1805)</b> © National Portrait Gallery, London, UK / Bridgeman Images</li>
+                <li><b>Emma Hamilton (1761-1815)</b> © Philip Mould Ltd, London / Private Collection / Bridgeman Images</li>
+            </ul>
             <hr>
             <h2>Explore other letters within this theme</h2>
             <div class="row">
