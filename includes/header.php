@@ -24,13 +24,19 @@
         </div>
     </div>
 
+    <div class="utilities-container">
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+            <span class="large-screen-only">Select a section</span>
+        </button>
 
-
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" id="navbar-toggler">
-        <span class="navbar-toggler-icon"></span>
-        <span class="large-screen-only">Select a section</span>
-    </button>
+        <!-- Exit -->
+        <a class="navbar-toggler" href="/with-love/" title="Exit this exhibition">
+            <span class="exit-icon"></span>
+            <span class="large-screen-only">Exit this exhibition</span>
+        </a>
+    </div>
 
     <!-- Navbar links -->
     <div class="collapse navbar-collapse text-right" id="collapsibleNavbar">

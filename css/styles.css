@@ -90,11 +90,34 @@ blockquote footer {
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #fff;
     border-radius: 0;
-    padding: 0.5em;
     z-index: 6;
+    margin-left: 10px;
+    padding: 9px 7px;
 }
+a.navbar-toggler {
+    display: inline-block;
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    cursor: default;
+}
+
 .navbar-toggler-icon {
     background: url('../images/utilities/menu-icon.svg') no-repeat;
+}
+.exit-icon {
+    background: url('../images/utilities/exit-icon.png') no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+}
+.utilities-container {
+    margin-left: 5px;
+    margin-right: 1em;
 }
 .large-screen-only {
     display: none;
@@ -835,8 +858,7 @@ background: rgba(142,191,44,0.2);
     font-size: 1.4em !important;
     border: 1px solid rgba(255, 255, 255, 0.3) !important;
     color: #999;
-    padding: 9px 16px !important;
-    margin-right: 10px;
+    padding: 7px 10px !important;
 }
 .modal {
     background: rgba(0,0,0,0.9);
@@ -916,6 +938,9 @@ ul.controls li:last-of-type {
 ul.controls li:last-of-type button {
     background: #fff;
 }
+.logo-placement {
+    float: left;
+}
 ul.controls .tooltiptext {
     visibility: visible !important;
     display: inline-block;
@@ -957,8 +982,10 @@ ul.controls .tooltiptext {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .logo-placement {
+        float: right;
+    }
 }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .descriptions p {
@@ -1079,7 +1106,6 @@ ul.controls .tooltiptext {
         vertical-align: middle;
     }
     .navbar-toggler {
-        margin-right: 2em;
         padding: 0.9em;
         font-size: 1em;
         border: 1px solid rgba(255, 255, 255, 0.6);
