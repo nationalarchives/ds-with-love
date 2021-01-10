@@ -136,7 +136,7 @@
                         him he will do it.</p>
                 </div>
             </div>
-            <p>Image credit:</p>
+            <p class="mb-3">Image credit:</p>
             <ul>
                 <li><b>Catherine Howard (c.1520-1542)</b> © Hever Castle Ltd, Kent, UK / Bridgeman Images</li>
             </ul>

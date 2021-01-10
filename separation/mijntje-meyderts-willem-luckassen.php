@@ -208,7 +208,7 @@
                     <div class="nav-panel">
                         <div class="nav-panel-content text-center">
                             <div class="img-container">
-                            <img src="../images/separation/index-separation-one.jpg" alt="">
+                                <img src="../images/separation/index-separation-one.jpg" alt="">
                                 <div class="img-filter"></div>
                             </div>
                             <h2><a href="birthday-card-hetty-william-crawford.php" class="stretched-link" title="">Birthday card and letter from Hetty to William Crawford</a></h2>
@@ -219,7 +219,10 @@
                 <div class="col-md-6 p-3">
                     <div class="nav-panel">
                         <div class="nav-panel-content text-center">
-                            <img src="../images/separation/index-separation-two.jpg" alt="">
+                            <div class="img-container">
+                                <img src="../images/separation/index-separation-two.jpg" alt="">
+                                <div class="img-filter"></div>
+                            </div>
                             <h2><a href="endymion-porter-to-olive.php" class="stretched-link" title="">Letter from Endymion Porter to his wife, Olive</a></h2>
                             <p>17 July 1623</p>
                         </div>
