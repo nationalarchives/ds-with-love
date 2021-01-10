@@ -13,7 +13,7 @@
     <meta property="og:title" content="With Love exhibition - The National Archives"/>
     <meta property="og:description" content="<?php echo $description ?>"/>
     <meta property="og:url" content="http://www.nationalarchives.gov.uk/"/>
-    <meta property="og:site_name" content="The National Archives - With Love exhibition"/>
+    <meta property="og:site_name" content="With Love exhibition - The National Archives"/>
     <meta property="og:image" content="https://www.nationalarchives.gov.uk/with-love/exhibition/images/utilities/with-love-og-image.jpg"/>
     <meta property="og:image:width" content="600"/>
     <meta property="og:image:height" content="315"/>
