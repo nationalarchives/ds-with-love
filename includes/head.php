@@ -17,7 +17,7 @@
     <meta property="og:image" content="https://www.nationalarchives.gov.uk/with-love/exhibition/images/utilities/with-love-og-image.jpg"/>
     <meta property="og:image:width" content="600"/>
     <meta property="og:image:height" content="315"/>
-    <meta property="og:image:alt" content="The National Archives logo"/>
+    <meta property="og:image:alt" content="Extract from a letter featured in our With Love exhibition"/>
     <link rel='dns-prefetch' href='//cdn.nationalarchives.gov.uk'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel="stylesheet" href="https://use.typekit.net/cbl4nty.css">
