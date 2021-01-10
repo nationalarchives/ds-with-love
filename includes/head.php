@@ -10,7 +10,7 @@
     <meta name="description" content="<?php echo $description ?>"/>
     <meta property="og:locale" content="en_GB"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="The National Archives - With Love exhibition"/>
+    <meta property="og:title" content="With Love exhibition - The National Archives"/>
     <meta property="og:description" content="<?php echo $description ?>"/>
     <meta property="og:url" content="http://www.nationalarchives.gov.uk/"/>
     <meta property="og:site_name" content="The National Archives - With Love exhibition"/>
