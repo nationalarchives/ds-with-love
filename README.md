@@ -35,12 +35,12 @@ The site has been built to be portable so should work out-of-the-box if you’re
 
 In order to keep the site simple and portable, 3 include files have been duplicated to preserve the relative linking and to avoid any site root links which provide difficulties when deploying the site to our live environment. 
 
-You will find two instances of *head.php*, *header.php* and *footer.php* in the folder ‘*includes*’ and ‘*includes > root-level*’. The only differences are that links to some of the CSS, Javascript, images and <a> tags are prepended with a ‘*..*’ in the href attribute so the relative link paths don’t break. Although the duplication isn’t ideal, it keeps things simple given that the site is only 2 levels. You will need to remember that if you make a change to one of these 3 PHP include files, it will need to be replicated its doppelganger. 
+You will find two instances of *head.php*, *header.php* and *footer.php* in the folder ‘*includes*’ and ‘*includes > root-level*’. The only differences are that links to some of the CSS, Javascript, images and <a> tags are prepended with a ‘*..*’ in the href attribute so the relative link paths don’t break. Although the duplication isn’t ideal, it keeps things simple given that the site is only 2 levels. You will need to remember that if you make a change to one of these 3 PHP include files, it will need to be replicated in it's doppelganger. 
 
 
 ## Deployment
 
-Although the relative linking makes the site almost 100% portable between local and live environments, we found when deploying to live that the links to the background video and audio files which are written into the HTML using the file ‘*js > script.js*’ need to be absolute links. This is something you need to remember when this is being deployed to live. 
+Although the relative linking makes the site almost 100% portable between local and live environments, we found when deploying to live that the links to the background video and audio files which are written into the HTML using the file ‘*js > script.js*’ need to be absolute links. This is something you need to remember to flag when it is being deployed to live. 
 
 
 ## Analytics
