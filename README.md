@@ -2,7 +2,7 @@
 
 ## Launched on 11 Jan 2021
 
-This exhibition is an online interpretation of our temporary onsite exhibition which was held at The National Archives. It was open to visitors from February 2020 but in March 2020, the exhibition closed due to the nationwide lockdown. When some restrictions were lifted, we decided not to re-open the exhibition to ensure the safety of our visitors and later in 2020 we worked to bring the exhibition to our online audience. It was published in January 2020. 
+This exhibition is an online interpretation of our temporary onsite exhibition which was held at The National Archives. It was open to visitors from February 2020, but in March 2020, the exhibition closed due to the nationwide lockdown. When some restrictions were lifted, we decided not to re-open the exhibition to ensure the safety of our visitors and later in 2020 we worked to bring the exhibition to our online audience. It was published in January 2021. 
 
 
 ## How it works
