@@ -1,4 +1,6 @@
-# With Love online exhibition (initial publication - 11 Jan 2021)
+# With Love online exhibition 
+
+## Launched on 11 Jan 2021
 
 This exhibition is an online interpretation of our temporary onsite exhibition which was held at The National Archives. It was open to visitors from February 2020 but in March 2020, the exhibition closed due to the nationwide lockdown. When some restrictions were lifted, we decided not to re-open the exhibition to ensure the safety of our visitors and later in 2020 we worked to bring the exhibition to our online audience. It was published in January 2020. 
 
@@ -29,7 +31,7 @@ The site has been built to be portable so should work out-of-the-box if you’re
 * **Features** - all new development should be done using feature branches to keep any changes contained and separate. 
 
 
-# Workarounds
+## Workarounds
 
 In order to keep the site simple and portable, 3 include files have been duplicated to preserve the relative linking and to avoid any site root links which provide difficulties when deploying the site to our live environment. 
 
