@@ -28,10 +28,8 @@
     <link rel="stylesheet" type="text/css" media="all" href="../css/styles.css">
     <link rel="stylesheet" type="text/css" media="all" href="../css/ie-styles.css">
     <!-- Fav icon -->
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon"
-          href="../images/utilities/favicon.png">
-    <link rel="icon" type="image/vnd.microsoft.icon"
-          href="../images/utilities/favicon.png">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="../images/utilities/favicon.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../images/utilities/favicon.png">
 
     <!-- Google Tag Manager -->
     <script>
@@ -54,4 +52,4 @@
 
 
 </head>
-<?php include 'opening-body.php' ?>
+<?php include '../includes/opening-body.php' ?>
