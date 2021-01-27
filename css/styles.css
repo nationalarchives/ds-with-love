@@ -1263,3 +1263,25 @@ ul.controls .tooltiptext {
     transition: all 0.5s ease;
 }
 
+.cookieNotice {
+    z-index: 7;
+}
+
+.cookieNotice a {
+    text-decoration: underline;
+    color: #134571
+}
+
+.cookieNotice a:focus {
+    outline: 5px solid #1d70b8;
+    color: #FFF;
+}
+
+a#cookieCutter {
+    background: url("../images/utilities/close-img.png") 0 2px no-repeat;
+    margin-left: 10px;
+    padding-top: 1px;
+    padding-left: 22px;
+    text-decoration: none;
+}
+
